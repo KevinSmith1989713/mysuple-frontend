@@ -1,0 +1,118 @@
+.LeagueTable {
+	width: 100%;
+	border-top: 1px solid #1e69ea;
+	&--Header {
+		display: flex;
+		.header,
+		.header__selected {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.43;
+			letter-spacing: -0.35px;
+			width: 120px;
+			height: 40px;
+			border-right: 1px solid #eee;
+
+			.member {
+				margin-left: 10px;
+			}
+			.blue {
+				color: #1e69ea;
+			}
+		}
+		.header {
+			color: #aaaaaa;
+		}
+		.header__selected {
+			background-color: #f2f6ff;
+			color: #322e3d;
+		}
+		&:last-child {
+			border: none;
+			border-left: 1px solid #eee;
+		}
+	}
+	&--reward {
+		margin: 30px 0 20px 0;
+		height: 60px;
+		background-color: #d2dfff;
+		display: flex;
+
+		.rewardBox {
+			width: 189px;
+			height: 60px;
+			border-right: 1px solid #acc4ff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			&:last-child {
+				border: none;
+			}
+			.boxInner {
+				font-size: 12px;
+				font-weight: 500;
+				font-stretch: normal;
+				color: #322e3d;
+				.img {
+					width: 20px;
+					height: 14px;
+					margin-right: 10px;
+				}
+				strong {
+					margin-left: 20px;
+					font-size: 14px;
+					font-weight: bold;
+					color: #322e3d;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.LeagueTable {
+		margin-top: 360px;
+		box-sizing: border-box;
+		padding: 0 20px;
+		border-top: none;
+		&--Header {
+			display: none;
+		}
+		&--HeaderMobile {
+			border-top: 1px solid #1e69ea;
+			display: flex;
+			.header,
+			.header__selected {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				justify-content: center;
+				font-size: 12px;
+				font-weight: bold;
+				letter-spacing: -0.35px;
+				width: 120px;
+				height: 40px;
+				border-right: 1px solid #eee;
+				.member {
+					margin-left: 5px;
+					font-size: 11px;
+				}
+				.blue {
+					color: #1e69ea;
+					border: none;
+				}
+			}
+			.header {
+				color: #aaaaaa;
+			}
+			.header__selected {
+				background-color: #f2f6ff;
+				color: #322e3d;
+			}
+		}
+	}
+}

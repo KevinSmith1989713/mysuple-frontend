@@ -1,0 +1,236 @@
+@media (min-width: 769px) {
+	.JoinSixth {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 110%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 66px;
+		padding-bottom: 50px;
+		background: white;
+
+		.header--wrapper {
+			z-index: 10000;
+			position: fixed;
+			top: 0;
+			height: 90px;
+			width: 100%;
+			background: #1e59ea;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			.button--wrapper {
+				display: flex;
+				.back {
+					margin-right: 10px;
+				}
+			}
+		}
+		.JoinSixth-title {
+			width: 845px;
+			margin: 80px 0px 0px 0px;
+		}
+		.JoinSixth--progressBar {
+			margin-top: 70px;
+			width: 845px;
+			display: flex;
+			.title--box {
+				margin-top: -30px;
+				display: flex;
+				justify-content: space-between;
+			}
+			.StepProgressBar {
+				margin-right: 100px;
+			}
+		}
+		&--Tags {
+			margin-top: 30px;
+			width: 845px;
+			.tags {
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				padding: 20px 0px;
+				.tag {
+					margin: 30px;
+					cursor: pointer;
+					&--img {
+						width: 90px;
+						height: 90px;
+						border-radius: 50%;
+						border: solid 1px #cccccc;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						transition: all;
+						transition-duration: 0.5s;
+
+						&:hover {
+							transition: all;
+							transition-duration: 0.5s;
+							border: solid 1px #1e59ea;
+						}
+					}
+					&--name {
+						font-size: 14px;
+						font-weight: 500;
+						line-height: 1.43;
+						letter-spacing: -0.35px;
+						margin-top: 10px;
+						text-align: center;
+						color: #666666;
+					}
+				}
+			}
+		}
+		&--Buttons {
+			width: 845px;
+			display: flex;
+			margin-top: 30px;
+			justify-content: space-between;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.JoinSixth {
+		// position: fixed;
+		z-index: 10;
+		left: 0;
+		width: 100%;
+		height: 110%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		min-height: 600px;
+		// background: white;
+
+		.header--wrapper {
+			z-index: 10000;
+			position: fixed;
+			top: 0;
+			height: 60px;
+			width: 100%;
+			background: #1e59ea;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			.Logos {
+				width: 148px;
+				height: 25px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.logos {
+					width: 20px;
+					height: 23px;
+					margin-right: 5px;
+				}
+				.logo {
+					width: 105px;
+					height: 23px;
+				}
+			}
+		}
+		&--Header {
+			width: 100%;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			padding: 0 20px;
+			box-sizing: border-box;
+			margin-bottom: 30px;
+			.title {
+				display: flex;
+				font-size: 18px;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #322e3d;
+				justify-self: stretch;
+				margin: auto;
+			}
+			.skip {
+				display: flex;
+				width: 20px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #cccccc;
+			}
+		}
+		&--Body {
+			padding: 0 20px;
+			z-index: 100;
+			.body {
+				box-sizing: border-box;
+				padding: 0 20px 50px 20px;
+				background: white;
+				left: 0;
+				height: 100%;
+				// position: absolute;
+				margin-top: 20px;
+				display: flex;
+				width: 100%;
+				.tags {
+					justify-self: center;
+					margin-left: 15px;
+					display: flex;
+					flex-wrap: wrap;
+					.tag {
+						margin: 10px;
+						width: auto;
+						&--img {
+							width: 70px;
+							height: 70px;
+							border-radius: 50%;
+							border: solid 1px #cccccc;
+							background-color: #ffffff;
+
+							display: flex;
+							align-items: center;
+							justify-content: center;
+						}
+						&--name {
+							font-size: 14px;
+							font-weight: 500;
+							line-height: 1.43;
+							letter-spacing: -0.35px;
+							text-align: center;
+							color: #666666;
+						}
+					}
+				}
+			}
+		}
+
+		&--Footer {
+			display: flex;
+			position: fixed;
+			bottom: 0;
+
+			z-index: 100;
+			width: 100%;
+			height: 60px;
+			border-top: 1px solid #ededed;
+			background: white;
+			.back,
+			.next {
+				display: flex;
+				flex: 1;
+				justify-content: center;
+				align-items: center;
+				font-size: 12px;
+				font-weight: 500;
+				color: #666666;
+			}
+			.back {
+				border-right: 1px solid #ededed;
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9.144" height="13.403" viewBox="0 0 9.144 13.403">
+    <defs>
+        <style>
+            .cls-2{fill:#888}
+        </style>
+    </defs>
+    <g id="Group_1500" data-name="Group 1500" transform="translate(432.344 1649.543)">
+        <g id="Group_1146" data-name="Group 1146" transform="translate(-432.344 -1649.543)">
+            <rect id="Rectangle_4368" width="6.901" height="11.16" fill="#f2f2f2" data-name="Rectangle 4368" rx="1.446" transform="translate(1.121 1.121)"/>
+            <path id="Path_1858" d="M-425.465-1648.422a1.145 1.145 0 0 1 1.144 1.144v8.873a1.144 1.144 0 0 1-1.144 1.143h-4.614a1.144 1.144 0 0 1-1.144-1.143v-8.873a1.145 1.145 0 0 1 1.144-1.144h4.614m0-1.121h-4.614a2.267 2.267 0 0 0-2.265 2.265v8.873a2.268 2.268 0 0 0 2.265 2.265h4.614a2.268 2.268 0 0 0 2.265-2.265v-8.873a2.267 2.267 0 0 0-2.265-2.265z" class="cls-2" data-name="Path 1858" transform="translate(432.344 1649.543)"/>
+        </g>
+        <circle id="Ellipse_936" cx=".709" cy=".709" r=".709" class="cls-2" data-name="Ellipse 936" transform="translate(-428.618 -1639.19)"/>
+        <path id="Rectangle_4369" d="M0 0H2.567V0.791H0z" class="cls-2" data-name="Rectangle 4369" transform="translate(-429.056 -1647.641)"/>
+        <path id="Rectangle_4370" fill="#ccc" d="M0 0H6.901V6.595H0z" data-name="Rectangle 4370" transform="translate(-431.223 -1646.325)"/>
+    </g>
+</svg>

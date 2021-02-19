@@ -1,0 +1,44 @@
+@media(min-width:769px){
+  .ShowHide{
+    width: 100%;
+    .text{
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+      color: #333333;
+      cursor: pointer;
+    }
+  }
+  .left {
+    img{
+      margin-right: 10px;
+    }
+  }
+  .right {
+    img{
+      margin-left: 10px;
+    }
+  }
+}
+@media(max-width:768px){
+  .ShowHide{
+    width: 100%;
+    .text{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.5;
+      color: #333333;
+      cursor: pointer;
+    }
+  }
+  .left {
+    img{
+      margin-right: 10px;
+    }
+  }
+  .right {
+    img{
+      margin-left: 10px;
+    }
+  }
+}

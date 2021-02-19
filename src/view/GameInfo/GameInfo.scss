@@ -1,0 +1,30 @@
+@media (min-width: 769px) {
+	.GameInfo {
+		.Cards--with--Detail {
+			border: 5px solid red;
+			display: flex;
+			flex-direction: column;
+			.Cards--row {
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.GameInfo {
+		width: 100%;
+		.Cards--with--Detail {
+			display: flex;
+			flex-direction: column;
+			.Cards--row {
+				width: 100%;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+		}
+	}
+}

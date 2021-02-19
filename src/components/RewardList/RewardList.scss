@@ -1,0 +1,333 @@
+@media (min-width: 769px) {
+	$progress10: 35px * 10;
+
+	@mixin progress-bar($number) {
+		@if $number < 10 {
+			width: 35px * $number;
+		} @else {
+			width: $progress10;
+		}
+	}
+
+	.RewardList {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+		&--top {
+			display: flex;
+			box-sizing: border-box;
+			padding-left: 30px;
+			width: 100%;
+
+			height: 207px;
+			border: solid 1px #cccccc;
+			margin-bottom: 24px;
+
+			&__left {
+				display: flex;
+				flex-wrap: wrap;
+				align-items: center;
+				width: 400px;
+				height: 100%;
+				img {
+					width: 55px;
+					height: 66.7px;
+					margin-right: 22px;
+				}
+			}
+
+			&__right {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: calc(100% - 380px);
+				height: 100%;
+
+				img {
+					width: 62.5px;
+					height: 97.2px;
+				}
+
+				span {
+					margin-top: 8.5px;
+					font-size: 14px;
+					font-weight: 500;
+					color: #666;
+				}
+
+				.active {
+					color: #1e59ea;
+				}
+			}
+		}
+
+		&--down {
+			&__attendance {
+				display: flex;
+				width: 100%;
+				height: 60px;
+
+				&--left {
+					position: relative;
+					padding-top: 7.5px;
+					box-sizing: border-box;
+					display: flex;
+
+					span {
+						width: 60px;
+						color: #666666;
+					}
+					.attendance-bar {
+						margin-left: 16px;
+						width: 350px;
+						height: 14px;
+						border: solid 1px #bbbbbb;
+						background-color: #f2f2f2;
+
+						.progress {
+							width: 150px;
+							height: 100%;
+							background-color: #ffb361;
+
+							@for $i from 0 to 100 {
+								&.progress#{$i} {
+									@include progress-bar($i);
+								}
+							}
+						}
+					}
+
+					.count-number {
+						font-size: 14px;
+						position: absolute;
+						top: 36px;
+						right: -3px;
+					}
+				}
+
+				&--right {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					height: 60px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					background-color: #f2f2f2;
+					margin-left: 21px;
+					box-sizing: border-box;
+					color: #666;
+					font-size: 14px;
+					font-weight: 500;
+
+					img {
+						margin-bottom: 3px;
+					}
+
+					&:disabled {
+						color: rgba(0, 0, 0, 0.2);
+						cursor: default;
+					}
+				}
+			}
+
+			&__buttonbox {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				width: 100%;
+				height: 133px;
+
+				.box {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 159px;
+					height: 73px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					color: #666;
+
+					.square {
+						width: 26px;
+						height: 26px;
+						border: solid 1px #707070;
+						margin-bottom: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	$progress10: 10% * 10;
+
+	@mixin progress-bar($number) {
+		@if $number < 10 {
+			width: 10% * $number;
+		} @else {
+			width: $progress10;
+		}
+	}
+
+	.RewardList {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+
+		&--top {
+			width: 100%;
+			border: solid 1px #cccccc;
+			margin-bottom: 24px;
+			padding: 3px;
+			box-sizing: border-box;
+
+			&__left {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-items: center;
+				img {
+					width: 15%;
+					height: auto;
+					margin: 2% 2%;
+				}
+			}
+
+			&__right {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+				padding: 10px;
+				box-sizing: border-box;
+
+				span {
+					width: 100%;
+					height: 52px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					background-color: #f2f2f2;
+					margin-top: 8.5px;
+					font-size: 14px;
+					font-weight: 500;
+					color: #666;
+					font-size: 14px;
+					font-weight: 500;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: #666666;
+				}
+
+				.active {
+					color: #1e59ea;
+				}
+			}
+		}
+
+		&--down {
+			&__attendance {
+				width: 100%;
+
+				&--left {
+					display: flex;
+					flex-direction: column;
+					span {
+						font-size: 15px;
+						font-weight: 500;
+						line-height: 1.47;
+						color: #666666;
+					}
+					.attendance-bar {
+						margin-top: 6px;
+						margin-bottom: 10px;
+						width: 100%;
+						height: 14px;
+						border: solid 1px #bbbbbb;
+						background-color: #f2f2f2;
+
+						.progress {
+							width: 100%;
+							height: 100%;
+							background-color: #ffb361;
+
+							@for $i from 0 to 100 {
+								&.progress#{$i} {
+									@include progress-bar($i);
+								}
+							}
+						}
+					}
+
+					.count-number {
+						display: flex;
+						justify-content: flex-end;
+						font-size: 10px;
+						margin-bottom: 15px;
+					}
+				}
+
+				&--right {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 100%;
+					height: 60px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					background-color: #f2f2f2;
+					box-sizing: border-box;
+					color: #666;
+					font-size: 15px;
+					font-weight: 500;
+					line-height: 1.47;
+					color: #666666;
+
+					img {
+						margin-right: 13px;
+					}
+
+					&:disabled {
+						color: rgba(0, 0, 0, 0.2);
+						cursor: default;
+					}
+				}
+			}
+
+			&__buttonbox {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				width: 100%;
+				height: 133px;
+
+				.box {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					margin: 0 2px;
+					width: 159px;
+					height: 73px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					color: #666;
+
+					.square {
+						width: 26px;
+						height: 26px;
+						border: solid 1px #707070;
+						margin-bottom: 5px;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+$light-grey:#cccccc;
+$grey:#666666;
+$white:white;
+$black:#322e3d;
+.AccordionContent{
+  width:100%;
+  border-bottom: 1px solid #dddddd;
+
+  .AccordionContent--reward_title{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: $grey;
+  }
+  .AccordionContent--reward_content{
+    padding: 16px 17px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 50px;
+    color: #9e9e9e;
+  }
+
+  .AccordionContent--inquirey_title{
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .AccordionContent--inquirey_content{
+    padding: 16px 17px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+    margin-bottom: 50px;
+    color: #9e9e9e;
+  }
+
+}

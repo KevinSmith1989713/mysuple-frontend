@@ -1,0 +1,148 @@
+@media (min-width: 769px) {
+	.JoinEight {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		padding-top: 66px;
+		padding-bottom: 118px;
+
+		.img {
+			margin-left: -40px;
+			width: 400px;
+			height: 400px;
+		}
+		.title {
+			line-height: 25px;
+			margin: 0px 0px 30px 0px;
+			color: #666666;
+			b {
+				color: #1e59ea;
+				font-weight: 700;
+			}
+		}
+		.JoinEight--progressBar {
+			margin-top: 70px;
+			display: flex;
+			.StepProgressBar {
+				margin-right: 100px;
+			}
+		}
+		.JoinEight-question {
+			position: relative;
+			width: 845px;
+			margin: 66px 0px 0px 0px;
+
+			&--cardGroup {
+				margin-top: 43px;
+				display: flex;
+			}
+
+			&--button {
+				position: absolute;
+				right: 0px;
+				display: flex;
+				margin-top: 17px;
+				top: 24px;
+
+				button {
+					margin-left: 16px;
+				}
+			}
+			&.slide {
+				transition: 0.3s;
+				transform: translateY(0%);
+			}
+		}
+
+		&--filter-box {
+			width: 845px;
+			height: 50px;
+			margin-top: 52px;
+			background-color: #eeeeee;
+		}
+		&--content-box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 24px;
+			width: 845px;
+			height: 834px;
+			overflow: auto;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.JoinEight {
+		padding: 37px 20px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+
+		// .JoinEight--title {
+		// 	margin-bottom: 50px;
+		// 	display: flex;
+		// 	justify-content: space-between;
+		// 	.Button {
+		// 		width: 75px;
+		// 		height: 37px;
+		// 		border: solid 2px #1e59ea;
+		// 		background-color: #ffffff;
+		// 		font-size: 12px;
+		// 	}
+		// }
+
+		.img {
+			margin-left: -40px;
+			width: 400px;
+			height: 400px;
+		}
+		.title {
+			line-height: 25px;
+			margin: 0px 0px 30px 0px;
+			color: #666666;
+			b {
+				color: #1e59ea;
+				font-weight: 700;
+			}
+		}
+
+		.JoinEight-question {
+			display: flex;
+			flex-direction: column;
+
+			&--cardGroup {
+			}
+
+			&--button {
+				button {
+				}
+			}
+			&.slide {
+				transition: 0.3s;
+				transform: translateY(0%);
+			}
+		}
+
+		&--filter-box {
+		}
+		&--content-box {
+			margin-top: 30px;
+			width: 100%;
+		}
+		&-question--button {
+			display: flex;
+			justify-content: space-between;
+			.Button {
+				min-width: 101px;
+				min-height: 37px;
+				font-weight: 500;
+				color: #666666;
+			}
+		}
+	}
+}

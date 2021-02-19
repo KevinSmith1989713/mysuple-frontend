@@ -1,0 +1,324 @@
+@media (min-width: 769px) {
+	.MyGameCard {
+		display: flex;
+		margin-top: 18px;
+		border-bottom: 1px solid #cccccc;
+
+		.MyGameCard__poster {
+			width: 167.5px;
+			height: 110px;
+			// object-fit: contain;
+			cursor: pointer;
+		}
+		.MyGameCard__info {
+			cursor: pointer;
+			margin-left: 25px;
+			flex: 1;
+			.info__header {
+				display: flex;
+				align-items: center;
+				border-bottom: 1px solid #eeeeee;
+				margin-bottom: 20px;
+				.title {
+					flex: 1;
+					font-size: 16px;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #322e3d;
+					margin-bottom: 11px;
+				}
+				.icons {
+					display: flex;
+					margin-left: 20px;
+					margin-bottom: 8px;
+					img {
+						border-radius: 50%;
+						width: 25px;
+						height: 25px;
+						border: 1px solid #dddddd;
+						cursor: pointer;
+						margin-left: 5px;
+					}
+				}
+			}
+
+			.info__rating {
+				border-bottom: 1px solid #eeeeee;
+				margin-bottom: 18px;
+				.rating-star {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					font-size: 12px;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #666666;
+					margin-bottom: 5px;
+					.star--box {
+						margin-top: 5px;
+						margin-bottom: 7px;
+						display: flex;
+						img {
+							width: 20px;
+							height: 20px;
+							margin-right: 5px;
+						}
+					}
+				}
+				.rating-text {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					font-size: 12px;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #666666;
+					margin-bottom: 12px;
+				}
+				.rating-buttons {
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 18px;
+					.btn {
+						width: 95px;
+						height: 30px;
+						border-radius: 7px;
+						border: solid 1px #1e59ea;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						background-color: #f2f2f2;
+						font-size: 12px;
+						font-weight: 500;
+						line-height: 1.5;
+						color: #666666;
+					}
+				}
+			}
+			// .info__rating-none {
+			// 	margin-bottom: 18px;
+			// 	.rating-text {
+			// 		display: flex;
+			// 		flex-direction: column;
+			// 		justify-content: center;
+			// 		align-items: center;
+			// 		font-size: 12px;
+			// 		font-weight: 900;
+			// 		line-height: 1.5;
+			// 		color: #666666;
+			// 		margin-bottom: 25px;
+			// 	}
+			// }
+			.info__review {
+				.title {
+					font-size: 16px;
+					font-weight: bold;
+					line-height: 1.5;
+					color: #322e3d;
+					margin-bottom: 10px;
+				}
+				.review {
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 2;
+					color: #aaaaaa;
+					margin-bottom: 24px;
+				}
+			}
+
+			.info__none-review {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin-bottom: 24px;
+
+				.none-review-title {
+					width: 179px;
+					height: 29px;
+					border-radius: 7px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background-color: #f2f2f2;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.43;
+					color: #666666;
+					margin-bottom: 15px;
+					.blue {
+						color: #1e59ea;
+					}
+				}
+			}
+			.review-button {
+				width: 120px;
+				height: 43px;
+				background-color: #1e59ea;
+				font-size: 16px;
+				font-weight: 500;
+				color: #ffffff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 7px;
+				border-top-right-radius: 15px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.MyGameCard {
+		margin-top: 18px;
+		border-bottom: 1px solid #cccccc;
+
+		.MyGameCard__info {
+			display: flex;
+
+			flex: 1;
+			height: 109px;
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #eee;
+
+			.MyGameCard__poster {
+				width: 166px;
+				height: 100%;
+				object-fit: cover;
+				margin-right: 9px;
+			}
+			.info__header {
+				display: flex;
+				flex-direction: column;
+				height: 100%;
+				.title {
+					flex: 1;
+					font-size: 16px;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #322e3d;
+					margin-bottom: auto;
+				}
+				.icons {
+					display: flex;
+					img {
+						border-radius: 50%;
+						width: 25px;
+						height: 25px;
+						border: 1px solid #dddddd;
+						cursor: pointer;
+						margin-right: 9px;
+					}
+				}
+			}
+		}
+		.MyGameCard__reviews {
+			.info__rating {
+				border-bottom: 1px solid #eeeeee;
+				margin-bottom: 18px;
+				.rating-star {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					font-size: 12px;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #666666;
+					margin-bottom: 15px;
+					img {
+						margin-right: 5px;
+					}
+				}
+				.rating-buttons {
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 18px;
+
+					.btn-mobile--box {
+						width: 50%;
+					}
+					.right {
+						display: flex;
+						flex-direction: column;
+						align-items: flex-end;
+					}
+				}
+			}
+			.info__rating-none {
+				margin-bottom: 18px;
+				.rating-text {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					font-size: 12px;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #666666;
+					margin-bottom: 15px;
+				}
+			}
+			.info__review {
+				.title {
+					font-size: 16px;
+					font-weight: bold;
+					line-height: 1.5;
+					color: #322e3d;
+					margin-bottom: 10px;
+				}
+				.review {
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 2;
+					color: #aaaaaa;
+					margin-bottom: 24px;
+				}
+			}
+
+			.info__none-review {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-direction: column;
+				margin-bottom: 24px;
+
+				.none-review-title {
+					width: 179px;
+					height: 29px;
+					border-radius: 7px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					background-color: #f2f2f2;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.43;
+					color: #666666;
+					margin-bottom: 15px;
+					.blue {
+						color: #1e59ea;
+					}
+				}
+			}
+			.review-button {
+				width: 120px;
+				height: 43px;
+				background-color: #1e59ea;
+				font-size: 16px;
+				font-weight: 500;
+				color: #ffffff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				border-radius: 7px;
+				border-top-right-radius: 15px;
+				cursor: pointer;
+			}
+		}
+	}
+}

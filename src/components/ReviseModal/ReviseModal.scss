@@ -1,0 +1,293 @@
+.ReviseModal--wrapper {
+	.background {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		background-color: #000000;
+		opacity: 0.5;
+		z-index: 10;
+	}
+	.ReviseModal--box {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		max-height: 700px;
+		width: 400px;
+		overflow: auto;
+		border-radius: 10px;
+		background-color: white;
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+		z-index: 1000;
+		box-sizing: border-box;
+		padding: 20px;
+
+		.title--box {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 14px;
+			font-weight: bold;
+			color: #322e3d;
+			height: 35px;
+			border-bottom: 2px solid #1e59ea;
+			.closeBtn {
+				width: 18px;
+				height: 18px;
+			}
+		}
+		h2 {
+			margin-top: 30px;
+			font-size: 14px;
+			font-weight: bold;
+			color: #666666;
+			b {
+				color: #1e59ea;
+			}
+		}
+
+		.makeTeam__input--box {
+			margin-top: 30px;
+
+			.inner__input--box {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 10px;
+
+				.input {
+					position: relative;
+					box-sizing: border-box;
+					font-size: 12px;
+					font-weight: 500;
+					border: solid 1px #cccccc;
+					color: #cccccc;
+					width: 100%;
+					input {
+						width: 100%;
+						border: 0;
+					}
+					.lock {
+						position: absolute;
+						right: 5px;
+						top: 6px;
+					}
+				}
+
+				.make {
+					width: 90%;
+				}
+				.plus {
+					margin-left: 5px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 30px;
+					height: 30px;
+					border: solid 1px #cccccc;
+					font-size: 20px;
+					color: #888888;
+				}
+			}
+			.password__input {
+				margin-top: 5px;
+				width: 90%;
+				border: solid 1px #cccccc;
+			}
+		}
+		.idInput--box {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			box-sizing: border-box;
+			.idInput__title {
+				font-size: 12px;
+				font-weight: bold;
+				color: #666666;
+				b {
+					color: #1e59ea;
+				}
+			}
+			.idInput {
+				margin-top: 10px;
+				height: 26px;
+				border: solid 1px #cccccc;
+				width: 99.5%;
+				box-sizing: border-box;
+				padding: 0 10px;
+				outline: none;
+				font-size: 12px;
+				font-weight: 500;
+			}
+			.multipleChoice--box {
+				margin-top: 10px;
+				display: flex;
+				flex-direction: column;
+				font-size: 12px;
+				font-weight: 500;
+				color: #888888;
+
+				.multipleChoice {
+					display: flex;
+					align-items: center;
+					margin-bottom: 10px;
+					.checkBox {
+						border: 1px solid #888888;
+						width: 13px;
+						height: 13px;
+						margin-right: 5px;
+						cursor: pointer;
+					}
+					.checked {
+						background: #1e59ea;
+					}
+				}
+			}
+		}
+
+		.teamList--box {
+			margin-top: 30px;
+			.teamList__inner--box {
+				margin-top: 10px;
+				border: solid 1px #dddddd;
+				box-sizing: border-box;
+				padding: 10px 0 0 0;
+				h3 {
+					font-size: 13px;
+					font-weight: 500;
+					color: #666666;
+					margin-left: 10px;
+					b {
+						color: #1e59ea;
+						margin-left: 10px;
+					}
+				}
+				.team__info--box {
+					// box-sizing: border-box;
+					// padding: 10px;
+					margin-top: 20px;
+					.team__info {
+						width: 100%;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						font-size: 12px;
+						font-weight: 500;
+						color: #666666;
+						box-sizing: border-box;
+						padding: 10px 10px;
+						border-bottom: 1px solid #f2f2f2;
+						.profile--box {
+							display: flex;
+							align-items: center;
+							.profileImg {
+								display: flex;
+								text-align: center;
+								justify-content: center;
+								align-items: center;
+								width: 40px;
+								height: 40px;
+								border-radius: 50%;
+								margin-right: 15px;
+								background: #1e59ea;
+								b {
+									margin-bottom: -4px;
+									font-size: 20px;
+									color: #ffffff;
+								}
+							}
+							.lockImg {
+								margin: -5px 0 0 5px;
+							}
+						}
+						.count--box {
+							display: flex;
+							align-items: center;
+							.waiting {
+								font-size: 10px;
+								margin-right: 10px;
+								b {
+									color: #1e59ea;
+								}
+							}
+							.join__count {
+								border-radius: 10px;
+								background-color: #d2dfff;
+								box-sizing: border-box;
+								padding: 2px 5px;
+								.myTeam {
+									color: #1e59ea;
+								}
+							}
+						}
+					}
+					.selected {
+						background: #f2f6ff;
+					}
+				}
+			}
+			.slectTeam--box {
+				margin-top: 10px;
+				box-sizing: border-box;
+				padding: 10px;
+				background-color: #f2f2f2;
+				.team__info {
+					width: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					font-size: 12px;
+					font-weight: 500;
+					color: #666666;
+					box-sizing: border-box;
+					border-bottom: 1px solid #f2f2f2;
+					.profile--box {
+						display: flex;
+						align-items: center;
+						.profileImg {
+							display: flex;
+							text-align: center;
+							justify-content: center;
+							align-items: center;
+							width: 40px;
+							height: 40px;
+							border-radius: 50%;
+							margin-right: 15px;
+							background: #1e59ea;
+							b {
+								font-size: 20px;
+								color: #ffffff;
+							}
+						}
+
+						.lockImg {
+							margin: -5px 0 0 5px;
+						}
+					}
+					span {
+						color: #1e59ea;
+					}
+				}
+				.slectInput_password {
+					border: solid 1px #dddddd;
+					width: 100%;
+					margin-top: 10px;
+				}
+			}
+		}
+		.btn {
+			width: 100%;
+			margin-top: 10px;
+			height: 50px;
+			border-top-right-radius: 5px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.ReviseModal--wrapper {
+		.ReviseModal--box {
+			width: 90%;
+		}
+	}
+}

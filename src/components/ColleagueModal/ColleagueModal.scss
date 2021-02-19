@@ -1,0 +1,609 @@
+@media (min-width: 769px) {
+	.ColleagueModal {
+		width: 580px;
+		padding: 35px 50px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		max-height: 900px;
+
+		&--Title {
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 1.5;
+			letter-spacing: -0.4px;
+			color: #322e3d;
+			padding-bottom: 15px;
+			border-bottom: 2px solid #1e59ea;
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 10px;
+			img {
+				cursor: pointer;
+				width: 20px;
+				height: 20px;
+			}
+		}
+		&--Navigation {
+			display: flex;
+			height: 50px;
+			margin-bottom: 20px;
+			.tab,
+			.tab__selected {
+				height: 50px;
+				flex: 1;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				letter-spacing: -0.35px;
+				cursor: pointer;
+			}
+			.tab {
+				color: #aaaaaa;
+			}
+			.tab__selected {
+				color: #322e3d;
+				background-color: #f2f6ff;
+			}
+		}
+		&--Insert {
+			//탭 제목 ( 전부 같은 레이아웃 )
+			.tab--title {
+				display: flex;
+				align-items: center;
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 1.43;
+				letter-spacing: -0.35px;
+				color: #666666;
+				margin-bottom: 10px;
+				b {
+					color: #1e59ea;
+				}
+				.box {
+					border: 1px solid black;
+					width: 15px;
+					height: 15px;
+					margin-right: 10px;
+					cursor: pointer;
+				}
+				.bg {
+					background: #1e59ea;
+					border: 1px solid #1e59ea;
+				}
+			}
+			input[type='text'] {
+				font-size: 14px;
+				// max-height: 70px;
+				padding: 5px 7px;
+				box-sizing: border-box;
+				font-family: inherit;
+				color: #444;
+				outline: none;
+				&::placeholder {
+					color: #bbbbbb;
+					font-size: 12px;
+				}
+			}
+
+			.MakeFastMatch {
+				&--Name {
+					margin-top: 20px;
+					margin-bottom: 30px;
+					input[type='text'] {
+						width: 100%;
+					}
+				}
+				&--Game {
+					margin-bottom: 30px;
+					.search-input {
+						position: relative;
+						width: 280px;
+						input {
+							width: 100%;
+						}
+						img {
+							position: absolute;
+							width: 20px;
+							height: 20px;
+							right: 10px;
+							top: 7px;
+							cursor: pointer;
+						}
+					}
+
+					.tab--recommend {
+						display: flex;
+						font-size: 14px;
+						font-weight: 500;
+						line-height: 1.5;
+						letter-spacing: -0.3px;
+						color: #aaaaaa;
+						margin: 15px 0;
+						.game,
+						.game__selected {
+							cursor: pointer;
+							margin-right: 15px;
+						}
+						.game__selected {
+							color: #1e59ea;
+						}
+					}
+					.tag--selected {
+						margin-bottom: 5px;
+						width: 280px;
+						height: 54px;
+						background-color: #f2f2f2;
+						display: flex;
+						align-items: center;
+						padding: 7px 15px;
+						box-sizing: border-box;
+						position: relative;
+
+						button {
+							position: absolute;
+							right: 15px;
+							font-size: 20px;
+						}
+
+						.img--box {
+							width: 40px;
+							height: 40px;
+							position: relative;
+
+							.backImg {
+								width: 100%;
+								height: 100%;
+								cursor: pointer;
+								border-radius: 50%;
+								position: absolute;
+							}
+							.icon {
+								position: absolute;
+								width: 15px;
+								height: 15px;
+								right: 0;
+								bottom: 0;
+							}
+						}
+						.title {
+							margin-left: 20px;
+						}
+					}
+					.data--wrapper {
+						position: relative;
+
+						.data--box {
+							position: absolute;
+							width: 279px;
+							// height: 300px;
+							border: 0.1px solid #cccccc;
+
+							background: #ffffff;
+							margin-top: -0.6px;
+							margin-left: 0.4px;
+							z-index: 10;
+
+							.game--box {
+								display: flex;
+								align-items: center;
+								padding: 10px;
+								box-sizing: border-box;
+								border-bottom: 1px solid #cccccc;
+
+								.img--box {
+									width: 40px;
+									height: 40px;
+									position: relative;
+									.backImg {
+										width: 100%;
+										height: 100%;
+										cursor: pointer;
+										border-radius: 50%;
+										position: absolute;
+									}
+									.icon {
+										position: absolute;
+										width: 15px;
+										height: 15px;
+										right: 0;
+										bottom: 0;
+									}
+								}
+
+								span {
+									font-size: 14px;
+									color: #888888;
+									margin-left: 15px;
+									cursor: pointer;
+								}
+							}
+							.hied {
+								display: none;
+							}
+						}
+					}
+				}
+				&--Link {
+					margin-bottom: 30px;
+					input[type='text'] {
+						width: 100%;
+					}
+					.input {
+						width: 280px !important;
+						font-size: 14px;
+						padding: 5px 7px;
+						box-sizing: border-box;
+						color: #444;
+						outline: none;
+					}
+					.crew-img {
+						display: flex;
+						align-items: center;
+
+						.img__input {
+							width: 178px !important;
+							font-size: 14px;
+							padding: 5px 7px;
+							box-sizing: border-box;
+							color: rgb(172, 172, 172);
+							outline: none;
+						}
+						.upload--btn {
+							input {
+								display: none;
+							}
+							margin-top: -2px;
+							margin-left: 10px;
+							label {
+								padding: 5px 20px;
+								box-sizing: border-box;
+								font-size: 14px;
+								font-weight: 500;
+								color: #666666;
+								cursor: pointer;
+								border: solid 0.1px #cccccc;
+								background-color: #ffffff;
+							}
+						}
+					}
+					.comment {
+						width: 100%;
+						height: 50px;
+						font-size: 12px;
+						padding: 5px 7px;
+						color: #444;
+						resize: none;
+						outline: none;
+						border: solid 0.1px #cccccc;
+					}
+					.comment__count {
+						color: #1e59ea;
+						width: 590px;
+						font-size: 11px;
+						text-align: end;
+					}
+				}
+			}
+		}
+		&--Submit {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 38px;
+			p {
+				width: 115px;
+				height: 36px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+				font-size: 14px;
+				font-weight: bold;
+				line-height: 1.43;
+				letter-spacing: -0.35px;
+				color: #666666;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.ColleagueModal {
+		width: calc(100% - 30px);
+		padding: 20px 20px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		height: 500px;
+
+		&--Title {
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.5;
+			letter-spacing: -0.4px;
+			color: #322e3d;
+			border-bottom: 2px solid #1e59ea;
+			display: flex;
+			justify-content: space-between;
+			padding-bottom: 10px;
+			img {
+				cursor: pointer;
+				width: 20px;
+				height: 20px;
+			}
+		}
+		&--Navigation {
+			display: flex;
+			// height: 50px;
+			margin-bottom: 15px;
+			.tab,
+			.tab__selected {
+				height: 50px;
+				flex: 1;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.43;
+				letter-spacing: -0.35px;
+				cursor: pointer;
+			}
+			.tab {
+				color: #aaaaaa;
+			}
+			.tab__selected {
+				color: #322e3d;
+				background-color: #f2f6ff;
+			}
+		}
+		&--Insert {
+			//탭 제목 ( 전부 같은 레이아웃 )
+			.tab--title {
+				font-size: 12px;
+				font-weight: bold;
+				letter-spacing: -0.35px;
+				color: #666666;
+				margin-bottom: 10px;
+
+				b {
+					color: #1e59ea;
+				}
+			}
+			input[type='text'] {
+				max-height: 27px;
+				padding: 5px 7px;
+				box-sizing: border-box;
+				font-family: inherit;
+				color: #444;
+				outline: none;
+				border: 1px solid #ccc;
+				&::placeholder {
+					color: #bbbbbb;
+					font-size: 10px;
+				}
+			}
+
+			.MakeFastMatch {
+				&--Name {
+					margin-top: 20px;
+					margin-bottom: 30px;
+					input[type='text'] {
+						width: 100%;
+					}
+				}
+				&--Game {
+					margin-bottom: 30px;
+					.search-input {
+						position: relative;
+						input {
+							width: 100%;
+						}
+						img {
+							position: absolute;
+							width: 17px;
+							height: 17px;
+							right: 10px;
+							top: 5px;
+							cursor: pointer;
+						}
+					}
+					.tab--recommend {
+						display: flex;
+						flex-wrap: wrap;
+						flex: 0 0 50%;
+						font-size: 12px;
+						font-weight: 500;
+						line-height: 2;
+						letter-spacing: -0.3px;
+						color: #aaaaaa;
+						margin: 15px 0;
+						.game,
+						.game__selected {
+							margin-right: 20px;
+							cursor: pointer;
+						}
+						.game__selected {
+							color: #1e59ea;
+						}
+					}
+					.tag--selected {
+						width: 100%;
+						height: 54px;
+						background-color: #f2f2f2;
+						display: flex;
+						align-items: center;
+						padding: 7px 15px;
+						box-sizing: border-box;
+						margin-bottom: 5px;
+						position: relative;
+
+						button {
+							position: absolute;
+							right: 15px;
+							font-size: 20px;
+						}
+
+						.img--box {
+							width: 40px;
+							height: 40px;
+							position: relative;
+
+							.backImg {
+								width: 100%;
+								height: 100%;
+								cursor: pointer;
+								border-radius: 50%;
+								position: absolute;
+							}
+							.icon {
+								position: absolute;
+								width: 15px;
+								height: 15px;
+								right: 0;
+								bottom: 0;
+							}
+						}
+						.title {
+							margin-left: 20px;
+						}
+					}
+					.data--wrapper {
+						position: relative;
+
+						.data--box {
+							position: absolute;
+							width: 99.9%;
+							border: 0.1px solid #cccccc;
+
+							background: #ffffff;
+							margin-top: -0.6px;
+							margin-left: 0.4px;
+							z-index: 10;
+
+							.game--box {
+								display: flex;
+								align-items: center;
+								padding: 10px;
+								box-sizing: border-box;
+								border-bottom: 1px solid #cccccc;
+
+								.img--box {
+									width: 40px;
+									height: 40px;
+									position: relative;
+									.backImg {
+										width: 100%;
+										height: 100%;
+										cursor: pointer;
+										border-radius: 50%;
+										position: absolute;
+									}
+									.icon {
+										position: absolute;
+										width: 15px;
+										height: 15px;
+										right: 0;
+										bottom: 0;
+									}
+								}
+
+								span {
+									font-size: 14px;
+									color: #888888;
+									margin-left: 15px;
+									cursor: pointer;
+								}
+							}
+							.hied {
+								display: none;
+							}
+						}
+					}
+				}
+				&--Link {
+					margin-bottom: 30px;
+					input[type='text'] {
+						width: 100%;
+					}
+					.input {
+						padding: 5px 7px;
+						box-sizing: border-box;
+						color: #444;
+						outline: none;
+					}
+					.crew-img {
+						display: flex;
+						align-items: center;
+
+						.img__input {
+							width: 69%;
+							font-size: 14px;
+							padding: 5px 7px;
+							box-sizing: border-box;
+							color: rgb(172, 172, 172);
+							border: solid 0.1px #cccccc;
+						}
+						.upload--btn {
+							input {
+								display: none;
+							}
+							margin-top: -4px;
+							margin-left: 3%;
+							label {
+								padding: 5px 5.3vw;
+								box-sizing: border-box;
+								font-size: 12px;
+								font-weight: 500;
+								color: #666666;
+								cursor: pointer;
+								border: solid 0.1px #cccccc;
+								background-color: #ffffff;
+							}
+						}
+					}
+					.comment {
+						width: 95%;
+						height: 50px;
+						font-size: 12px;
+						padding: 5px 7px;
+						color: #444;
+						resize: none;
+						outline: none;
+						border: solid 0.1px #cccccc;
+					}
+					.comment__count {
+						color: #1e59ea;
+						font-size: 11px;
+						text-align: end;
+					}
+				}
+			}
+		}
+		&--Submit {
+			display: flex;
+			justify-content: flex-end;
+			margin-top: 13px;
+			p {
+				width: 95px;
+				height: 27px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+				font-size: 12px;
+				font-weight: bold;
+				line-height: 1.43;
+				letter-spacing: -0.35px;
+				color: #666666;
+				cursor: pointer;
+			}
+		}
+	}
+}

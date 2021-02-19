@@ -1,0 +1,52 @@
+@media(min-width:769px){
+  .AdministerPostContainer{
+    padding: 91px 89px;
+    box-sizing: border-box;
+    &--Title{
+      margin-bottom: 65px;
+      .Title{
+        padding-bottom: 5px;
+        font-weight: 700;
+      }
+    }
+    &--List{
+      border-top: 2px solid #ddd;
+      min-height: 700px;
+    }
+    &--Row{
+      width: 100%;
+      border-bottom: 1px solid #efefef;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      :last-child
+      .subject {
+        width: 80px;
+        font-size: 14px;
+        font-weight: 700;
+        color: #ffb361;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: 500;
+        color: #666666;
+        margin-right: auto;
+      }
+      .date{
+        font-size: 14px;
+        font-weight: 500;
+        color: #bbbbbb;
+      }
+
+    }
+  }
+}
+@media(max-width:768px){
+  .AdministerPostContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+}

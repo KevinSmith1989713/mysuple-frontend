@@ -1,0 +1,232 @@
+@media (min-width: 769px) {
+	.FilterTable {
+		table {
+			width: 100%;
+			border: solid 1px #cccccc;
+			tr {
+				display: flex;
+				width: 100%;
+			}
+			.tr-genre,
+			.tr-keyword,
+			.tr-media,
+			.tr-etc {
+			}
+			.tr-price {
+				height: 87px;
+			}
+			th {
+				width: 163px;
+				display: flex;
+				align-items: center;
+				padding: 0 28px;
+				box-sizing: border-box;
+				justify-content: space-between;
+				border-right: 1px solid #eeeeee;
+				font-size: 16px;
+				font-weight: 900;
+				color: #322e3d;
+				border-bottom: 1px solid #eeeeee;
+
+				img {
+					width: 11px;
+					height: 11px;
+				}
+			}
+			.th-cursor {
+				cursor: pointer;
+				img {
+					width: 11px;
+					height: 11px;
+				}
+			}
+			.th-expand,
+			.th-below {
+				background-color: #1e59ea;
+				color: white;
+				border-bottom: none;
+			}
+			td {
+				display: flex;
+				padding: 10px 14px;
+				box-sizing: border-box;
+				width: 100%;
+				align-items: center;
+				border-bottom: 1px solid #eeeeee;
+				flex-wrap: wrap;
+
+				.span-tag {
+					padding: 3px 20px;
+					font-size: 14px;
+					font-weight: bold;
+					line-height: 1.5;
+					color: #666666;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					margin-bottom: 5px;
+					img {
+						margin-left: -1px;
+						margin-right: 8px;
+					}
+				}
+				.span-selected-tag {
+					padding: 3px 20px;
+					margin: 0 3px;
+					font-size: 14px;
+					font-weight: bold;
+					line-height: 1.5;
+					background-color: #1e59ea;
+					color: #efefef;
+					border-radius: 15px;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					margin-bottom: 5px;
+					img {
+						margin-left: -1px;
+						margin-right: 8px;
+					}
+				}
+			}
+			.td-expand {
+				color: white;
+				border-bottom: none;
+			}
+			.td-below {
+				height: 180px;
+				color: white;
+				flex-wrap: wrap;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.FilterTable {
+		table {
+			width: 100%;
+			border: solid 1px #cccccc;
+			display: block;
+			width: 100%;
+			tbody {
+				display: block;
+			}
+			tr {
+				display: block;
+				display: flex;
+				width: 100%;
+			}
+			.tr-genre,
+			.tr-keyword,
+			.tr-media,
+			.tr-etc {
+				height: 43px;
+			}
+			.tr-price {
+				height: 75px;
+			}
+			th {
+				width: 65px !important;
+				display: flex;
+				align-items: center;
+				padding: 0 12px;
+				box-sizing: border-box;
+				justify-content: space-between;
+				border-right: 1px solid #eeeeee;
+				font-size: 13px;
+				font-weight: 900;
+				color: #322e3d;
+				border-bottom: 1px solid #eeeeee;
+
+				img {
+					width: 11px;
+					height: 11px;
+				}
+			}
+			.th-cursor {
+				cursor: pointer;
+				img {
+					width: 11px;
+					height: 11px;
+				}
+			}
+			.th-expand,
+			.th-below {
+				background-color: #1e59ea;
+				color: white;
+				border-bottom: none;
+			}
+			td {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				-ms-overflow-style: none;
+				overflow: auto;
+				padding: 0 5px;
+				font-size: 11px;
+				font-weight: bold;
+				border-left: 1px solid #eeeeee;
+				color: #666666;
+				border-bottom: 1px solid #eeeeee;
+				white-space: nowrap;
+				&::-webkit-scrollbar {
+					display: none;
+				}
+				&::-webkit-scrollbar-thumb {
+					background: #ddd;
+					border-radius: 5px;
+				}
+				&::-webkit-scrollbar-track {
+					background: #fff;
+					border-radius: 5px;
+				}
+				&::-webkit-scrollbar-button {
+					display: none;
+				}
+
+				.span-tag {
+					padding: 3px 8px;
+					font-size: 11px;
+					margin: 0 3px;
+					font-weight: bold;
+					line-height: 1.5;
+					color: #666666;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					img {
+						margin-left: -1px;
+						margin-right: 8px;
+					}
+				}
+				.span-selected-tag {
+					padding: 3px 8px;
+					margin: 0 3px;
+					font-size: 11px;
+					font-weight: bold;
+					line-height: 1.5;
+					background-color: #1e59ea;
+					color: #efefef;
+					border-radius: 15px;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					img {
+						margin-left: -1px;
+						margin-right: 8px;
+					}
+				}
+			}
+			.td-expand {
+				color: white;
+				border-bottom: none;
+			}
+			.td-below {
+				height: 80px;
+				color: white;
+				flex-wrap: wrap;
+			}
+		}
+	}
+}

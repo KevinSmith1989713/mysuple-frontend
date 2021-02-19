@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27.434" height="20.509" viewBox="0 0 27.434 20.509">
+    <g id="prefix__Component_81_5" data-name="Component 81 – 5" transform="translate(.259 .25)">
+        <path id="prefix__messenger" d="M10 0a10 10 0 0 0-8.674 14.978l-1.288 4a.781.781 0 0 0 .983.983l4-1.288A10 10 0 1 0 10 0zm0 18.437a8.413 8.413 0 0 1-4.466-1.278.782.782 0 0 0-.654-.081l-2.888.93.93-2.888a.782.782 0 0 0-.081-.654A8.438 8.438 0 1 1 10 18.437z" style="stroke:#bbb;stroke-width:.5px;fill:#bbb"/>
+        <g id="prefix__Union_68" data-name="Union 68" style="fill:#bbb">
+            <path d="M8.001 13H3.999V8.001H-1V3.999H3.999V-1h4.002V3.999H13v4.002H8.001V13z" style="stroke:none" transform="translate(13.175 4)"/>
+            <path d="M7.001 12V7.001H12V4.999H7.001V0H4.999v4.999H0v2.002h4.999V12h2.002m2 2H2.999V9.001H-2V2.999H2.999V-2h6.002V2.999H14v6.002H9.001V14z" style="fill:#fff;stroke:none" transform="translate(13.175 4)"/>
+        </g>
+    </g>
+</svg>

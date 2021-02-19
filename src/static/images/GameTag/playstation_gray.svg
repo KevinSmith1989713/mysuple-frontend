@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.5" height="42.789" viewBox="0 0 42.5 42.789">
+    <defs>
+        <style>
+            .playstation__gray-1{fill:#d0d2d3}
+        </style>
+    </defs>
+    <g id="prefix__Group_964" data-name="Group 964" transform="translate(-1974.6 -1498.2)">
+        <path id="prefix__Path_1658" d="M18.3 20H1.7V2.7h16.6V20zM4.5 17.2h10.9V5.5H4.5z" class="playstation__gray-1" data-name="Path 1658" transform="translate(1972.9 1497)"/>
+        <path id="prefix__Path_1659" d="M44.2 20H23.6L33.9 1.2zm-15.8-2.9h11l-5.5-10z" class="playstation__gray-1" data-name="Path 1659" transform="translate(1972.9 1497)"/>
+        <path id="prefix__Path_1660" d="M10 43.4a8.5 8.5 0 0 1-8.3-8.7A8.5 8.5 0 0 1 10 26a8.71 8.71 0 0 1 0 17.4zm0-14.5a5.6 5.6 0 0 0-5.4 5.8 5.6 5.6 0 0 0 5.4 5.8 5.6 5.6 0 0 0 5.4-5.8 5.665 5.665 0 0 0-5.4-5.8z" class="playstation__gray-1" data-name="Path 1660" transform="translate(1972.9 1497)"/>
+        <path id="prefix__Rectangle_3816" d="M0 0H22.6V2.8H0z" class="playstation__gray-1" data-name="Rectangle 3816" transform="rotate(-46.507 2789.812 -1555.483)"/>
+        <path id="prefix__Rectangle_3817" d="M0 0H2.8V22.6H0z" class="playstation__gray-1" data-name="Rectangle 3817" transform="rotate(-43.53 2907.104 -1739.61)"/>
+    </g>
+</svg>

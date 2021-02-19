@@ -1,0 +1,28 @@
+import React,{ useState } from 'react';
+import './WithdrawConfirm.scss';
+import Title from '../../../components/Title/Title';
+import WithdrawImage from '../../../static/images/Withdraw/withdrawPoster.png';
+
+const WithdrawConfirm = ({ userInfo, onClick }) => {
+	return (
+		<div className="WithdrawConfirm">
+  		<div className="WithdrawConfirm--Header">
+				<div className="title">자동처리 방지를 위해</div>
+				<div className="title"><span className="blue">‘슈퍼플레이어 그만할래요’</span> 를 쳐 주세요</div>
+      </div>
+			<div className="WithdrawConfirm--Input">
+				<input type="text" className="withdraw--text"/>
+      </div>
+			<div className="WithdrawConfirm--Btn" onClick={()=>onClick('withdrawed')}>
+				회원탈퇴
+      </div>
+			<div className="WithdrawConfirm--Poster">
+				<img src={WithdrawImage}/>
+      </div>
+
+		</div>
+	);
+};
+
+export default WithdrawConfirm;
+

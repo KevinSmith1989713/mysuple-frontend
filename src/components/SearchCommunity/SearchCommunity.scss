@@ -1,0 +1,29 @@
+.SearchCommunity{
+  margin-bottom: 38px;
+  &--Title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    .title{
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #666666;
+      text-decoration: underline;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+    .date{
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      color: #bbbbbb;
+    }
+  }
+  &--desc{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.43;
+    color: #bbbbbb;
+  }
+}

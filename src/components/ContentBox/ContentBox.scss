@@ -1,0 +1,145 @@
+$blue: #1e59ea;
+.ContentBox {
+  overflow:hidden;
+  @media(min-width:769px){
+    width: 573px;
+    height: 400px;
+    .titles{
+      font-size: 16px;
+      font-weight: bold;
+
+    }
+  }
+  @media(max-width:768px){
+    width: 100%;
+    height: 100%;
+    .titles{
+      font-size: 11px;
+    }
+  }
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+  .titles{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48px;
+    border-bottom: 1px solid #dddddd;
+    cursor: pointer;
+    .selected-title, .title, .start-title, .end-title{
+      display: flex;
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .selected-title {
+      background-color: $blue;
+      color: white;
+    }
+    .title{
+
+    }
+    .start-title{
+      border-top-left-radius: 15px;
+    }
+    .end-title{
+      border-top-right-radius: 15px;
+    }
+  }
+  .content{
+    display: flex;
+    width: 100%;
+    position: relative;
+    height: 352px;
+  }
+}
+
+.long-partition{
+  display:flex;
+  min-width: calc(573px / 3);
+  position:relative;
+
+  &-bg{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top, rgba(50,46,61,1) 20%,rgba(50,46,61,0) 80%);
+    z-index: -2;
+    border-bottom-left-radius: 20px;
+  }
+  img{
+    width:100%;
+    height:100%;
+    position: absolute;
+    object-fit: cover;
+    z-index:-3;
+    border-bottom-left-radius: 20px;
+  }
+  .title {
+    position: absolute;
+    bottom:0;
+    padding:20px 18px;
+    color: white;
+      
+    .long-main-title{
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.45;
+    }
+    
+    .long-sub-title{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 1.43;
+      color: #bbbbbb;
+    }
+    
+    .long-like{
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.5;
+      span {
+        color: #1e59ea;
+        margin-right: 8px;
+      }
+    }
+  }
+}
+.square-partition{
+  display: flex;
+  flex:1;
+  height: 50%;
+  &__img{
+    width: 53%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__texts{
+    flex:1;
+    padding: 15px 17px;
+    .title{
+      font-size: 20px;
+      font-weight:900;
+      line-height: 1.45;
+      color: #322e3d;
+    }
+    .tag{
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.43;
+      color: #bbbbbb;
+    }
+    .like{
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.5;
+      color: #322e3d;
+      .heart{
+        color:#1e59ea;
+        margin-right: 6px;
+      }
+    }
+  }
+}

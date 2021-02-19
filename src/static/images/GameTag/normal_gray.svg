@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44.956" height="45" viewBox="0 0 44.956 45">
+    <defs>
+        <style>
+            .normal__gray-2{fill:#d0d2d3}
+        </style>
+    </defs>
+    <g id="prefix__Group_880" data-name="Group 880" transform="translate(-145.844 -87.1)">
+        <g id="prefix__Group_879" data-name="Group 879">
+            <path id="prefix__Path_1534" d="M190.8 92.1l-2.5-2.5-2.5-2.5-7.4 8.8a21.368 21.368 0 0 0-24.6 4.6c-11.4 11.4-7.2 30.8-7.2 30.8s19.4 4.2 30.8-7.2 4.6-24.6 4.6-24.6z" data-name="Path 1534" style="fill:#e6e7e8"/>
+            <path id="prefix__Path_1535" d="M186 91.3l.3.3.3.3-4.1 3.4 3.5-4m-17 5.4a19.6 19.6 0 0 1 8 1.7l1.6.8.8 1.6a18.6 18.6 0 0 1-4.1 21.3c-5.9 5.9-14.4 7.1-20.4 7.1a41.8 41.8 0 0 1-5.9-.4c-.6-4.9-1.5-18.1 6.7-26.3a18.785 18.785 0 0 1 13.3-5.8m16.8-9.6l-7.4 8.8a22.266 22.266 0 0 0-9.3-2 21.142 21.142 0 0 0-15.3 6.6c-11.4 11.4-7.2 30.8-7.2 30.8a41.611 41.611 0 0 0 8.4.8c6.6 0 15.8-1.4 22.4-8 11.4-11.4 4.6-24.6 4.6-24.6l8.8-7.4-2.5-2.5-2.5-2.5z" class="normal__gray-2" data-name="Path 1535"/>
+        </g>
+        <path id="prefix__Path_1536" d="M149 129.7l-2-.7c.4-1.1 10.3-27.6 31.3-30.2l.3 2.1c-19.7 2.5-29.5 28.6-29.6 28.8z" class="normal__gray-2" data-name="Path 1536"/>
+        <path id="prefix__Path_1537" d="M161.3 130.1c-3.3-5.4-1.1-20.4-.8-22.2l2.8.4c-.7 4.3-1.9 16.4.4 20.2z" class="normal__gray-2" data-name="Path 1537"/>
+        <path id="prefix__Path_1538" d="M170.5 102.2c-.1-.1-1.6-3.3-7.1-2.4L163 97c7.8-1.2 10 3.9 10.1 4.1z" class="normal__gray-2" data-name="Path 1538"/>
+    </g>
+</svg>

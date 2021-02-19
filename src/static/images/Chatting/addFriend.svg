@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Component_89_1" width="25.666" height="19.582" data-name="Component 89 – 1" viewBox="0 0 25.666 19.582">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <path d="M0 0H19V19H0z" style="fill:none"/>
+        </clipPath>
+    </defs>
+    <g id="prefix__Profile">
+        <path id="prefix__Union_1" d="M0 19v-2.375c0-2.613 4.275-4.751 9.5-4.751s9.5 2.138 9.5 4.751V19zM4.749 4.751A4.75 4.75 0 1 1 9.5 9.5a4.75 4.75 0 0 1-4.751-4.749z" data-name="Union 1" style="fill:#ccc"/>
+    </g>
+    <g id="prefix__Union_66" data-name="Union 66" style="fill:#bbb">
+        <path d="M6.14 9.91H3.292V6.14H-.5V3.466h3.791V-.5h2.85v3.965h3.572v2.676H6.141V9.91z" style="stroke:none" transform="translate(15.453 9.172)"/>
+        <path d="M5.64 9.41V5.64h3.573V3.966H5.641V0H3.79v3.965H0v1.676h3.791V9.41h1.85m1 1H2.79V6.64H-1V2.966h3.791V-1h3.85v3.965h3.572v3.676H6.641v3.769z" style="fill:#fff;stroke:none" transform="translate(15.453 9.172)"/>
+    </g>
+</svg>

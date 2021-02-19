@@ -1,0 +1,27 @@
+// $blue: #1e59ea;
+
+@media (min-width: 769px) {
+	.Header {
+		min-width: 1020px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+}
+@media (max-width: 768px) {
+	.Header {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.Header--menu {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+	.info{
+		z-index: -10;
+	}
+}

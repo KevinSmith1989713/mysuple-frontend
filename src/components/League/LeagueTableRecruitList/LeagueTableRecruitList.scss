@@ -1,0 +1,230 @@
+.LeagueTableRecruitList {
+	box-sizing: border-box;
+	padding: 30px 0;
+
+	.crew__none {
+		margin-top: -30px;
+		box-sizing: border-box;
+		padding: 80px 30px;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.43;
+		color: #888888;
+		background-color: #fbfbfb;
+	}
+
+	.list--box {
+		border-top: 1px solid #f2f2f2;
+		box-sizing: border-box;
+		padding: 15px 0;
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-left: 20px;
+		.gameInfo {
+			font-size: 12px;
+			font-weight: 500;
+			color: #1e59ea;
+			.iconImg {
+				width: 12.8px;
+				height: 12.9px;
+				margin-right: 5px;
+			}
+		}
+		.title--box {
+			margin-left: 80px;
+			display: flex;
+			justify-content: space-between;
+			font-size: 14px;
+			font-weight: 500;
+			text-align: left;
+			color: #666666;
+			line-height: 1.43;
+			width: 540px;
+			.title {
+				.linkImg {
+					width: 11px;
+					height: 11px;
+					margin-left: 5px;
+					margin-right: 10px;
+				}
+
+				b {
+					font-size: 12px;
+					font-weight: 500;
+					color: #aaaaaa;
+				}
+				a {
+					color: #666666;
+				}
+			}
+			.nickName {
+				position: absolute;
+				right: 0;
+
+				width: 120px;
+				text-align: end;
+				font-size: 12px;
+			}
+		}
+	}
+	.btn--box {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		.makeCrew {
+			width: 140px !important;
+			height: 40px;
+			background-color: #cccccccc;
+			font-size: 16px;
+			font-weight: 700;
+			color: #ffffff;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			cursor: pointer;
+			.colleague--img {
+				background-image: url('../../../static/images/Card/addColleague.svg');
+				background-size: 100% 100%;
+				width: 18px;
+				height: 18px;
+				margin-right: 5px;
+			}
+		}
+	}
+	.modal__recruit--container {
+		.modal--box {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 580px;
+			overflow: auto;
+			border-radius: 10px;
+			background-color: white;
+			box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+			z-index: 1000;
+			box-sizing: border-box;
+			padding: 40px 50px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			.modal__title {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 14px;
+				font-weight: bold;
+				color: #322e3d;
+				height: 35px;
+				border-bottom: 2px solid #1e59ea;
+				.closeBtn {
+					width: 22px;
+					height: 22px;
+				}
+			}
+			.modal--inner {
+				box-sizing: border-box;
+				padding-top: 20px;
+				font-size: 14px;
+				font-weight: normal;
+				font-stretch: normal;
+				color: #666666;
+				line-height: 1.79;
+
+				.box {
+					margin-bottom: 20px;
+					h1 {
+						font-weight: bold;
+						margin-bottom: 5px;
+					}
+					b {
+						margin-left: 3px;
+						color: #1e59ea;
+					}
+					.input {
+						width: 100%;
+						height: 30px;
+						border: solid 1px #cccccc;
+					}
+				}
+
+				.button--box {
+					display: flex;
+					justify-content: flex-end;
+					.button {
+						width: 124px;
+						height: 36px;
+						border: solid 1px #cccccc;
+						font-size: 14px;
+						font-weight: bold;
+						color: #666666;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.LeagueTableRecruitList {
+		.list--box {
+			border-top: 1px solid #f2f2f2;
+			box-sizing: border-box;
+			padding: 15px 0;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			position: relative;
+			margin-left: 0px;
+			.gameInfo {
+				font-size: 12px;
+				font-weight: 500;
+				color: #1e59ea;
+				.iconImg {
+					width: 12.8px;
+					height: 12.9px;
+					margin-right: 5px;
+				}
+				margin-bottom: 5px;
+			}
+			.title--box {
+				margin-left: 0px;
+				width: 70%;
+			}
+		}
+		.modal__recruit--container {
+			.modal--box {
+				width: 90%;
+				padding: 20px;
+				.modal__title {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					font-size: 14px;
+					font-weight: bold;
+					color: #322e3d;
+					height: 35px;
+					border-bottom: 2px solid #1e59ea;
+					.closeBtn {
+						width: 22px;
+						height: 22px;
+					}
+				}
+			}
+		}
+		.btn--box {
+			.makeCrew {
+				font-size: 13px;
+				width: 100px !important;
+				height: 35px;
+
+				.colleague--img {
+					width: 15px;
+					height: 15px;
+				}
+			}
+		}
+	}
+}

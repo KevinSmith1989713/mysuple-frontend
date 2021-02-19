@@ -1,0 +1,135 @@
+@media(min-width:769px){
+  .Setting--body{
+    .main-title{
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.45;
+      color: #322e3d;
+    }
+    .sub-title__blue{
+      font-size: 16px;
+      font-weight: 500;
+      color: #1e59ea;
+    }
+    .sub-title{
+      font-size: 14px;
+      font-weight: 500;
+      color: #666666;
+    }
+  
+    .my-setting__alarm{
+      padding: 52px 61px 51px 61px;
+      border-bottom: 1px solid #dfdfdf;
+      position: relative;
+      box-sizing: border-box;
+  
+      .alarm-main, .alarm-sub, .alarm-sub-main{
+        display:flex;
+        justify-content: space-between;
+      }
+      .alarm-sub-main{
+        margin-top: 32px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+      }
+      .alarm-sub{
+        margin-bottom: 10px;
+        padding-left: 37px;
+      }
+    }
+    
+    .my-setting__interlock{
+      padding: 52px 61px 51px 61px;
+      border-bottom: 1px solid #dfdfdf;
+  
+      .alarm-main, .alarm-sub, .alarm-sub-main{
+        display:flex;
+        justify-content: space-between;
+      }
+      .alarm-sub-main{
+        margin-top: 32px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+      }
+      .alarm-sub{
+        margin-bottom: 10px;
+        padding-left: 37px;
+      }
+    }
+    .my-setting__out{
+      margin: 52px 61px 51px 61px;
+      text-decoration: underline #666666;
+      cursor: pointer;
+    }
+  }
+}
+
+@media(max-width:768px){
+  .Setting{	width: 100%;
+		padding: 38px 20px;
+		box-sizing: border-box;
+
+  .Setting--body{
+    .main-title{
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.45;
+      color: #322e3d;
+    }
+    .sub-title__blue{
+      font-size: 16px;
+      font-weight: 500;
+      color: #1e59ea;
+    }
+    .sub-title{
+      font-size: 14px;
+      font-weight: 500;
+      color: #666666;
+    }
+  
+    .my-setting__alarm{
+      padding: 52px 61px 51px 61px;
+      border-bottom: 1px solid #dfdfdf;
+      position: relative;
+      box-sizing: border-box;
+  
+      .alarm-main, .alarm-sub, .alarm-sub-main{
+        display:flex;
+        justify-content: space-between;
+      }
+      .alarm-sub-main{
+        margin-top: 32px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+      }
+      .alarm-sub{
+        margin-bottom: 10px;
+        padding-left: 37px;
+      }
+    }
+    
+    .my-setting__interlock{
+      padding: 52px 61px 51px 61px;
+      border-bottom: 1px solid #dfdfdf;
+  
+      .alarm-main, .alarm-sub, .alarm-sub-main{
+        display:flex;
+        justify-content: space-between;
+      }
+      .alarm-sub-main{
+        margin-top: 32px;
+        margin-bottom: 15px;
+        padding-left: 25px;
+      }
+      .alarm-sub{
+        margin-bottom: 10px;
+        padding-left: 37px;
+      }
+    }
+    .my-setting__out{
+      margin: 52px 61px 51px 61px;
+      text-decoration: underline #666666;
+      cursor: pointer;
+    }
+  }}
+}

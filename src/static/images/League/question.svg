@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.5" height="16.5" viewBox="0 0 16.5 16.5">
+    <g id="prefix__help-circle-outline" transform="translate(-79.25 -79.25)">
+        <path id="prefix__Path_1975" fill="none" stroke="#749cff" stroke-miterlimit="10" stroke-width="1.5px" d="M87.5 80a7.5 7.5 0 1 0 7.5 7.5 7.5 7.5 0 0 0-7.5-7.5z" data-name="Path 1975"/>
+        <path id="prefix__Path_1976" fill="none" stroke="#749cff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5px" d="M200 159.88a2.08 2.08 0 0 1 .834-1.388 2.479 2.479 0 0 1 1.552-.5 2.748 2.748 0 0 1 1.131.19 1.96 1.96 0 0 1 1.256 1.751c0 1.108-.724 1.611-1.55 2.165a2.015 2.015 0 0 0-1.05 1.775" data-name="Path 1976" transform="translate(-114.886 -74.669)"/>
+        <circle id="prefix__Ellipse_1201" cx=".833" cy=".833" r=".833" fill="#749cff" data-name="Ellipse 1201" transform="translate(86.458 90.625)"/>
+    </g>
+</svg>

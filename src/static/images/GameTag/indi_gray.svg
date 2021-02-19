@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40.6" height="44.9" viewBox="0 0 40.6 44.9">
+    <defs>
+        <style>
+            .indi_gray-1{fill:#d0d2d3}.indi_gray-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_877" data-name="Group 877" transform="translate(-291.4 -396.3)">
+        <path id="prefix__Path_1524" d="M311.7 428.5c-11.2 0-20.3-7.2-20.3-16.1s9.1-16.1 20.3-16.1 20.3 7.2 20.3 16.1-9.1 16.1-20.3 16.1zm0-29.5c-9.7 0-17.6 6-17.6 13.4s7.9 13.4 17.6 13.4 17.6-6 17.6-13.4-7.9-13.4-17.6-13.4z" class="indi_gray-1" data-name="Path 1524"/>
+        <ellipse id="prefix__Ellipse_666" cx="3.8" cy="3" class="indi_gray-1" data-name="Ellipse 666" rx="3.8" ry="3" transform="translate(299.6 409.2)"/>
+        <ellipse id="prefix__Ellipse_667" cx="3.8" cy="3" class="indi_gray-1" data-name="Ellipse 667" rx="3.8" ry="3" transform="translate(316.5 409.2)"/>
+        <ellipse id="prefix__Ellipse_668" cx="1.6" cy="1.1" class="indi_gray-2" data-name="Ellipse 668" rx="1.6" ry="1.1" transform="translate(300.4 410)"/>
+        <ellipse id="prefix__Ellipse_669" cx="1.6" cy="1.1" class="indi_gray-2" data-name="Ellipse 669" rx="1.6" ry="1.1" transform="translate(317.3 410)"/>
+        <path id="prefix__Path_1525" d="M311.7 414.7h-3.9s0 4.8 3.9 4.8c4 0 3.9-4.8 3.9-4.8z" class="indi_gray-1" data-name="Path 1525"/>
+        <path id="prefix__Path_1526" d="M315 415.9h-6.8l-.1-.9h7z" class="indi_gray-2" data-name="Path 1526"/>
+        <path id="prefix__Path_1527" d="M308.3 441.1h-.3a5.765 5.765 0 0 1-4-2.1 1.222 1.222 0 0 1-.3-.9V433c-1.7.5-4.2 1-5.8.3a2.839 2.839 0 0 1-1.6-1.8 3.71 3.71 0 0 1 .4-3.4c1.9-2.8 7.7-3.3 8.3-3.3l.2 2.7c-2.1.1-5.4.9-6.2 2.1a1.454 1.454 0 0 0-.1 1s0 .1.2.2c1 .5 3.9-.3 5.5-1a1.5 1.5 0 0 1 1.3.1 1.382 1.382 0 0 1 .6 1.1v6.5a3.013 3.013 0 0 0 1.7.8 2.865 2.865 0 0 0 2-.8V433h2.7v5.2a1.284 1.284 0 0 1-.4 1 5.812 5.812 0 0 1-4.2 1.9z" class="indi_gray-1" data-name="Path 1527"/>
+        <path id="prefix__Path_1528" d="M314.9 441.1a5.943 5.943 0 0 1-4.2-2 1.284 1.284 0 0 1-.4-1V433h2.7v4.6a2.6 2.6 0 0 0 2 .8 2.483 2.483 0 0 0 1.7-.8v-6.5a1.149 1.149 0 0 1 .6-1.1 1.23 1.23 0 0 1 1.3-.1c1.6.7 4.5 1.4 5.5 1 .1-.1.2-.1.2-.2a.843.843 0 0 0-.1-1c-.8-1.2-4.1-2-6.2-2.1l.2-2.7c.7 0 6.5.5 8.3 3.3a3.71 3.71 0 0 1 .4 3.4 3.143 3.143 0 0 1-1.6 1.8c-1.6.7-4.1.2-5.8-.3v5.1a1.613 1.613 0 0 1-.3.9 5.765 5.765 0 0 1-4 2.1.368.368 0 0 0-.3-.1z" class="indi_gray-1" data-name="Path 1528"/>
+    </g>
+</svg>

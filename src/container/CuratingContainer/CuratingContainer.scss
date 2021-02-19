@@ -1,0 +1,79 @@
+.CuratingContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 77px 91px;
+  box-sizing: border-box;
+  .Title {
+    margin-bottom: 55px;
+  }
+  &--Header{
+    margin-bottom: 10px;
+    display: flex;
+    .input--title{
+      width: 489px !important; 
+      margin-right: 25px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #aaaaaa;
+      padding-bottom: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      font-family: inherit;
+      &:focus {
+        border-bottom: 3px solid #1e59ea;
+      }
+    }
+    
+    .input--tag{
+      flex:1;
+      margin-right: 25px;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid #aaaaaa;
+      padding-bottom: 5px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      font-family: inherit;
+      &:focus {
+        border-bottom: 3px solid #1e59ea;
+      }
+    }
+  }
+  &--Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #dddddd; 
+    padding-top: 50px;
+  }
+  .last{
+    border : none;
+  }
+  &--Add{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+    padding-bottom: 32px;
+    .btn {
+      width: 350px;
+      height: 75px;
+      object-fit: contain;
+      border: solid 1px #bbbbbb;
+      background-color: #f2f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+      font-weight: 500;
+      color: #1e59ea;
+      cursor: pointer;
+    }
+  }
+  &--Submit{
+    display: flex;
+    justify-content: flex-end;
+  }
+}

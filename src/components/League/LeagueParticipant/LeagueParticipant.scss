@@ -1,0 +1,36 @@
+.LeagueParticipant {
+	&--Container {
+		margin-top: 30px;
+		.title {
+			// border: 1px solid black;
+			text-align: center;
+		}
+		.oder {
+			width: 80px;
+		}
+		.state {
+			width: 150px;
+		}
+		.nicName {
+			width: 380px;
+		}
+		.teamName {
+			width: 200px;
+		}
+
+		.title--box {
+			background-color: #eeeeee;
+			display: flex;
+			align-items: center;
+			font-size: 12px;
+			font-weight: 500;
+			color: #aaaaaa;
+			box-sizing: border-box;
+			padding: 15px 10px;
+		}
+		.info {
+			background-color: #ffffff;
+			border-bottom: 1px solid #f2f2f2;
+		}
+	}
+}

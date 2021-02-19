@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+    <defs>
+        <style>
+            .Clock-1{fill:#aaa}
+        </style>
+    </defs>
+    <path id="time" d="M7.5 15A7.5 7.5 0 1 1 15 7.5 7.5 7.5 0 0 1 7.5 15zm0-1.5a6 6 0 1 0-6-6 6 6 0 0 0 6 6zm-.75-5.693V3h1.5v4.193l2.962 2.962-1.057 1.057z" class="Clock-1"/>
+</svg>

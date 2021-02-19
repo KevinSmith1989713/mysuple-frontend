@@ -1,0 +1,58 @@
+@media(min-width:769px){
+  .CuratingSelectCard{
+    height: 75px;
+    border: solid 1px #bbbbbb;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    img{
+      width: 75px;
+      height: 75px;
+      object-fit: contain;
+      margin-right: 15px;
+    }
+    .game--info{
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      color: #666666;
+      .title{
+        
+      }
+    }
+    .game--checked{
+      margin-left: auto;
+      margin-right: 12px;
+      
+    }
+  }
+}
+@media(max-width:768px){
+  .CuratingSelectCard{
+    height: 63px;
+    border: solid 1px #bbbbbb;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    img{
+      width: 63px;
+      height: 63px;
+      object-fit: contain;
+      margin-right: 15px;
+    }
+    .game--info{
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      color: #666666;
+      .title{
+        
+      }
+    }
+    .game--checked{
+      margin-left: auto;
+      margin-right: 12px;
+      
+    }
+  }
+}

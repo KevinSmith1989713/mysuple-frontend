@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22.9" height="45" viewBox="0 0 22.9 45">
+    <defs>
+        <style>
+            .stimulation-1{fill:#88cc40}.stimulation-2{fill:#57ab33}
+        </style>
+    </defs>
+    <g id="prefix__Group_969" data-name="Group 969" transform="translate(-2327.85 -1497) translate(1972.9 1497)">
+        <g id="prefix__Group_960" data-name="Group 960">
+            <path id="prefix__Path_1690" d="M376.3 22.5l-9.9-21.1-10 21.1 10 21.1z" class="stimulation-1" data-name="Path 1690"/>
+            <path id="prefix__Path_1691" d="M366.4 45a1.56 1.56 0 0 1-1.3-.8l-10-21.1a1.275 1.275 0 0 1 0-1.2l10-21.1a1.34 1.34 0 0 1 1.3-.8 1.441 1.441 0 0 1 1.3.8l10 21.1a1.275 1.275 0 0 1 0 1.2l-10 21.1a1.56 1.56 0 0 1-1.3.8zM358 22.5l8.4 17.8 8.4-17.8-8.4-17.8z" class="stimulation-2" data-name="Path 1691"/>
+        </g>
+        <g id="prefix__Group_961" data-name="Group 961">
+            <path id="prefix__Path_1692" d="M366.4 1.4l-4.8 21.1 4.8 21.1" class="stimulation-1" data-name="Path 1692"/>
+            <path id="prefix__Path_1693" d="M365.7 43.7l-4.8-21.1v-.3l4.8-21.1 1.4.3-4.7 20.9 4.7 20.9z" class="stimulation-2" data-name="Path 1693"/>
+        </g>
+        <g id="prefix__Group_962" data-name="Group 962">
+            <path id="prefix__Path_1694" d="M366.4 1.4l4.7 21.1-4.7 21.1" class="stimulation-1" data-name="Path 1694"/>
+            <path id="prefix__Path_1695" d="M367.1 43.7l-1.4-.3 4.7-20.9-4.7-20.9 1.4-.3 4.8 21.1v.3z" class="stimulation-2" data-name="Path 1695"/>
+        </g>
+        <g id="prefix__Group_963" data-name="Group 963">
+            <path id="prefix__Line_1132" d="M0 0L19.9 0" class="stimulation-1" data-name="Line 1132" transform="translate(356.4 22.5)"/>
+            <path id="prefix__Rectangle_3829" d="M0 0H19.9V2.8H0z" class="stimulation-2" data-name="Rectangle 3829" transform="translate(356.4 21.1)"/>
+        </g>
+    </g>
+</svg>

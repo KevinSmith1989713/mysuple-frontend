@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45" height="55" viewBox="0 0 45 55">
+    <defs>
+        <style>
+            .BlueBookmark-1{fill:#1e59ea}.BlueBookmark-2{fill:#ffb361}.BlueBookmark-3{fill:none;stroke:#fff;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="bookmark" transform="translate(-5)">
+        <path id="Path_376" d="M21 0H5v53.444a.556.556 0 0 0 .948.393L21 38.784l15.052 15.052a.555.555 0 0 0 .948-.393V0z" class="BlueBookmark-1" data-name="Path 376"/>
+        <g id="Group_121" data-name="Group 121">
+            <circle id="Ellipse_168" cx="12" cy="12" r="12" class="BlueBookmark-2" data-name="Ellipse 168" transform="translate(26 31)"/>
+            <path id="Path_378" d="M32.248 41.13l5 5.469 8.958-7.45" class="BlueBookmark-3" data-name="Path 378" transform="translate(-1 1)"/>
+        </g>
+    </g>
+</svg>

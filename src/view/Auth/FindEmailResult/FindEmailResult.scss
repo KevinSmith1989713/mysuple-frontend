@@ -1,0 +1,34 @@
+.FindEmailResult {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 707px;
+
+	.FindEmailResult-form {
+		display: flex;
+		flex-direction: column;
+		width: 395px;
+
+		&--title {
+			margin-top: 111px;
+		}
+
+		&--content {
+			width: 270px;
+			text-align: center;
+			margin: 73px 0px 100px 0px;
+			font-size: 20px;
+			color: #666666;
+			line-height: 1.45;
+
+			span {
+				color: #1e59ea;
+				font-weight: 600;
+			}
+		}
+
+		&--button {
+			margin-bottom: 15px;
+		}
+	}
+}

@@ -1,0 +1,63 @@
+.extra {
+	z-index: 100;
+	width: 100%;
+	min-height: 500px;
+	font-size: 13px;
+	font-weight: 500;
+	text-align: left;
+	color: #888888;
+
+	.extra__text {
+		font-family: NotoSansCJKkr;
+		box-sizing: border-box;
+		padding: 20px 0;
+		color: #666666;
+	}
+	.userList--box {
+		max-height: 279px;
+		border: solid 1px #dddddd;
+		overflow: auto;
+		.user--box {
+			display: flex;
+			justify-content: space-between;
+			box-sizing: border-box;
+			padding: 10px 25px 10px 10px;
+			border-bottom: solid 1px #f2f2f2;
+			.nickname--box {
+				display: flex;
+				.checkBox {
+					cursor: pointer;
+					width: 13px;
+					height: 13px;
+					border: solid 1px #dddddd;
+				}
+				.checked {
+					background: #1e59ea;
+				}
+				.nickname {
+					margin-left: 18px;
+
+					b {
+						margin-left: 10px;
+						color: #1e59ea;
+					}
+				}
+				.textBold {
+					font-weight: bold;
+				}
+			}
+		
+		}
+	}
+	.extra__btn {
+		margin-top: 20px;
+		height: 60px;
+		border-radius: 10px;
+		background-color: #dddddd;
+		font-family: NotoSansCJKkr;
+		font-size: 16px;
+		font-weight: bold;
+
+		color: #888888;
+	}
+}

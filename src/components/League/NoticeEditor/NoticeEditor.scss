@@ -1,0 +1,29 @@
+.Notice__editor {
+	.notice__btn--box {
+		margin-top: 25px;
+		display: flex;
+		justify-content: flex-end;
+		button {
+			width: 110px;
+			height: 45px;
+			border-radius: 3px;
+			border: solid 1px #cccccc;
+			background-color: #f2f2f2;
+			margin-left: 10px;
+			font-size: 14px;
+			font-weight: 500;
+			color: #666666;
+		}
+	}
+	.notice__revise__input {
+		border: 1px solid #cccccc;
+		margin-top: 10px;
+		width: 100%;
+	}
+	.notice__editor {
+		margin-top: 20px;
+		.FroalaEditor .fr-wrapper {
+			min-height: 300px;
+		}
+	}
+}

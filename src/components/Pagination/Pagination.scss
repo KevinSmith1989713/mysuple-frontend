@@ -1,0 +1,18 @@
+.pagination__num{
+  .page, .page__selected{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+    color: #666666;
+    cursor: pointer;
+    padding: 0 4px;
+  }
+  .page__seleccted {
+    font-weight: 500;
+    color: #1e59ea;
+    text-align: center;
+    text-decoration-line: underline;
+    padding: 0 4px;
+  }
+}

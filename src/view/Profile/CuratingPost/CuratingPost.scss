@@ -1,0 +1,50 @@
+.CuratingPost {
+	position: relative;
+	.CuratingPost--buttonGroup {
+		display: flex;
+		position: absolute;
+		top: 8px;
+		right: 0;
+		.Button{
+			margin-left: 10px;
+		}
+	}
+	.CuratingPost--Header {
+		padding: 16px 22px;
+		box-sizing: border-box;
+		border-bottom: 1px solid #cccccc;
+		.title{
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #322e3d;
+			margin-bottom: 11px;
+		}
+		.tag{
+			img{
+				width: 15px;
+				height: 15px;
+				margin-right: 11px;
+			}
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.43;
+			color: #666666;
+		}
+		.date{
+			img{
+				width: 15px;
+				height: 15px;
+				margin-right: 11px;
+			}
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.43;
+			color: #bbbbbb;
+		}
+	}
+	.CuratingPost--Card{
+		padding : 25px 0;
+		border-bottom: 1px solid #eeeeee;
+	}
+}

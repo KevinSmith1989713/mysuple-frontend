@@ -1,0 +1,533 @@
+$blue: #1e59ea;
+$black: #322e3d;
+$gray: #aaaaaa;
+$light-gray: #e4e4e4;
+
+@media (min-width: 769px) {
+	.MakeLeagueContainerStep3 {
+		padding: 79px 89px;
+		.mobile__header--box {
+			display: none;
+		}
+
+		&--inner {
+			margin-top: 60px;
+			display: flex;
+
+			.contantsContainer {
+				// border: 1px solid black;
+				margin-left: 50px;
+				width: 800px;
+				.info__header--box {
+					border-bottom: 1px solid $light-gray;
+					display: flex;
+					height: 50px;
+					margin-top: 5px;
+					img {
+						margin-top: -2px;
+						width: 20px;
+						height: 20px;
+					}
+					.header__title {
+						font-size: 16px;
+						font-weight: bold;
+						color: $black;
+						margin-left: 10px;
+					}
+					.header__subTitle {
+						font-size: 14px;
+						font-weight: 500;
+						color: $gray;
+						margin-left: 10px;
+					}
+				}
+				.path--box {
+					margin-top: 35px;
+					display: flex;
+					.path {
+						width: 50%;
+						.pathText {
+							font-size: 14px;
+							font-weight: bold;
+							color: gray;
+						}
+						.pathCount {
+							margin: 15px 0;
+							display: flex;
+							align-items: center;
+							color: gray;
+							font-size: 14px;
+							.count {
+								outline: none;
+								margin: 0 8px;
+								width: 131px;
+								height: 30px;
+								border: solid 1px $gray;
+								display: flex;
+								align-items: center;
+								padding-left: 10px;
+								box-sizing: border-box;
+								color: #bbbbbb;
+								font-size: 14px;
+							}
+						}
+						.myTicket {
+							margin-left: 27px;
+							margin-top: 6px;
+							color: gray;
+							font-size: 14px;
+							font-weight: 500;
+							strong {
+								color: $blue;
+								margin-left: 5px;
+							}
+						}
+					}
+				}
+				.ranking--box {
+					width: 200px;
+					margin-top: 30px;
+					margin-bottom: 50px;
+					.rankingTitle {
+						font-size: 14px;
+						font-weight: bold;
+						color: gray;
+
+						strong {
+							font-size: 10px;
+							font-weight: 500;
+							color: blue;
+							margin-left: 10px;
+						}
+					}
+					.rankingPercentage--box {
+						display: flex;
+						// align-items: center;
+						position: relative;
+						.rankingPercentage {
+							display: flex;
+							align-items: center;
+							font-size: 14px;
+							color: $gray;
+							font-weight: 500;
+							margin-top: 15px;
+							.percentage {
+								width: 131px;
+								height: 30px;
+								border: solid 1px $gray;
+								display: flex;
+								align-items: center;
+								box-sizing: border-box;
+								padding-left: 10px;
+								color: $gray;
+								font-size: 14px;
+								margin-right: 5px;
+								margin-left: 5px;
+							}
+							.delete {
+								// border: 1px solid black;
+								cursor: pointer;
+							}
+						}
+						button {
+							font-weight: normal;
+							font-size: 16px;
+							position: absolute;
+							top: 20px;
+							right: 10px;
+						}
+					}
+				}
+				.term {
+					margin-top: 30px;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 2;
+					color: $gray;
+				}
+				.termAgree--box {
+					margin-top: 25px;
+					display: flex;
+					justify-content: flex-end;
+					font-size: 14px;
+					font-weight: 500;
+					color: rgb(103, 103, 103);
+					font-weight: bold;
+					input {
+						width: 15px;
+						height: 15px;
+						margin: 0 15px 0 0;
+					}
+				}
+				.btn {
+					margin-top: 80px;
+					display: flex;
+					justify-content: flex-end;
+					button {
+						width: 110px;
+						height: 45px;
+						border: solid 1px #cccccc;
+						margin-left: 15px;
+						background-color: #f2f2f2;
+						font-size: 14px;
+						font-weight: 500;
+						color: $gray;
+						span {
+							box-sizing: border-box;
+							padding: 0 8px;
+							&:first-child {
+								border-right: 1px solid #cccccc;
+							}
+							&:last-child {
+								color: #1e59ea;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.mobileBtn--box {
+		display: none;
+	}
+	.modal--container {
+		.background {
+			position: fixed;
+			width: 100%;
+			height: 100vh;
+			top: 0;
+			left: 0;
+			background-color: #000000;
+			opacity: 0.5;
+			z-index: 10;
+		}
+		.modal--box {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 400px;
+			overflow: auto;
+			border-radius: 10px;
+			background-color: white;
+			box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+			z-index: 1000;
+			box-sizing: border-box;
+			padding: 30px 35px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			.modal__title {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				font-size: 14px;
+				font-weight: bold;
+				color: #322e3d;
+				height: 35px;
+				border-bottom: 2px solid #1e59ea;
+				.closeBtn {
+					width: 18px;
+					height: 18px;
+				}
+			}
+			.modal--inner {
+				box-sizing: border-box;
+				padding: 60px 0;
+				text-align: center;
+				font-size: 14px;
+				font-weight: bold;
+				font-stretch: normal;
+				text-align: center;
+				color: #666666;
+				line-height: 1.79;
+
+				b {
+					color: #1e59ea;
+				}
+			}
+
+			.modalBtn {
+				height: 50px;
+				border-top-right-radius: 5px;
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.MakeLeagueContainerStep3 {
+		position: absolute;
+		background: #ffffff;
+		top: 0;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px 20px 120px 20px;
+		z-index: 50;
+		.mobile__header--box {
+			top: 0;
+			left: 0;
+			display: block;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 60px;
+			.homeBtn {
+				font-size: 20px;
+			}
+			.title {
+				font-size: 16px;
+				font-weight: 500;
+				color: #322e3d;
+				margin-right: -15px;
+			}
+			.temporaryBtn {
+				padding: 0;
+				font-size: 14px;
+				font-weight: 500;
+				color: #aaaaaa;
+				border: 1px solid #f2f2f2;
+				height: 30px;
+				.text {
+					box-sizing: border-box;
+					padding: 5px;
+					border-right: 1px solid #f2f2f2;
+				}
+				.number {
+					color: #1e59ea;
+				}
+			}
+		}
+		&--inner {
+			display: flex;
+
+			.contantsContainer {
+				margin-left: 15px;
+				width: 87%;
+				.info__header--box {
+					border-bottom: 1px solid $light-gray;
+					display: flex;
+					height: 35px;
+					margin-top: 5px;
+
+					img {
+						margin-top: -2px;
+						width: 18px;
+						height: 18px;
+					}
+					.header__title {
+						font-size: 14px;
+						font-weight: bold;
+						color: $black;
+						margin-left: 10px;
+					}
+					.header__subTitle {
+						font-size: 12px;
+						font-weight: 500;
+						color: $gray;
+						margin-left: 10px;
+					}
+				}
+				.path--box {
+					margin-top: 30px;
+					.path {
+						width: 50%;
+						.pathText {
+							font-size: 12px;
+							font-weight: bold;
+							color: gray;
+						}
+						.pathCount {
+							margin: 10px 0 20px 0;
+							display: flex;
+							align-items: center;
+							color: gray;
+							font-size: 12px;
+							.count {
+								outline: none;
+								margin: 0 8px;
+								width: 131px;
+								height: 30px;
+								border: solid 1px $gray;
+								display: flex;
+								align-items: center;
+								padding-left: 10px;
+								box-sizing: border-box;
+								color: #bbbbbb;
+								font-size: 12px;
+							}
+						}
+						.myTicket {
+							margin-left: 27px;
+							margin-top: -15px;
+							color: gray;
+							font-size: 12px;
+							font-weight: 500;
+							strong {
+								color: $blue;
+								margin-left: 5px;
+							}
+						}
+					}
+				}
+				.ranking--box {
+					margin-top: 30px;
+					margin-bottom: 50px;
+					.rankingTitle {
+						font-size: 12px;
+						font-weight: bold;
+						color: gray;
+
+						strong {
+							font-size: 10px;
+							font-weight: 500;
+							color: blue;
+							margin-left: 10px;
+						}
+					}
+					.rankingPercentage--box {
+						position: relative;
+						.rankingPercentage {
+							display: flex;
+							align-items: center;
+							font-size: 12px;
+							color: $gray;
+							font-weight: 500;
+							margin-top: 15px;
+							.percentage {
+								width: 131px;
+								height: 30px;
+								border: solid 1px $gray;
+								display: flex;
+								align-items: center;
+								box-sizing: border-box;
+								padding-left: 10px;
+								color: $gray;
+								font-size: 12px;
+								margin-right: 5px;
+								margin-left: 5px;
+							}
+						}
+						button {
+							font-weight: normal;
+							font-size: 16px;
+							position: absolute;
+							top: 5px;
+							right: 100px;
+						}
+					}
+				}
+				.term {
+					margin-top: 30px;
+					font-size: 12px;
+					font-weight: 500;
+					line-height: 2;
+					color: $gray;
+				}
+				.termAgree--box {
+					margin-top: 25px;
+					display: flex;
+					justify-content: flex-end;
+					font-size: 12px;
+					font-weight: 500;
+					color: rgb(103, 103, 103);
+					font-weight: bold;
+					input {
+						width: 15px;
+						height: 15px;
+						margin: 0 15px 0 0;
+					}
+				}
+				.btn {
+					display: none;
+				}
+			}
+			.mobileBtn--box {
+				display: block;
+				border-top: 1px solid #f2f2f2;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 60px;
+				button {
+					border-right: 1px solid #f2f2f2;
+					height: 100%;
+					width: 50%;
+					font-size: 16px;
+					font-weight: 500;
+					color: #666666;
+
+					&:last-child {
+						border: none;
+					}
+				}
+			}
+		}
+		.modal--container {
+			.background {
+				position: fixed;
+				width: 100%;
+				height: 100vh;
+				top: 0;
+				left: 0;
+				background-color: #000000;
+				opacity: 0.5;
+				z-index: 10;
+			}
+			.modal--box {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 90%;
+				overflow: auto;
+				border-radius: 10px;
+				background-color: white;
+				box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+				z-index: 1000;
+				box-sizing: border-box;
+				padding: 30px 35px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				.modal__title {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					font-size: 14px;
+					font-weight: bold;
+					color: #322e3d;
+					height: 35px;
+					border-bottom: 2px solid #1e59ea;
+					.closeBtn {
+						width: 18px;
+						height: 18px;
+					}
+				}
+				.modal--inner {
+					box-sizing: border-box;
+					padding: 60px 0;
+					text-align: center;
+					font-size: 14px;
+					font-weight: bold;
+					font-stretch: normal;
+					text-align: center;
+					color: #666666;
+					line-height: 1.79;
+
+					b {
+						color: #1e59ea;
+					}
+				}
+
+				.modalBtn {
+					height: 50px;
+					border-top-right-radius: 5px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

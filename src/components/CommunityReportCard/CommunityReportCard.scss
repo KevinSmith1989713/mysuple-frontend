@@ -1,0 +1,198 @@
+@media(min-width:769px){
+  .CommunityReportCard{
+    border-top: 1px solid #666;
+    padding: 15px 0;
+    &--secret{
+      height: 180px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #ffb361;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      svg{
+        margin-bottom: 15px;
+      }
+    }
+    &--info{
+      display: flex;
+      width: 100%;
+      padding-top: 25px;
+      .info--profile{
+        margin-right: 30px;
+        img{
+          width: 80px;
+          height: 80px;
+          border: solid 1px #707070;
+          background-color: #ffffff;
+          border-radius: 50%;
+        }
+      }
+      .info--report{
+        .info--top{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding-bottom: 15px;
+          border-bottom: 1px solid #666;
+          .type{
+            font-size: 14px;
+            color: #ffb361;
+            margin-right: 15px;
+          }
+          .nickname{
+            font-size: 16px;
+            color: #ffffff;
+            margin-right: 10px;
+          }
+          .date{
+            font-size: 12px;
+            color: #cccccc;
+            margin-right: auto;
+          }
+          .delete{
+            font-size: 16px;
+            color: #bbbbbb;
+          }
+        }
+      .info--bottom{
+        width: 100%;
+        padding-top: 15px;
+        font-size: 14px;
+        line-height: 1.71;
+        color: #ffffff;
+        margin-bottom: 39px;
+      }
+      }
+    }
+    &--answer{
+      width: 100%;
+      min-height: 188px;  
+      background-color:#242424;     
+      padding: 43px 60px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #666;
+
+      .answer--title{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        
+        img{
+          margin-right: 7px;
+        }
+        .answer--name{
+          font-size: 16px;
+          line-height: 1.5;
+          color: #ffb361;
+        }
+      }
+      .answer--text{
+        font-size: 14px;
+        line-height: 1.71;
+        color: #ffffff;
+      }
+    }
+  }   
+}
+
+@media(max-width:768px){
+  .CommunityReportCard{
+    border-top: 1px solid #666;
+    padding: 20px 0 0 0;
+    box-sizing: border-box;
+    &--secret{
+      height: 180px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #ffb361;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      svg{
+        margin-bottom: 15px;
+      }
+    }
+    &--info{
+      display: flex;
+      width: 100%;
+      .info--profile{
+        margin-right: 17px;
+        img{
+          width: 53px;
+          height: 53px;
+          border: solid 1px #707070;
+          background-color: #ffffff;
+          border-radius: 50%;
+        }
+      }
+      .info--report{
+        .info--top{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          padding-bottom: 21px;
+          border-bottom: 1px dashed #666;
+          .type{
+            font-size: 14px;
+            color: #ffb361;
+            margin-right: 15px;
+          }
+          .nickname{
+            font-size: 14px;
+            color: #ffffff;
+            margin-right: 15px;
+          }
+          .date{
+            font-size: 10px;
+            color: #cccccc;
+          }
+          .delete{
+            display: none;
+            font-size: 16px;
+            color: #bbbbbb;
+          }
+        }
+      .info--bottom{
+        width: 100%;
+        padding-top: 10px;
+        font-size: 12px;
+        line-height: 2.2;
+        color: #ffffff;
+        margin-bottom: 39px;
+      }
+      }
+    }
+    &--answer{
+      width: 100%;
+      min-height: 100px;  
+      background-color: #333333;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #666;
+      .answer--name{
+        color: #ffb361;
+
+      }
+      .answer--title{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        font-size: 15px;
+        line-height: 1.5;
+        color: #ffb361;
+        img{
+          margin-right: 7px;
+        }
+      }
+      .answer--text{
+        font-size: 12px;
+        line-height: 2.2;
+        color: #ffffff;
+      }
+    }
+  }   
+}

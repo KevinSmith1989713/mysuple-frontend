@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24.014" height="22.354" viewBox="0 0 24.014 22.354">
+    <defs>
+        <style>
+            .prefix__cls-4,.prefix__cls-5{stroke:none}.prefix__cls-5{fill:#322e3d}
+        </style>
+    </defs>
+    <g id="prefix__Component_87_1" data-name="Component 87 – 1" transform="translate(2 2)">
+        <g id="prefix__Path_1852" data-name="Path 1852" style="stroke-miterlimit:10;fill:#d2dfff">
+            <path d="M2740.156-808.583h-14.807l-.156-.81c-.012-.067-.306-1.636.017-3.498.445-2.564 1.83-4.461 4.005-5.487 1.401-.661 2.654-.76 3.276-.76.112 0 .2.003.26.007.062-.004.15-.007.261-.007.623 0 1.876.099 3.278.76 2.174 1.026 3.559 2.923 4.004 5.487.323 1.862.03 3.431.017 3.497l-.155.811z" class="prefix__cls-4" transform="translate(-2726.059 824.12)"/>
+            <path d="M2732.491-818.138c-.487 0-1.6.075-2.85.665-4.568 2.154-3.466 7.89-3.466 7.89h13.154s1.1-5.736-3.466-7.89c-1.25-.59-2.363-.665-2.85-.665-.168 0-.262.009-.262.009s-.093-.01-.26-.01m0-2c.102 0 .19.003.26.006.071-.003.159-.005.261-.005.706 0 2.126.111 3.705.856 2.481 1.17 4.06 3.321 4.562 6.22.348 2.005.05 3.673.014 3.856l-.311 1.623h-16.459l-.312-1.622c-.035-.184-.334-1.851.014-3.857.502-2.899 2.08-5.05 4.563-6.22 1.577-.745 2.997-.856 3.703-.856z" class="prefix__cls-5" transform="translate(-2726.059 824.12)"/>
+        </g>
+        <g id="prefix__Ellipse_897" data-name="Ellipse 897" transform="translate(3.942)" style="stroke:#322e3d;stroke-width:2px;stroke-miterlimit:10;fill:#d2dfff">
+            <circle cx="2.752" cy="2.752" r="2.752" class="prefix__cls-4"/>
+            <circle cx="2.752" cy="2.752" r="3.752" style="fill:none"/>
+        </g>
+        <g id="prefix__Path_1853" data-name="Path 1853" style="fill:#1e59ea;stroke-miterlimit:10">
+            <path d="M2741.112-805.244H2736.925v-3.92h-3.921V-813.353h3.92v-3.921H2741.113v3.92h3.92V-809.164h-3.92v3.921z" class="prefix__cls-4" transform="translate(-2724.019 824.598)"/>
+            <path d="M2737.925-816.273v3.92h-3.921v2.188h3.92v3.921h2.188v-3.92h3.92v-2.188h-3.92v-3.921h-2.187m-2-2H2742.112v3.92h3.92V-808.164h-3.92V-804.244H2735.925v-3.92H2732.004V-814.353h3.92V-818.273z" class="prefix__cls-5" transform="translate(-2724.019 824.598)"/>
+        </g>
+    </g>
+</svg>

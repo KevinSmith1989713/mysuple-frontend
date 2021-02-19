@@ -1,0 +1,150 @@
+@media(min-width:769px){
+	.CommunityNotice{
+		width: 100%;
+		height: 313px;
+		padding: 16px 25px;
+		box-sizing: border-box;
+		&--Header{
+			font-weight: 500;
+			color: #cccccc;
+			display: flex;
+			align-items: center;
+			line-height: 1.5;
+			padding-bottom: 5px;
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 20px;
+			.title{
+				font-size: 24px;
+				margin-right: auto;
+			}
+			.more{
+				font-size: 14px;
+				color: #cccccc;
+			}
+		}
+		&--Section{
+			display: flex;
+			width: 100%;
+			.newest--img{
+				width: 397px;
+				height: 200px;
+				margin-right: 22px;
+				img{
+					width: 100%;
+					height: 100%;;
+					object-fit: cover;
+				}
+			}
+			.list{
+				width: calc(100% - 397px);
+			}
+			&__none{
+				font-size: 16px;
+				font-weight: 500;
+				color: #eeeeee;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 200px;
+			}
+		}
+	}
+	.notice--row{
+		border-bottom: 1px dashed #666;
+		width: 100%;
+		&:last-child{
+			border: none;
+		}
+		.title{
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.43;
+			color: #eeeeee;
+			margin-top: 5px;
+			margin-bottom: 3px;
+	
+		}
+		.new{
+			margin-left: 8px;
+			color: #ffb361;
+		}
+		.date{
+			margin-bottom: 6px;
+			font-size: 10px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #aaaaaa;
+		}
+	}
+}
+
+@media(max-width:768px){
+	.CommunityNotice{
+		width: 100%;  
+		height: 483px;
+		padding: 16px 25px;
+		box-sizing: border-box;
+		&--Header{
+			font-weight: 500;
+			color: #cccccc;
+			display: flex;
+			align-items: center;
+			line-height: 1.5;
+			padding-bottom: 5px;
+			border-bottom: 1px solid #ccc;
+			margin-bottom: 20px;
+			.title{
+				font-size: 24px;
+				margin-right: auto;
+			}
+			.more{
+				font-size: 14px;
+				color: #cccccc;
+			}
+		}
+		&--Section{
+			// display: flex;
+			width: 100%;
+			.newest--img{
+				width: 100%;
+				height: 150px;
+				margin-right: 22px;
+				img{
+					width: 100%;
+					height: 100%;;
+					object-fit: cover;
+				}
+			}
+			// .list{
+				
+			// }
+		}
+	}
+	.notice--row{
+		border-bottom: 1px dashed #666;
+		width: 100%;
+		&:last-child{
+			border: none;
+		}
+		.title{
+			font-size: 14px;
+			font-weight: bold;
+			line-height: 1.43;
+			color: #eeeeee;
+			margin-top: 5px;
+			margin-bottom: 3px;
+	
+		}
+		.new{
+			margin-left: 8px;
+			color: #ffb361;
+		}
+		.date{
+			margin-bottom: 6px;
+			font-size: 10px;
+			font-weight: bold;
+			line-height: 1.5;
+			color: #aaaaaa;
+		}
+	}
+}

@@ -1,0 +1,159 @@
+.modal--container {
+	.modal--box {
+		overflow: visible !important;
+		.winnerBtn {
+			margin-top: 10px;
+			width: 100%;
+			height: 60px;
+			border-radius: 10px;
+			background-color: #1e59ea;
+			font-family: NotoSansCJKkr;
+			font-size: 16px;
+			font-weight: bold;
+			color: #ffffff;
+		}
+		.btnColor {
+			border: solid 1px #dddddd;
+			background: #fff;
+			color: #888888;
+		}
+		.one--box {
+			.winnerModal__text {
+				font-family: NotoSansCJKkr;
+				font-size: 14px;
+				font-weight: 500;
+				text-align: center;
+				color: #666666;
+				box-sizing: border-box;
+				padding: 30px 0 0px 0;
+			}
+			.ranking--box {
+				box-sizing: border-box;
+				padding: 15px 0 10px 0;
+				border-bottom: 1px solid rgb(184, 184, 184);
+				.user {
+					display: flex;
+					align-items: center;
+					height: 50px;
+					font-family: NotoSansCJKkr;
+					font-size: 14px;
+					font-weight: 500;
+					color: #666666;
+					.winnerImg {
+						width: 13px;
+						margin-right: 10px;
+					}
+					.select-form {
+						margin-left: 5px;
+						font-size: 12px !important;
+						color: #666666 !important;
+						width: 150px;
+						.css-1uccc91-singleValue {
+							color: #666666 !important;
+						}
+					}
+					.percent {
+						font-size: 12px;
+						margin-left: 5px;
+						color: #749cff;
+					}
+					.pass {
+						width: 45px;
+						display: flex;
+						justify-content: flex-end;
+
+						font-size: 12px;
+						b {
+							margin-right: 5px;
+							box-sizing: border-box;
+							padding: 1px 3px;
+							background: #e4ecff;
+						}
+					}
+				}
+			}
+			.total--box {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: NotoSansCJKkr;
+				font-size: 12px;
+				font-weight: 500;
+				color: #322e3d;
+				box-sizing: border-box;
+				padding: 15px 0;
+				.passImg {
+					margin-top: -3px;
+					margin-right: 7px;
+				}
+				.totalPass {
+					color: #1e59ea;
+					margin-left: 20px;
+					margin-right: 10px;
+				}
+			}
+		}
+		.modalInner--box {
+			.modal--text {
+				font-family: NotoSansCJKkr;
+				font-size: 14px;
+				font-weight: 500;
+				text-align: center;
+				color: red;
+				box-sizing: border-box;
+				padding: 30px 0 10px 0;
+			}
+			.colorBlue {
+				color: #1e59ea;
+			}
+			.result--box {
+				background-color: #f6f6f6;
+				box-sizing: border-box;
+				padding: 5px 0;
+				.result {
+					// border: 1px solid black;
+					display: flex;
+					align-items: center;
+					font-family: NotoSansCJKkr;
+					font-size: 14px;
+					font-weight: 500;
+					text-align: left;
+					color: #322e3d;
+					box-sizing: border-box;
+					padding: 10px 40px;
+				}
+				.winnerImg {
+					width: 15px;
+					height: 21px;
+					margin-right: 10px;
+				}
+				strong {
+					margin-left: 15px;
+				}
+			}
+			.last__text {
+				box-sizing: border-box;
+				padding: 15px 0 20px 0;
+				text-align: center;
+				font-family: NotoSansCJKkr;
+				font-size: 14px;
+				font-weight: 500;
+				color: #888888;
+			}
+			.btn--box {
+				display: flex;
+				justify-content: space-between;
+				.two__btn {
+					width: 140px;
+					height: 55px;
+					border-radius: 5px;
+					border: solid 1px #dddddd;
+					font-family: NotoSansCJKkr;
+					font-size: 16px;
+					font-weight: bold;
+					color: #888888;
+				}
+			}
+		}
+	}
+}

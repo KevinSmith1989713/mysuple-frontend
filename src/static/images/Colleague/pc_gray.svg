@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.109" height="13.403" viewBox="0 0 14.109 13.403">
+    <defs>
+        <style>
+            .cls-1{fill:#f2f2f2}.cls-2{fill:#888}
+        </style>
+    </defs>
+    <g id="Group_1212" data-name="Group 1212" transform="translate(483.747 1673.203)">
+        <g id="Group_1056" data-name="Group 1056" transform="translate(-482.384 -1664.275)">
+            <path id="Path_1800" d="M-474.509-1658.949v-1.55h-3.055v1.55h-3.042v.682h9.14v-.682z" class="cls-1" data-name="Path 1800" transform="translate(481.728 1661.621)"/>
+            <path id="Path_1801" d="M-474.805-1660.8v1.55h3.043v.682h-9.14v-.682h3.042v-1.55h3.055m1.121-1.122h-5.3v1.551h-3.043v2.924h11.382v-2.924h-3.043v-1.551z" class="cls-2" data-name="Path 1801" transform="translate(482.024 1661.917)"/>
+        </g>
+        <g id="Group_1057" data-name="Group 1057" transform="translate(-483.747 -1673.203)">
+            <rect id="Rectangle_4232" width="11.867" height="7.807" fill="#ccc" data-name="Rectangle 4232" rx=".898" transform="translate(1.121 1.122)"/>
+            <path id="Path_1802" d="M-471.47-1672.081a.71.71 0 0 1 .71.711v6.386a.71.71 0 0 1-.71.71h-10.446a.71.71 0 0 1-.71-.71v-6.386a.71.71 0 0 1 .71-.711h10.446m0-1.122h-10.446a1.834 1.834 0 0 0-1.831 1.832v6.386a1.833 1.833 0 0 0 1.831 1.831h10.446a1.834 1.834 0 0 0 1.832-1.831v-6.386a1.834 1.834 0 0 0-1.832-1.832z" class="cls-2" data-name="Path 1802" transform="translate(483.747 1673.203)"/>
+        </g>
+        <g id="Group_1058" data-name="Group 1058" transform="translate(-483.747 -1666.698)">
+            <path id="Rectangle_4233" d="M0 0h11.867v.511a.792.792 0 0 1-.792.792H.792A.792.792 0 0 1 0 .511V0z" class="cls-1" data-name="Rectangle 4233" transform="translate(1.121 1.121)"/>
+            <path id="Path_1803" d="M-470.76-1663.86v.677a.626.626 0 0 1-.626.626H-482a.626.626 0 0 1-.627-.626v-.677h11.866m1.122-1.121h-14.109v1.8a1.749 1.749 0 0 0 1.748 1.747h10.614a1.749 1.749 0 0 0 1.748-1.747v-1.8z" class="cls-2" data-name="Path 1803" transform="translate(483.747 1664.981)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,139 @@
+.crewInfo--container {
+	padding: 40px 30px 50px 30px;
+	box-sizing: border-box;
+	height: auto;
+	background-color: #f2f6ff;
+	width: 820px;
+
+	.title--box {
+		display: flex;
+		justify-content: space-between;
+		width: 770px;
+		margin-bottom: 20px;
+		img {
+			width: 25px;
+			height: 25px;
+			cursor: pointer;
+		}
+		.title {
+			font-size: 22px;
+			font-weight: 900;
+			font-stretch: normal;
+			color: #322e3d;
+		}
+	}
+	.contents--wrapper {
+		.img {
+			width: 400px;
+			// height: 280px;
+			object-fit: contain;
+			background-position: top;
+		}
+		display: flex;
+
+		.contents--box {
+			margin-left: 20px;
+
+			.contents__text {
+				display: flex;
+				align-items: center;
+				flex-wrap: wrap;
+				img {
+					width: 16px;
+					height: 15.25px;
+					margin-right: 3px;
+					margin-left: 3px;
+				}
+				margin-top: 5px;
+				line-height: 1.5;
+				font-size: 14px;
+				font-weight: 500;
+				color: #666666;
+			}
+			.contents__tag--box {
+				display: flex;
+				.contents__tag {
+					display: flex;
+					align-items: center;
+					flex-wrap: wrap;
+					margin-top: 5px;
+					line-height: 1.5;
+					font-size: 14px;
+					font-weight: 500;
+					color: #666666;
+				}
+				img {
+					width: 17px;
+					height: 16.25px;
+					margin-right: 3px;
+					margin-top: 7px;
+				}
+			}
+			.explain {
+				margin-top: 20px;
+				border-top: 2px dotted #cccccc;
+				width: 348px;
+				padding-top: 12px;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.8;
+				color: #666666;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.crewInfo--container {
+		padding: 25px 15px;
+		width: 90%;
+		.title--box {
+			width: 100%;
+			.title {
+				font-size: 19px;
+			}
+			img {
+				width: 20px;
+				height: 20px;
+			}
+		}
+		.contents--wrapper {
+			flex-direction: column;
+			.img {
+				width: 100%;
+			}
+			.contents--box {
+				margin-left: 0;
+				.img {
+					width: 100%;
+					margin-bottom: 20px;
+					object-fit: contain;
+				}
+
+				.contents__tag--box {
+					display: flex;
+					.contents__tag {
+						display: flex;
+						align-items: center;
+						flex-wrap: wrap;
+						margin-top: 5px;
+						line-height: 1.5;
+						font-size: 14px;
+						font-weight: 500;
+						color: #666666;
+					}
+					img {
+						width: 17px;
+						height: 16.25px;
+						margin-right: 3px;
+						margin-top: 7px;
+					}
+				}
+				.explain {
+					width: 100% !important;
+					font-size: 12px;
+				}
+			}
+		}
+	}
+}

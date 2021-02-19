@@ -1,0 +1,88 @@
+.ListBody {
+	position: relative;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	min-height: 46px;
+	max-height: 100px;
+	border-bottom: solid 1px #eeeeee;
+	
+	
+	.ListBody-text {
+		position: relative;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+		font-weight: 500;
+		color: #666;
+		line-height: 1.43;
+		padding: 12px 0px;
+		&.my-post{
+	
+			&.number {
+				width: 42px;
+			}
+	
+			&.boardType {
+				width: 80px;
+			}
+	
+			&.title {
+				display: flex;
+				flex:1;
+			}
+			&.date{
+				width: 82px;
+			}
+			&.views {
+				width: 58px;
+			}
+	
+			&.recommends {
+				width: 61px;
+			}
+		
+		}
+		&.date {
+			width: 100px;
+		}
+
+		&.category {
+			width: 111px;
+		}
+
+		&.title {
+			width: 290px;
+		}
+
+		&.isProcess {
+			width: 83px;
+		}
+
+		&.comment {
+			width: 290px;
+		}
+
+		&.author {
+			width: 100px;
+		}
+
+		&.seeCount {
+			width: 58px;
+		}
+
+		&.recommendCount {
+			width: 58px;
+		}
+
+		&.selected {
+			color: #ffb361;
+		}
+
+		&.complete {
+			color: #1e59ea;
+		}
+	}
+}

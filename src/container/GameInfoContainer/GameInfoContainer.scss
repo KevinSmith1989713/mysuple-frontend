@@ -1,0 +1,544 @@
+@media (min-width: 769px) {
+	.GameInfoContainer {
+		.GameInfoContainer--Header {
+			display: none;
+		}
+		&--Body {
+			padding: 60px 80px;
+
+			.Row--Desc__title {
+				padding-bottom: 24px;
+			}
+			.Row--Desc {
+				padding-bottom: 32px;
+				border-bottom: 1px solid #dedede;
+				margin-bottom: 35px;
+			}
+			.Row--Info__title {
+				margin-bottom: 24px;
+			}
+			.Row--Info {
+				padding-bottom: 32px;
+				border-bottom: 1px solid #dedede;
+				margin-bottom: 35px;
+				display: flex;
+				justify-content: space-between;
+				font-family: 'Noto Sans KR';
+
+				.TextWithIcon {
+					margin: 10px 0;
+					font-size: 14px;
+					font-weight: 500;
+					font-stretch: normal;
+					font-style: normal;
+					line-height: 1.5;
+					letter-spacing: normal;
+					text-align: left;
+					color: #666666;
+				}
+				.Info--left {
+					flex: 1;
+					padding-right: 44px;
+					box-sizing: border-box;
+					span {
+						margin-right: 12px;
+					}
+				}
+				.Info--right {
+					flex: 1;
+					padding-left: 44px;
+					box-sizing: border-box;
+				}
+			}
+			.Row--Review__title {
+				display: flex;
+				line-height: 1.45;
+				margin-bottom: 66px;
+				position: relative;
+
+				img {
+					width: 26px;
+					height: 26px;
+					margin-right: 10px;
+				}
+				.score {
+					font-size: 19px;
+					font-weight: 900;
+					color: #1e59ea;
+					margin-right: 8px;
+				}
+				.Row--Review__cnt {
+					margin-left: 10px;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 1.5;
+					color: #666666;
+
+					.cnt {
+						font-family: NotoSansCJKkr;
+						font-size: 20px;
+						font-weight: 900;
+						color: #322e3d;
+						margin-right: 15px;
+					}
+				}
+				.desk-review__btn {
+					position: absolute;
+					right: 0;
+					width: 110px;
+					height: 40px;
+					border-radius: 5px;
+					border: solid 1px #1e59ea;
+					margin-top: -8px;
+					font-family: NotoSansCJKkr;
+					font-weight: 500;
+					color: #1e59ea;
+					&:hover {
+						color: #fff;
+						background: #1e59ea;
+					}
+				}
+			}
+			.Row--Review {
+				margin-bottom: 50px;
+				.percentage--list {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: space-between;
+					.wrapper {
+						display: flex;
+						.title {
+							width: 70px;
+							font-size: 16px;
+							font-weight: 900;
+							color: #322e3d;
+						}
+						.percentage {
+							&--text {
+								margin: 10px 0 45px 0;
+								display: flex;
+								justify-content: space-between;
+								font-size: 16px;
+								font-weight: 500;
+								line-height: 1.5;
+								color: #666666;
+							}
+						}
+					}
+				}
+				.percentage--component {
+					display: flex;
+					margin-bottom: 40px;
+					.percentage--title {
+						font-size: 16px;
+						font-weight: 900;
+						color: #322e3d;
+						width: 65px;
+					}
+				}
+			}
+			.Row--OS {
+				margin-bottom: 81px;
+			}
+			.Row--Collection__title {
+				margin-bottom: 54px;
+			}
+			.Row--Collection {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				.CardRadius--component {
+					margin: 15px 0;
+				}
+			}
+		}
+		.select--wrapper,
+		.review__btn {
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.GameInfoContainer {
+		position: absolute;
+		width: 100%;
+
+		.GameInfoContainer--Header {
+			height: 430px;
+			margin-top: -110px;
+			z-index: 30;
+			position: relative;
+
+			.header {
+				// z-index: 100;
+				display: flex;
+				justify-content: space-between;
+				box-sizing: border-box;
+				padding: 20px 10px;
+				align-items: center;
+
+				.back__btn {
+					font-size: 20px;
+					color: #ffffff;
+					margin-top: -5px;
+				}
+				.info__title {
+					font-family: NotoSansCJKkr;
+					font-size: 16px;
+					font-weight: bold;
+					color: #ffffff;
+				}
+			}
+
+			.poster {
+				position: absolute;
+				top: 0;
+				width: 100%;
+				height: 380px;
+				object-fit: cover;
+				z-index: -5;
+			}
+			.top {
+				position: absolute;
+				z-index: -4;
+				width: 100%;
+				top: 0;
+				opacity: 0.8;
+			}
+			.bottom {
+				position: absolute;
+				z-index: -4;
+				width: 100%;
+				bottom: 0;
+				// opacity: 0.8;
+			}
+			.title--box {
+				margin-left: 20px;
+				bottom: 0;
+				position: absolute;
+				.game__title {
+					font-size: 22px;
+					font-family: NotoSansCJKkr;
+					font-weight: 900;
+					line-height: 1.5;
+					color: #ffffff;
+				}
+				.start {
+					width: 14px;
+					height: 12.7px;
+				}
+				.score {
+					font-size: 16px;
+					font-weight: 500;
+					color: #1e59ea;
+					margin-left: 5px;
+				}
+
+				.cnt {
+					font-family: NotoSansCJKkr;
+					font-size: 16px;
+					font-weight: 500;
+					color: #cccccc;
+					margin-left: 10px;
+				}
+				.participate {
+					margin-top: 7px;
+					font-size: 13px;
+					font-weight: 500;
+					color: #666666;
+					margin-left: 20px;
+					b {
+						color: #749cff;
+					}
+				}
+			}
+		}
+		.mobile__Review--wrapper {
+			background: #322e3d;
+			margin-top: -1px;
+			.Row--Review {
+				box-sizing: border-box;
+				padding: 40px 20px 0 20px;
+				.percentage--list {
+					.wrapper {
+						display: flex;
+						.title {
+							width: 25%;
+							font-size: 16px;
+							font-weight: 900;
+							color: #bbbbbb;
+						}
+						.percentage {
+							margin-bottom: 10px;
+							width: 100%;
+							&--text {
+								margin: 5px 0 5px 0;
+								display: flex;
+								justify-content: space-between;
+								font-size: 12px;
+								font-weight: 500;
+								line-height: 1.5;
+								color: #666666;
+							}
+						}
+					}
+				}
+			}
+		}
+		.select--wrapper {
+			min-height: 400px;
+			margin-top: -36px;
+			background: #fff;
+			margin-bottom: 65px;
+			.select--box {
+				display: flex;
+				align-items: center;
+				box-sizing: border-box;
+				padding: 20px;
+				font-family: NotoSansCJKkr;
+				font-size: 16px;
+				font-weight: 500;
+				color: #322e3d;
+				.box {
+					width: 20px;
+					height: 20px;
+					margin-right: 10px;
+					margin-top: -3px;
+				}
+			}
+			.middle {
+				border-top: 1px solid #e0e0e0;
+				border-bottom: 1px solid #e0e0e0;
+				flex-direction: column;
+				align-items: flex-start;
+
+				.more--box {
+					margin-top: 5px;
+					width: 100%;
+					display: flex;
+					justify-content: center;
+					.more {
+						width: 104px;
+						height: 34px;
+						border-radius: 35px;
+						border: solid 1px #dddddd;
+						background-color: #ffffff;
+					}
+				}
+			}
+		}
+		.review__btn {
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 65px;
+			background-color: #1e59ea;
+			font-size: 16px;
+			font-weight: 500;
+			color: #ffffff;
+			z-index: 100;
+		}
+		.GameInfoContainer--Body {
+			display: none;
+		}
+
+		.Row--Desc__title {
+			margin-bottom: 28px;
+		}
+		.Row--Desc {
+			padding-bottom: 27px;
+			border-bottom: 1px solid #dddddd;
+		}
+		.Row--Info__title {
+			display: none;
+		}
+		.Row--Info {
+			margin-top: 25px;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.5;
+			color: #666666;
+			padding-bottom: 30px;
+			border-bottom: 1px solid #dddddd;
+			.TextWithIcon {
+				font-size: 14px;
+				font-weight: 500;
+				color: #666666;
+				margin-bottom: 11px;
+				span {
+					padding-right: 8px;
+				}
+			}
+		}
+
+		.Row--Review__title {
+			.score {
+				font-size: 19px;
+				font-weight: 900;
+				color: #1e59ea;
+				margin-right: 8px;
+			}
+			img {
+				width: 22px;
+				height: 22px;
+				margin-right: 13px;
+			}
+		}
+
+		.Row--Review__cnt {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 1.5;
+			color: #666666;
+
+			.cnt {
+				font-family: NotoSansCJKkr;
+				font-size: 20px;
+				font-weight: 900;
+				color: #322e3d;
+				margin-right: 15px;
+			}
+		}
+
+		.Row--Review {
+			.percentage--list {
+				margin-bottom: 20px;
+			}
+		}
+
+		.Row--Review__cnt {
+			margin-top: 5px;
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 1.46;
+			color: #666666;
+			margin-bottom: 37px;
+		}
+		.percentage--component {
+			margin-bottom: 30px;
+			width: 100%;
+			display: flex;
+			.percentage--title {
+				font-size: 16px;
+				front-weight: 900;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				text-align: left;
+				color: #322e3d;
+				width: 67px;
+			}
+		}
+		.Row--OS {
+			margin-bottom: 81px;
+		}
+		.Row--Collection__title {
+			margin-bottom: 54px;
+		}
+		.Row--Collection {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			.CardRadius--component {
+				margin: 15px 0;
+			}
+		}
+		// .cost--modal {
+		// 	background: #fff;
+		// 	width: 100%;
+		// 	height: 100%;
+		// 	position: fixed;
+		// 	z-index: 110;
+		// 	top: 0;
+		// 	left: 0;
+		// 	overflow: auto;
+		// }
+
+		.detail__modal {
+			background: #fff;
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			z-index: 110;
+			top: 0;
+			left: 0;
+			overflow: auto;
+			.detail__header {
+				display: flex;
+				justify-content: space-between;
+				border-bottom: 1px solid #f1f1f1;
+				box-sizing: border-box;
+				padding: 20px;
+				align-items: center;
+				.back {
+					font-size: 20px;
+				}
+				.detail__title {
+					font-size: 16px;
+					margin-left: -20px;
+				}
+			}
+
+			.inner__info {
+				box-sizing: border-box;
+				padding: 20px;
+			}
+			.reviews {
+				box-sizing: border-box;
+				padding: 20px;
+				margin-bottom: 70px;
+			}
+		}
+
+		.review--box {
+			// height: 144px;
+			width: 100%;
+			border-radius: 10px;
+			border: solid 1px #f2f2f2;
+			background-color: #fbfbfb;
+			box-sizing: border-box;
+			padding: 20px;
+			margin-bottom: 10px;
+			margin-top: 20px;
+			font-size: 13px;
+			.first--box {
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 10px;
+				align-items: center;
+				.profile--box {
+					display: flex;
+					align-items: center;
+					.profile {
+						width: 25px;
+						height: 25px;
+						border-radius: 50%;
+						margin-right: 10px;
+					}
+				}
+				.star {
+					border-radius: 10px;
+					border: solid 1px #f2f2f2;
+					background-color: #eeeeee;
+					box-sizing: border-box;
+					padding: 1px 4px;
+					font-size: 11px;
+					img {
+						width: 10px;
+						height: 10px;
+					}
+				}
+
+				.game {
+					color: #666666;
+				}
+			}
+			.desc {
+				margin-top: 15px;
+			}
+		}
+	}
+}

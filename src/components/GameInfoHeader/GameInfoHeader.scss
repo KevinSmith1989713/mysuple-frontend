@@ -1,0 +1,153 @@
+@media (min-width: 769px) {
+	.GameInfoHeader {
+		width: 100%;
+		background-color: #322e3d;
+		padding: 71px 91px 26px 71px;
+		box-sizing: border-box;
+
+		&--Title-line {
+			display: flex;
+			justify-content: space-between;
+			.Title {
+				max-width: 750px;
+				color: #ffffff;
+				margin-right: 17px;
+				font-size: 30px;
+			}
+			.border {
+				margin: 10px 0 0 0;
+				border: 2px solid #1e59ea;
+				width: 50px;
+			}
+			.likes--Buttons {
+				img {
+					width: 35px;
+					height: 35px;
+					margin-left: 10px;
+				}
+			}
+		}
+		&--Rating-line {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 20px;
+			.star--Img {
+				font-size: 16px;
+				font-weight: bold;
+				line-height: 1.5;
+				color: #cccccc;
+				img {
+					width: 17px;
+					margin-right: 7px;
+				}
+			}
+			.reviews--Buttons {
+				display: flex;
+				.Button {
+					margin-left: 15px;
+				}
+			}
+		}
+		&--Poster-line {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 20px;
+
+			.poster--Img {
+				width: 300px;
+				height: 205px;
+				margin-right: 25px;
+				img {
+					width: 300px;
+					height: 205px;
+					object-fit: cover;
+				}
+			}
+			.price--Table {
+				width: 100%;
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.GameInfoHeader {
+		width: 100%;
+		padding: 50px 20px 10px 20px;
+		box-sizing: border-box;
+		background-color: #322e3d;
+		&--Title-line {
+			.Title {
+				max-width: 600px;
+				color: #ffffff;
+			}
+			.border {
+				margin: 10px 0 0 0;
+				border: 2px solid #1e59ea;
+				width: 25px;
+			}
+		}
+		&--Rating-line {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-bottom: 17px;
+
+			.star--Img {
+				display: flex;
+				align-items: center;
+				font-size: 13px;
+				font-weight: bold;
+				line-height: 1.5;
+				color: #cccccc;
+				img {
+					width: 17px;
+					margin-right: 7px;
+				}
+			}
+
+			.likes--Buttons {
+				img {
+					width: 35px;
+					height: 35px;
+					margin-left: 10px;
+				}
+			}
+		}
+		&--Poster-line {
+			margin-bottom: 20px;
+
+			.poster--Img {
+				width: 100%;
+				height: 195px;
+				margin-bottom: 15px;
+				img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+			.reviews--Buttons {
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 15px;
+				.c-Button,
+				.button {
+					width: calc(100% - 10px);
+					height: 51px;
+				}
+			}
+			.poster--Table {
+				width: 100%;
+				width: 100%;
+			}
+		}
+		.price--explanation {
+			color: #ffffff;
+			font-size: 12px;
+			margin-top: -12px;
+		}
+	}
+}

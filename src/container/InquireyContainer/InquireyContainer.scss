@@ -1,0 +1,185 @@
+$blue:#1e59ea;
+@media(min-width:769px){
+	.InquireyContainer {
+		padding: 110px 219px;
+		&--Txt--title{
+			margin: 9px 0;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.43;
+			color: #666666;
+		}
+		&--Category{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 13px;
+			.Category--btn{
+				width: 130px;
+				height: 44px;
+				border-radius: 8px;
+				border: solid 1px #1e59ea;
+				background-color: #ffffff;
+				font-size: 16px;
+				font-weight: 500;
+				color: #666666;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				cursor: pointer;
+				&:hover{
+					background-color: #1e59ea;
+					color: white;
+					cursor: pointer;
+				}
+			}
+			.Category--btn__select{
+				width: 130px;
+				height: 44px;
+				border-radius: 8px;
+				border: solid 1px #1e59ea;
+				background-color: #1e59ea;
+				font-size: 18px;
+				font-weight: 500;
+				color: #ffffff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				cursor: pointer;
+			}
+		}
+		&--Title{
+			margin-bottom: 17px;
+			.Title--input{
+				width: 100%;
+				height: 33px;
+				padding: 0 18px;
+				font-family: inherit;
+				box-sizing: border-box;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+			}
+		}
+		&--Textarea{
+			
+			textarea{
+				box-sizing: border-box;
+				width: 100%;
+				resize: none;
+				height: 226px;
+				padding: 15px 18px;
+				font-family: inherit;
+				border: solid 1px #cccccc;
+			}
+		}
+		&--AttachFile{
+			margin-top: 5px;
+		}
+		&--Email{
+			.Email--input{
+				width: 296px;
+				height: 33px;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+			}
+		}
+		&--Submit{
+			display: flex;
+			justify-content: flex-end;
+		}
+	}
+
+}
+@media(max-width:768px){
+	.InquireyContainer {
+		width: 100%;
+		padding: 10px 20px;
+		box-sizing: border-box;
+		&--Txt--title{
+			margin: 9px 0;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.43;
+			color: #666666;
+		}
+		&--Category{
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 13px;
+			.Category--btn{
+				width: calc((100% / 4) - 5px);
+				height: 35px;
+				border-radius: 8px;
+				border: solid 1px #1e59ea;
+				background-color: #ffffff;
+				font-size: 12px;
+				font-weight: 500;
+				color: #666666;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				cursor: pointer;
+				// &:hover{
+				// 	background-color: #1e59ea;
+				// 	color: white;
+				// 	cursor: pointer;
+				// }
+			}
+			.Category--btn__select{
+				width: calc((100% / 4) - 5px);
+				height: 35px;
+				border-radius: 8px;
+				border: solid 1px #1e59ea;
+				background-color: #1e59ea;
+				font-size: 13px;
+				font-weight: 500;
+				color: #ffffff;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				cursor: pointer;
+			}
+		}
+		&--Title{
+			margin-bottom: 17px;
+			.Title--input{
+				width: 100%;
+				height: 33px;
+				padding: 0 10px;
+				font-family: inherit;
+				box-sizing: border-box;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+				outline: none;
+
+			}
+		}
+		&--Textarea{
+			textarea{
+				box-sizing: border-box;
+				width: 100%;
+				resize: none;
+				height: 226px;
+				padding: 7px 10px;
+				outline: none;
+				font-family: inherit;
+				border: solid 1px #cccccc;
+			}
+		}
+		&--AttachFile{
+			margin-top: 5px;
+		}
+		&--Email{
+			.Email--input{
+				width: 296px;
+				height: 33px;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+			}
+		}
+		&--Submit{
+			display: flex;
+			margin-top: 15px;
+			justify-content: flex-end;
+		}
+	}
+}

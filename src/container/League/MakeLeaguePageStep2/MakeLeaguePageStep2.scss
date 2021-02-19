@@ -1,0 +1,425 @@
+$blue: #1e59ea;
+$black: #322e3d;
+$gray: #aaaaaa;
+$light-gray: #e4e4e4;
+
+.MakeLeaguePageStep2 {
+	padding: 79px 89px;
+
+	.mobile__header--box {
+		display: none;
+	}
+
+	// 셀렉트
+	.select-form {
+		font-size: 14px !important;
+		color: $gray !important;
+		.css-1uccc91-singleValue {
+			color: $gray !important;
+		}
+	}
+
+	&--inner {
+		margin-top: 60px;
+		display: flex;
+		// height: 200vh;
+		.infoContainer {
+			// border: 1px solid black;
+			width: 100%;
+			margin-left: 40px;
+			.info__header--box {
+				position: relative;
+
+				border-bottom: 1px solid $light-gray;
+				display: flex;
+				height: 50px;
+				margin-top: 5px;
+				img {
+					margin-top: -2px;
+					width: 20px;
+					height: 20px;
+				}
+				.header__title {
+					font-size: 16px;
+					font-weight: bold;
+					color: $black;
+					margin-left: 10px;
+				}
+				.header__subTitle {
+					font-size: 14px;
+					font-weight: 500;
+					color: $gray;
+					margin-left: 10px;
+				}
+				button {
+					position: absolute;
+					right: 0;
+					width: 122px;
+					height: 38px;
+					border-radius: 19px;
+					border: solid 1px #cccccc;
+					background-color: #ffffff;
+					font-size: 14px;
+					font-weight: bold;
+					color: #666666;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					span {
+						margin-left: 5px;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		.selectBox {
+			margin-top: 20px;
+			.css-26l3qy-menu {
+				z-index: 10 !important;
+			}
+
+			.conditionBox {
+				border-bottom: 1px solid $light-gray;
+				height: 56px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				.textBox {
+					font-size: 14px;
+					font-weight: 500;
+					color: #888888;
+
+					button {
+						color: #888888;
+						margin-right: 10px;
+						font-size: 15px;
+						font-weight: bold;
+					}
+					input {
+						color: #888888;
+						outline: none;
+						width: 140px;
+						height: 22px;
+						border: none;
+						border-bottom: solid 1px #cccccc;
+						font-weight: bold;
+						color: #888888;
+					}
+					span {
+						color: #1e59ea;
+						font-weight: bold;
+						strong {
+							color: #322e3d;
+							font-weight: bold;
+						}
+					}
+				}
+				.inputBox {
+					font-size: 14px;
+					font-weight: 500;
+					color: #888888;
+					.input {
+						color: #888888;
+						outline: none;
+						width: 93px;
+						height: 29px;
+						border: solid 1px #cccccc;
+					}
+					.big {
+						width: 138px;
+						font-weight: 500;
+					}
+					.settingBtn {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						.IosSwitch {
+							margin-left: 10px;
+						}
+					}
+					.control__button {
+						margin-left: 10px;
+						width: 55px;
+						height: 30px;
+						border-radius: 3px;
+						border: solid 1px #a7c0ff;
+						font-size: 14px;
+						font-weight: 500;
+						color: #666666;
+						padding: 6.5px 0;
+					}
+					.border__orange {
+						border: solid 1px #ffb361;
+					}
+				}
+			}
+		}
+		.qustionBox {
+			margin-top: 60px;
+			.answerBox {
+				margin-top: 20px;
+				width: 770px;
+				border-radius: 20px;
+				border: solid 1px #cccccc;
+				background-color: #ffffff;
+				box-sizing: border-box;
+				padding: 35px;
+				display: flex;
+				flex-direction: column;
+				.answerInnerBox {
+					display: flex;
+					.subjectBox {
+						width: 430px;
+						.deleteButtonMoblie {
+							display: none;
+						}
+						.subject {
+							border: none;
+							border-bottom: 1px solid #cccccc;
+							box-sizing: border-box;
+							width: 100%;
+							height: 37px;
+							outline: none;
+							font-size: 15px;
+							font-weight: bold;
+						}
+						.answer {
+							display: flex;
+							align-items: center;
+							width: 400px;
+							font-weight: 500;
+						}
+
+						// 공통 타이틀
+						.title {
+							box-sizing: border-box;
+							padding: 18px 0 5px 0;
+							font-size: 10px;
+							font-weight: 500;
+							color: #888888;
+						}
+
+						.longAnswerBox {
+							.longAnswerInput {
+								margin-top: 10px;
+								display: flex;
+								align-items: center;
+								position: relative;
+								.radio {
+									margin-right: 15px;
+									border: 1px solid #707070;
+									width: 13px;
+									height: 13px;
+									border-radius: 50%;
+								}
+							}
+						}
+						.necessary {
+							border: 1px solid black;
+						}
+					}
+					.answerSelectBox {
+						margin-left: 30px;
+						width: 233px;
+						display: flex;
+						height: 38px;
+						.form {
+							width: 200px;
+						}
+					}
+				}
+				.necessary {
+					margin-top: 30px;
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+					.text {
+						font-size: 12px;
+						font-weight: bold;
+						margin-right: 15px;
+						color: #888888;
+					}
+				}
+			}
+		}
+	}
+	.btn {
+		margin-top: 20px;
+		display: flex;
+		justify-content: flex-end;
+		button {
+			width: 110px;
+			height: 45px;
+			border: solid 1px #cccccc;
+			margin-left: 15px;
+			background-color: #f2f2f2;
+			font-size: 14px;
+			font-weight: 500;
+			color: $gray;
+			span {
+				box-sizing: border-box;
+				padding: 0 8px;
+				&:first-child {
+					border-right: 1px solid #cccccc;
+				}
+				&:last-child {
+					color: #1e59ea;
+				}
+			}
+		}
+	}
+
+	.deleteButton {
+		color: #888888;
+		margin-left: 14px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+	.multipleChoice {
+		position: absolute;
+		right: 0;
+	}
+	.mobileBtn--box {
+		display: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.MakeLeaguePageStep2 {
+		position: absolute;
+		background: #ffffff;
+		top: 0;
+		min-height: 110vh;
+		// bottom: 0;
+		width: 100%;
+		padding: 20px 20px 100px 20px;
+		box-sizing: border-box;
+		z-index: 50;
+
+		.mobile__header--box {
+			top: 0;
+			left: 0;
+			display: block;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 60px;
+			.homeBtn {
+				font-size: 20px;
+			}
+			.title {
+				font-size: 16px;
+				font-weight: 500;
+				color: #322e3d;
+				margin-right: -15px;
+			}
+			.temporaryBtn {
+				padding: 0;
+				font-size: 14px;
+				font-weight: 500;
+				color: #aaaaaa;
+				border: 1px solid #f2f2f2;
+				height: 30px;
+				.text {
+					box-sizing: border-box;
+					padding: 5px;
+					border-right: 1px solid #f2f2f2;
+				}
+				.number {
+					color: #1e59ea;
+				}
+			}
+		}
+
+		&--inner {
+			margin-top: 0px;
+			.infoContainer {
+				margin-left: 20px;
+				width: 87%;
+				.info__header--box {
+					height: 35px;
+					button {
+						width: 97px;
+						height: 30px;
+					}
+				}
+				.mobile {
+					height: 40px;
+				}
+			}
+
+			.qustionBox {
+				.answerBox {
+					width: 100%;
+					padding: 30px 15px 30px 15px;
+					box-sizing: border-box;
+					.answerInnerBox {
+						flex-direction: column;
+						.subjectBox {
+							width: 100%;
+							position: relative;
+
+							.deleteButtonMoblie {
+								display: block;
+								position: absolute;
+								right: 0;
+								top: 5px;
+								color: #888888;
+								margin-left: 14px;
+								font-size: 18px;
+								font-weight: bold;
+							}
+							.subject {
+								width: 100%;
+							}
+
+							.necessary {
+								border: 1px solid black;
+							}
+						}
+						.answerSelectBox {
+							margin-left: 0px;
+							.form {
+								display: none;
+							}
+						}
+					}
+					.necessary {
+						margin-top: -25px;
+					}
+				}
+			}
+		}
+		.btn {
+			display: none;
+		}
+
+		.delMobile {
+			display: none;
+		}
+		.formMobile {
+			margin-top: 10px;
+		}
+		.mobileBtn--box {
+			display: block;
+			border-top: 1px solid #f2f2f2;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 60px;
+			button {
+				border-right: 1px solid #f2f2f2;
+				height: 100%;
+				width: 50%;
+				font-size: 16px;
+				font-weight: 500;
+				color: #666666;
+
+				&:last-child {
+					border: none;
+				}
+			}
+		}
+	}
+}

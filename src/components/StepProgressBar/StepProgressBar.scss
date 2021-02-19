@@ -1,0 +1,357 @@
+// @media(min-width: 769px){
+//     .StepProgressBar {
+//         width: 640px;
+//         .progressbar {
+//             display: flex;
+//             align-items: center;
+//             justify-content: space-between;
+//             li {
+//                 display: flex;
+//                 align-items: center;
+//                 border-radius: 50%;
+//                 background-color: #eee;
+//                 &.li--done {
+//                     background-color: #1e59ea;
+//                 }
+//                 &:last-child {
+//                     &:after{
+//                         display: none;
+//                     }
+//                 }
+//             }
+//             span, .active, .done {
+//                 border-radius: 50%;
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 position: relative;
+//                 z-index: 2;
+//             }
+//             span {
+//                 width: 20px;
+//                 height: 20px;
+//                 color: #cccccc;
+//                 background-color: #cccccc;
+//             }
+//             .active {
+//                 width: 34px;
+//                 height: 34px;
+//                 font-size: 20px;
+//                 color: #1e59ea;
+//                 border: 2px solid #1e59ea;
+//                 background-color: white;
+//             }
+//             .done{
+//                 -webkit-transform: scaleX(-1) rotate(-45deg);
+//                 color: white;
+//                 padding-bottom: 3px;
+//                 background-color: #1e59ea;
+//                 box-sizing: border-box;
+//                 font-size: 12px;
+//             }
+//             li:after {
+//                 width: 220px;
+//                 height: 5px;
+//                 content: '';
+//                 position: absolute;
+//                 background-color: inherit;
+//                 z-index: 1;
+//             }
+//         }
+//         .progressbar--step{
+//             display: flex;
+//             align-items: center;
+//             width:100%;
+//             justify-content: space-between;
+//             li {
+//                 display: flex;
+//                 align-items: center;
+//                 .active{
+//                     width: 34px;
+//                     height: 34px;
+//                     font-size: 20px;
+//                     color: #1e59ea;
+//                     border-radius: 50%;
+//                     border: 2px solid #1e59ea;
+//                     background-color: white;
+//                     display: flex;
+//                     justify-content: center;
+//                     align-items: center;
+//                     position: relative;
+//                 }
+//             }
+//             .step--bar{
+//                 width: 100%;
+//                 height: 4px;
+//                 position: relative;
+
+//                 .step--grey, .step--blue{
+//                     height: 4px;
+//                     position: absolute;
+//                 }
+//                 .step--grey{
+//                     width: 100%;
+//                     height: 100%;
+//                     background-color: #ccc;
+//                 }
+//                 .step--blue{
+//                     height: 100%;
+//                     background-color: #1e59ea;
+//                     transition: all;
+//                 }
+//             }
+//             .li--done{
+//                 width: 25px;
+//                 height: 25px;
+//                 border-radius: 50%;
+//                 background-color: #1e59ea;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+
+//                 span{
+//                     -webkit-transform: scaleX(-1) rotate(-45deg);
+//                     color: white;
+//                     padding-bottom: 2px;
+//                     background-color: #1e59ea;
+//                     box-sizing: border-box;
+//                     font-size: 12px;
+//                 }
+//             }
+
+//             .li--notDone{
+//                 width: 25px;
+//                 height: 25px;
+//                 border-radius: 50%;
+//                 background-color: #ccc;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+
+//                 span{
+//                     -webkit-transform: scaleX(-1) rotate(-45deg);
+//                     color: white;
+//                     padding-bottom: 2px;
+//                     background-color: #ccc;
+//                     box-sizing: border-box;
+//                     font-size: 12px;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @media(max-width: 768px){
+.StepProgressBar {
+	height: 350px;
+	.progressbar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+		li {
+			display: flex;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: #eee;
+			&.li--done {
+				background-color: #1e59ea;
+			}
+			&:last-child {
+				&:after {
+					display: none;
+				}
+			}
+		}
+		span,
+		.active,
+		.done {
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			z-index: 2;
+		}
+		span {
+			width: 20px;
+			height: 20px;
+			color: #cccccc;
+			background-color: #cccccc;
+		}
+		.active {
+			width: 30px;
+			height: 30px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #1e59ea;
+			border: 2px solid #1e59ea;
+			background-color: white;
+		}
+		.done {
+			-webkit-transform: scaleX(-1) rotate(-45deg);
+			color: white;
+			padding-bottom: 3px;
+			background-color: #1e59ea;
+			box-sizing: border-box;
+			font-size: 12px;
+		}
+		li:after {
+			width: 5px;
+			height: 124px;
+			content: '';
+			position: absolute;
+			background-color: inherit;
+			z-index: 1;
+		}
+	}
+
+	.progressbarLeague {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 385px !important;
+
+		li {
+			display: flex;
+			justify-content: center;
+			border-radius: 50%;
+			background-color: #eee;
+			&.li--done {
+				background-color: #1e59ea;
+			}
+			&:last-child {
+				&:after {
+					display: none;
+				}
+			}
+		}
+		span,
+		.active,
+		.done {
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			z-index: 2;
+		}
+		span {
+			width: 20px;
+			height: 20px;
+			color: #cccccc;
+			background-color: #cccccc;
+		}
+		.active {
+			width: 30px;
+			height: 30px;
+			font-size: 16px;
+			font-weight: 500;
+			color: #1e59ea;
+			border: 2px solid #1e59ea;
+			background-color: white;
+		}
+		.done {
+			-webkit-transform: scaleX(-1) rotate(-45deg);
+			color: white;
+			padding-bottom: 3px;
+			background-color: #1e59ea;
+			box-sizing: border-box;
+			font-size: 12px;
+		}
+		li:after {
+			width: 5px;
+			height: 188px;
+			content: '';
+			position: absolute;
+			background-color: inherit;
+			z-index: 1;
+		}
+	}
+
+	.progressbar--step {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 800px;
+		li {
+			display: flex;
+			align-items: center;
+			.active {
+				width: 34px;
+				height: 34px;
+				font-size: 20px;
+				color: #1e59ea;
+				border-radius: 50%;
+				border: 2px solid #1e59ea;
+				background-color: white;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+			}
+		}
+		.step--bar {
+			display: flex;
+			flex-direction: column;
+			height: 350px;
+			position: relative;
+
+			.step--grey,
+			.step--blue {
+				width: 4px;
+				position: absolute;
+			}
+			.step--grey {
+				width: 4px;
+				height: 100%;
+				background-color: #ccc;
+			}
+			.step--blue {
+				height: 50%;
+
+				background-color: #1e59ea;
+				transition: all;
+			}
+		}
+		.li--done {
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			background-color: #1e59ea;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			span {
+				-webkit-transform: scaleX(-1) rotate(-45deg);
+				color: white;
+				padding-bottom: 2px;
+				background-color: #1e59ea;
+				box-sizing: border-box;
+				font-size: 12px;
+			}
+		}
+
+		.li--notDone {
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			background-color: #ccc;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+
+			span {
+				-webkit-transform: scaleX(-1) rotate(-45deg);
+				color: white;
+				padding-bottom: 2px;
+				background-color: #ccc;
+				box-sizing: border-box;
+				font-size: 12px;
+			}
+		}
+	}
+}
+// }

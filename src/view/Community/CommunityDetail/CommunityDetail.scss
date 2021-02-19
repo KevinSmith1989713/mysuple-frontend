@@ -1,0 +1,209 @@
+@media(min-width:769px){
+  .CommunityDetail{
+    padding: 48px 35px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #322e3d;
+    &--header{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #aaa;
+      display: flex;
+      color: #ffffff;
+      margin-bottom: 20px;
+      .c-Button{
+        margin-left: auto;
+      }
+    }
+  
+    //Notice Detail
+     
+    &--Title{
+      height: 61px;
+      background-color: #242424;
+      
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      
+      padding: 0 25px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      .Title--type{
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .Title--text{
+        color: #eeeeee;
+      }
+    }
+  
+    &--Info{
+      height: 61px;
+      border-bottom: 1px dashed #444;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #aaaaaa;
+      margin-bottom: 25px;
+      
+      svg{
+        margin: 0 5px 0 25px;
+      }
+  
+      .Info--view{
+        display: flex;
+        align-items: center;
+  
+      }
+      .Info--createdAt{
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    &--Content{
+      border-bottom: 1px dashed #444;
+      padding: 25px 0;
+    }
+    &--UpDownList{
+      .UpDownList--up, .UpDownList--down{
+        display: flex;
+        align-items: center;
+        height: 61px;
+        border-bottom: 1px dashed #444;
+      }
+      .text{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #aaaaaa;
+        margin: 0 30px 0 5px;
+      }
+      .type{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.43;
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #eeeeee;
+      }
+    }
+  
+  }
+  
+}
+
+@media(max-width:768px){
+  .CommunityDetail{
+    padding: 40px 20px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #322e3d;
+    &--header{
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.45;
+      letter-spacing: -0.8px;
+      padding-bottom: 7px;
+      border-bottom: 3px solid #aaa;
+      color: #ffffff;
+      margin-bottom: 20px;
+      .c-Button{
+        display: none;
+      }
+    }
+  
+    //Notice Detail
+     
+    &--Title{
+      background-color: #242424;
+      
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 1.5;
+      color: #ffb361;
+      
+      padding: 21px 15px;
+      box-sizing: border-box;
+      display: flex;
+      .Title--type{
+        min-width: 23px;
+        color: #ffb361;
+        margin-right: 25px;
+        white-space: nowrap;
+      }
+      .Title--text{
+        color: #eeeeee;
+      }
+    }
+  
+    &--Info{
+      height: 61px;
+      border-bottom: 1px dashed #444;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #aaaaaa;
+      margin-bottom: 25px;
+      
+      svg{
+        margin: 0 5px 0 25px;
+      }
+  
+      .Info--view{
+        display: flex;
+        align-items: center;
+  
+      }
+      .Info--createdAt{
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    &--Content{
+      border-bottom: 1px dashed #444;
+      padding: 25px 0;
+    }
+    &--UpDownList{
+      .UpDownList--up, .UpDownList--down{
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-bottom: 1px dashed #444;
+      }
+      .text{
+        min-width: 30px;
+        font-size: 11px;
+        color: #aaaaaa;
+        margin: 0 30px 0 5px;
+      }
+      .type{
+        font-size: 13px;
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .title{
+        font-size: 13px;
+        color: #eeeeee;
+      }
+    }
+  
+  }
+  
+}

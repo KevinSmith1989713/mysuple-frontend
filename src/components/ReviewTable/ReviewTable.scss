@@ -1,0 +1,67 @@
+@media (min-width: 769px) {
+	.ReviewTable {
+		margin-bottom: 20px;
+		min-height: 300px;
+		margin-top: 30px;
+	}
+	.ReviewTable--Header {
+		font-size: 20px;
+		font-weight: 900;
+		color: #322e3d;
+		display: flex;
+		margin-bottom: 40px;
+	}
+	.ReviewTable--Cards {
+		.no-review {
+			display: flex;
+			margin-top: 100px;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+			font-weight: bold;
+			color: #666666;
+		}
+	}
+	.ReviewTable--Pagination {
+		height: 70px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media (max-width: 768px) {
+	.ReviewTable {
+		margin-bottom: 20px;
+		min-height: 300px;
+		border: solid 1px #bbbbbb;
+	}
+	.ReviewTable--Header {
+		height: 71.5px;
+		font-size: 20px;
+		font-weight: 900;
+		color: #322e3d;
+		background-color: #ededed;
+		border-bottom: solid 1px #bbbbbb;
+		display: flex;
+		padding: 0 34px;
+		align-items: center;
+	}
+	.ReviewTable--Cards {
+		.no-review {
+			display: flex;
+			margin-top: 100px;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+			font-weight: bold;
+			color: #666666;
+		}
+	}
+	.ReviewTable--Pagination {
+		height: 70px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

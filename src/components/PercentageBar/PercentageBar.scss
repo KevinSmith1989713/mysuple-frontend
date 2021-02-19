@@ -1,0 +1,54 @@
+.PercentageBar {
+	width: 100%;
+	position: relative;
+	border-radius: 10px;
+	.like-text,
+	.hate-text {
+		height: 100%;
+		font-weight: 900;
+		// color: #666666;
+		display: flex;
+		align-items: center;
+		margin: 0 10px;
+	}
+	.hate-text {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.PercentageBar--like {
+		height: 100%;
+		background-color: #d2dfff;
+		z-index: 100;
+		position: absolute;
+		border-radius: 10px;
+	}
+	.PercentageBar--unlike {
+		height: 100%;
+		width: 100%;
+		background-color: #d2dfff;
+		position: absolute;
+		border-radius: 10px;
+	}
+	.PercentageBar--hate {
+		height: 100%;
+		z-index: 100;
+		background-color: #dddddd;
+		position: absolute;
+		border-radius: 10px;
+		right: 0;
+	}
+	.PercentageBar--unhate {
+		height: 100%;
+		width: 100%;
+		background-color: #dddddd;
+		z-index: 9;
+		position: absolute;
+		border-radius: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.PercentageBar {
+		width: 100% !important;
+	}
+}

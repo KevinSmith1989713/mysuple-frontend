@@ -1,0 +1,146 @@
+@media (min-width: 769px) {
+	.JoinSecond {
+		width: 100%;
+		overflow: hidden;
+		padding-bottom: 150px;
+		&--title {
+			display: flex;
+			align-items: flex-end;
+			height: 152px;
+			padding-left: 267px;
+			margin-bottom: 72px;
+		}
+
+		&--content {
+			display: flex;
+			flex-direction: column;
+			width: 420px;
+			height: 191px;
+			box-sizing: border-box;
+			margin-left: 302.5px;
+			margin-bottom: 45.5px;
+			border-bottom: solid 1px #bbbbbb;
+			input {
+				border: solid 1px #aaaaaa;
+				font-weight: 500;
+				font-family: inherit;
+				margin-bottom: 5px;
+				outline: none;
+				padding: 0 10px;
+				box-sizing: border-box;
+			}
+
+			.title {
+				padding-left: 34.5px;
+				font-size: 20px;
+				color: #666666;
+
+				&.email {
+					font-weight: 600;
+				}
+			}
+
+			&__input {
+				padding-left: 34.5px;
+				margin: 15px 0px 10px 0px;
+
+				input {
+					height: 40px !important;
+				}
+			}
+
+			&__button {
+				padding-left: 34.5px;
+			}
+		}
+
+		&--downContent {
+			display: flex;
+			flex-direction: column;
+			width: 420px;
+			box-sizing: border-box;
+			margin-left: 302.5px;
+
+			.title {
+				padding-left: 34.5px;
+				font-size: 20px;
+				color: #666666;
+
+				&.sns {
+					font-weight: 900;
+				}
+			}
+
+			&__snsBox {
+				margin-left: 34.5px;
+				margin-top: 20px;
+				width: 352px;
+				height: 137px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.JoinSecond {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 40px 20px;
+
+		&--title {
+			margin-bottom: 40px;
+		}
+
+		&--content {
+			display: flex;
+			width: 100%;
+			flex-direction: column;
+			border-bottom: solid 1px #bbbbbb;
+			padding-bottom: 20px;
+			margin-bottom: 50px;
+
+			.title {
+				font-size: 20px;
+				margin-bottom: 20px;
+				color: #666666;
+
+				&.email {
+					font-weight: 600;
+				}
+			}
+			&__input {
+				width: 100%;
+				margin-bottom: 10px;
+				.c-Input {
+					width: 100%;
+					height: 40px !important;
+					.Input {
+						width: 100%;
+					}
+				}
+			}
+		}
+
+		&--downContent {
+			display: flex;
+			flex-direction: column;
+			width: 100%;
+
+			.title {
+				font-size: 20px;
+				color: #666666;
+
+				&.sns {
+					font-weight: 900;
+				}
+			}
+
+			&__snsBox {
+				margin-top: 20px;
+				width: 100%;
+				height: 200px;
+				position: relative;
+			}
+		}
+	}
+}

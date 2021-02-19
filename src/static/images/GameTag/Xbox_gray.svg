@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="42.6" height="42.4" viewBox="0 0 42.6 42.4">
+    <defs>
+        <style>
+            .Xbox_gray-1{fill:#d0d2d3}.Xbox_gray-2{fill:#f1f1f2}
+        </style>
+    </defs>
+    <g id="prefix__Group_971" data-name="Group 971" transform="translate(-2121 -1578.2)">
+        <g id="prefix__Group_942" data-name="Group 942" transform="translate(1972.9 1497)">
+            <ellipse id="prefix__Ellipse_725" cx="19.9" cy="19.8" class="Xbox_gray-1" data-name="Ellipse 725" rx="19.9" ry="19.8" transform="translate(149.5 82.6)"/>
+            <path id="prefix__Path_1652" d="M169.4 123.6a21.2 21.2 0 1 1 21.3-21.2 21.232 21.232 0 0 1-21.3 21.2zm0-39.6a18.3 18.3 0 1 0 18.5 18.3A18.416 18.416 0 0 0 169.4 84z" class="Xbox_gray-1" data-name="Path 1652"/>
+        </g>
+        <path id="prefix__Path_1653" d="M157 86.9s23.1 1 29.9 24.8c0 0-1.3-29.1-29.9-24.8z" class="Xbox_gray-2" data-name="Path 1653" transform="translate(1972.9 1497)"/>
+        <path id="prefix__Path_1654" d="M182.3 86.9s-23.1 1-29.9 24.8c0 0 1.4-29.1 29.9-24.8z" class="Xbox_gray-2" data-name="Path 1654" transform="translate(1972.9 1497)"/>
+    </g>
+</svg>

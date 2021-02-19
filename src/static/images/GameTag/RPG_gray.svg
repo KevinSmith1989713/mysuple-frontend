@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.975" height="40.252" viewBox="0 0 43.975 40.252">
+    <defs>
+        <style>
+            .RPG_gray-1{fill:#d0d2d3}.RPG_gray-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_791" data-name="Group 791" transform="translate(-18.65 -245.448)">
+        <path id="prefix__Path_1367" d="M34.5 279.1l-11-11 4.4-4.4 11 11zm-7.7-11l7.7 7.7 1.1-1.1-7.7-7.7z" class="RPG_gray-1" data-name="Path 1367"/>
+        <path id="prefix__Path_1368" d="M26.1 282.4l-5.3-5.3 7.5-7.5 5.3 5.3zm-2-5.4l2 2 4.2-4.2-2-2z" class="RPG_gray-1" data-name="Path 1368"/>
+        <path id="prefix__Rectangle_3521" d="M0 0H4.2V9.8H0z" class="RPG_gray-1" data-name="Rectangle 3521" transform="rotate(-45 344.321 116.317)"/>
+        <path id="prefix__Path_1369" d="M35.1 274.2l-6.3-6.3 20-19.9 7.3-1-1 7.3zm-2.9-6.2l2.9 2.9 17.7-17.7.5-3.4-3.4.5z" class="RPG_gray-1" data-name="Path 1369"/>
+        <g id="prefix__Group_785" data-name="Group 785">
+            <g id="prefix__Group_781" data-name="Group 781">
+                <path id="prefix__Path_1370" d="M25.5 248.4l5.3.7L49.6 268l-2.3 2.3-2.3 2.3-18.8-18.9z" class="RPG_gray-2" data-name="Path 1370"/>
+                <path id="prefix__Path_1371" d="M45 275.5a2.878 2.878 0 0 1-2.1-.9l-18.8-18.8a2.716 2.716 0 0 1-.8-1.7l-.7-5.3a3.293 3.293 0 0 1 .8-2.5 2.851 2.851 0 0 1 2.5-.8l5.3.7a3.805 3.805 0 0 1 1.7.8l18.8 18.8a2.959 2.959 0 0 1 0 4.1l-4.6 4.6a2.643 2.643 0 0 1-2.1 1zm-16-23.1l16 16.1.4-.4-16-16.1-.5-.1z" class="RPG_gray-2" data-name="Path 1371"/>
+            </g>
+            <g id="prefix__Group_782" data-name="Group 782">
+                <path id="prefix__Rectangle_3522" d="M0 0H13.2V3.9H0z" class="RPG_gray-2" data-name="Rectangle 3522" transform="rotate(-45 352.972 85.55)"/>
+                <path id="prefix__Path_1372" d="M45.7 280.4a2.878 2.878 0 0 1-2.1-.9l-2.7-2.7a2.959 2.959 0 0 1 0-4.1l9.4-9.4a2.878 2.878 0 0 1 2.1-.9 2.878 2.878 0 0 1 2.1.9l2.7 2.7a2.959 2.959 0 0 1 0 4.1l-9.4 9.4a3.577 3.577 0 0 1-2.1.9z" class="RPG_gray-2" data-name="Path 1372"/>
+            </g>
+            <g id="prefix__Group_783" data-name="Group 783">
+                <path id="prefix__Rectangle_3523" d="M0 0H5.2V8.3H0z" class="RPG_gray-2" data-name="Rectangle 3523" transform="rotate(-45 355.879 79.268)"/>
+                <path id="prefix__Path_1373" d="M54.1 283.6a2.878 2.878 0 0 1-2.1-.9l-5.8-5.8a2.959 2.959 0 0 1 0-4.1l3.7-3.7a2.959 2.959 0 0 1 4.1 0l5.8 5.8a2.959 2.959 0 0 1 0 4.1l-3.7 3.7a2.665 2.665 0 0 1-2 .9z" class="RPG_gray-2" data-name="Path 1373"/>
+            </g>
+            <g id="prefix__Group_784" data-name="Group 784">
+                <path id="prefix__Rectangle_3524" d="M0 0H7.4V1.8H0z" class="RPG_gray-2" data-name="Rectangle 3524" transform="rotate(-45 366.454 76.54)"/>
+                <path id="prefix__Path_1374" d="M54.6 285.7a2.878 2.878 0 0 1-2.1-.9l-1.3-1.3a2.959 2.959 0 0 1 0-4.1l5.2-5.2a2.959 2.959 0 0 1 4.1 0l1.3 1.3a2.959 2.959 0 0 1 0 4.1l-5.2 5.2a2.518 2.518 0 0 1-2 .9z" class="RPG_gray-2" data-name="Path 1374"/>
+            </g>
+        </g>
+        <g id="prefix__Group_790" data-name="Group 790">
+            <g id="prefix__Group_786" data-name="Group 786">
+                <path id="prefix__Path_1375" d="M25.5 248.4l5.3.7L49.6 268l-2.3 2.3-2.3 2.3-18.8-18.9z" class="RPG_gray-2" data-name="Path 1375"/>
+                <path id="prefix__Path_1376" d="M45 274.2l-19.9-19.9-1-7.3 7.3 1 19.9 20zm-17.7-21L45 270.9l3-2.9-17.7-17.7-3.4-.5z" class="RPG_gray-1" data-name="Path 1376"/>
+            </g>
+            <g id="prefix__Group_787" data-name="Group 787">
+                <path id="prefix__Rectangle_3525" d="M0 0H13.2V3.9H0z" class="RPG_gray-2" data-name="Rectangle 3525" transform="rotate(-45 352.972 85.55)"/>
+                <path id="prefix__Path_1377" d="M45.7 279.1l-4.4-4.4 11-11 4.4 4.4zm-1.1-4.4l1.1 1.1 7.7-7.7-1.1-1.1z" class="RPG_gray-1" data-name="Path 1377"/>
+            </g>
+            <g id="prefix__Group_788" data-name="Group 788">
+                <path id="prefix__Rectangle_3526" d="M0 0H5.2V8.3H0z" class="RPG_gray-2" data-name="Rectangle 3526" transform="rotate(-45 355.879 79.268)"/>
+                <path id="prefix__Path_1378" d="M54.1 282.4l-7.5-7.5 5.3-5.3 7.5 7.5zm-4.2-7.5l4.2 4.2 2-2-4.2-4.2z" class="RPG_gray-1" data-name="Path 1378"/>
+            </g>
+            <g id="prefix__Group_789" data-name="Group 789">
+                <path id="prefix__Rectangle_3527" d="M0 0H7.4V1.8H0z" class="RPG_gray-2" data-name="Rectangle 3527" transform="rotate(-45 366.454 76.54)"/>
+                <path id="prefix__Rectangle_3528" d="M0 0H9.8V4.2H0z" class="RPG_gray-1" data-name="Rectangle 3528" transform="rotate(-45 365.547 78.462)"/>
+            </g>
+        </g>
+    </g>
+</svg>

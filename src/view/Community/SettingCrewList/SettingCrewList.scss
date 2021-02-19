@@ -1,0 +1,33 @@
+.SettingCrewList{
+  &--List{
+    .row{
+      display: flex;
+      padding: 20px 0;
+      border-bottom: 1px solid #ddd;
+      &--info{
+        margin-left: 28px;
+        .title{
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 1.43;
+          color: #666666;
+          margin-bottom: 3px;
+        }
+        .sub--title{
+          font-size: 12px;
+          font-weight: 500;
+          line-height: 1.5;
+          color: #aaaaaa;
+        }
+
+      }
+      &--crewCnt{
+        margin-left: auto;
+        align-self: center;
+        font-size: 12px;
+        font-weight: 500;
+        color: #1e59ea;
+      }
+    }
+  }
+}

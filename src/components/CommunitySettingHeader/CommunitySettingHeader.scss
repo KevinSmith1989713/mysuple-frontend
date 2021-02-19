@@ -1,0 +1,25 @@
+.CommunitySettingHeader{
+  display: flex;
+  border-bottom: 1px solid #333333;
+  &--title{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 1.45;
+    color: #322e3d;
+    padding-bottom: 30px;
+    margin-right: auto;
+  }
+  &--button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 90px;
+    height: 30px;
+    border: solid 1px #aaa;
+    font-size: 13px;
+    font-weight: 500;
+    color: #666666;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,399 @@
+@media (min-width: 769px) {
+	.JoinThird {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 66px;
+		padding-bottom: 50px;
+		background: white;
+		z-index: 10;
+		background: #f2f6ff;
+
+		.header--wrapper {
+			z-index: 10000;
+			position: fixed;
+			top: 0;
+			height: 90px;
+			width: 100%;
+			background: #1e59ea;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.terms--container {
+			margin-top: 40px;
+		}
+		&--container {
+			padding: 100px 100px;
+			box-sizing: border-box;
+			background: white;
+			min-height: 100vh;
+			overflow-y: scroll;
+			.inner--container {
+				display: flex;
+				margin-top: 70px;
+				margin-bottom: 70px;
+
+				&--email {
+					position: absolute;
+					font-size: 16px;
+					font-weight: 700;
+					color: #383838;
+					top: -5px;
+				}
+
+				.JoinThird-title {
+					width: 845px;
+					margin: 35px 0px 69.5px 0px;
+				}
+
+				.JoinThird-form {
+					width: 352px;
+					height: 380px;
+
+					&--input {
+						width: 100%;
+						margin-bottom: 40px;
+						&:first-child {
+							margin-bottom: 50px;
+						}
+
+						&__title {
+							position: relative;
+							display: flex;
+							width: 229px;
+							height: 40px;
+
+							&--text {
+								font-size: 16px;
+								color: #666666;
+								font-weight: 600;
+							}
+
+							&--wild {
+								margin-top: -5px;
+								margin-left: 3px;
+								color: #1e59ea;
+								height: 16px !important;
+							}
+						}
+
+						.JoinThird-form__warning {
+							position: relative;
+							input {
+								height: 40px;
+								margin-bottom: 5px;
+							}
+
+							.warning-message {
+								font-size: 12px;
+								color: #1e59ea;
+								font-weight: 600;
+							}
+
+							.danger-message {
+								font-size: 12px;
+								color: red;
+								font-weight: 600;
+							}
+						}
+					}
+				}
+				.add_info--container {
+					height: 382px;
+					width: 430px;
+					margin-left: 100px;
+					position: relative;
+
+					.title-box {
+						cursor: pointer;
+						display: flex;
+						align-items: center;
+						.title {
+							padding: 0 15px;
+							font-size: 16px;
+							font-weight: bold;
+							color: #666666;
+						}
+						.sub-title {
+							font-size: 12px;
+							font-weight: bold;
+							color: #1e59ea;
+						}
+					}
+					.title-box__mobile {
+						display: none;
+					}
+
+					.footer--box {
+						position: absolute;
+						bottom: 0;
+						width: 100%;
+						height: 115px;
+						background: #f2f6ff;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						font-size: 12px;
+						font-weight: 500;
+						line-height: 1.5;
+						text-align: center;
+						color: #666666;
+
+						img {
+							position: absolute;
+							width: 79px;
+							height: 124px;
+							top: -100px;
+							margin-left: 10px;
+						}
+					}
+					.sendText--box {
+						padding: 40px;
+						box-sizing: border-box;
+						margin-top: 15px;
+						background: #f2f6ff;
+						height: 100%;
+						.q-title {
+							font-size: 16px;
+							color: #666666;
+							font-weight: 600;
+							margin-top: 40px;
+							margin-bottom: 10px;
+						}
+						.btn {
+							width: 100%;
+							font-size: 18px;
+							font-weight: 500;
+							border-radius: 0;
+						}
+						.select-form {
+							width: 100%;
+							height: 40px;
+							font-size: 12px;
+							.css-yk16xz-control {
+								border-radius: 0 !important;
+							}
+						}
+
+						.danger-message {
+							font-size: 12px;
+							color: #1e59ea;
+							font-weight: 600;
+						}
+						input {
+							width: 100%;
+							height: 30px;
+							border: solid 1px #cccccc;
+							background-color: #ffffff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.headerMobileBox {
+		height: 60px;
+		font-size: 18px;
+		font-weight: bold;
+		color: #322e3d;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+	.JoinThird {
+		width: 100%;
+		// height: 100%;
+		// height: 100vh;
+		display: flex;
+		flex-direction: column;
+		// padding-top: -200px;
+		z-index: 1000;
+		padding-bottom: 15vh;
+		background: white;
+		position: absolute;
+		top: 0;
+		box-sizing: border-box;
+		@media (max-width: 768px) {
+		}
+
+		.header--wrapper {
+			display: none;
+		}
+
+		&--container {
+			box-sizing: border-box;
+			padding: 10px 20px;
+
+			&--email {
+				position: absolute;
+				font-size: 16px;
+				font-weight: 700;
+				color: #383838;
+				top: -5px;
+			}
+
+			.JoinThird-title {
+				margin-bottom: 45px;
+			}
+
+			.JoinThird-form {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+
+				&--input {
+					width: 100%;
+					margin-bottom: 40px;
+
+					&__title {
+						position: relative;
+						display: flex;
+						width: 229px;
+						height: 30px;
+
+						&--text {
+							font-size: 16px;
+							color: #666666;
+							font-weight: 600;
+						}
+
+						&--wild {
+							margin-top: -5px;
+							margin-left: 3px;
+							color: #1e59ea;
+							height: 16px !important;
+						}
+					}
+
+					.JoinThird-form__warning {
+						position: relative;
+						input {
+							height: 40px;
+						}
+						.JoinThird--email {
+							margin-top: 17px;
+						}
+						.radioGroup {
+							margin-top: 1px;
+						}
+
+						.warning-message {
+							font-size: 12px;
+							color: #1e59ea;
+							font-weight: normal;
+						}
+
+						.danger-message {
+							font-size: 12px;
+							color: red;
+							font-weight: normal;
+						}
+					}
+				}
+			}
+			.add_info--container {
+				background: #f2f6ff;
+
+				.title-box,
+				.footer--box {
+					display: none;
+				}
+				.title-box__mobile {
+					display: flex;
+					box-sizing: border-box;
+					padding: 10px 0;
+
+					img {
+						width: 15px;
+						height: 15px;
+						padding: 5px 20px;
+					}
+					.text--box {
+						.title {
+							font-size: 16px;
+							color: #666666;
+							font-weight: 600;
+						}
+						.sub-title {
+							font-size: 12px;
+							color: #1e59ea;
+							font-weight: normal;
+							line-height: 2;
+						}
+					}
+				}
+				.sendText--box {
+					padding: 25px 20px;
+					box-sizing: border-box;
+
+					.btn {
+						width: 100% !important;
+						border-radius: 0;
+						font-weight: normal;
+						font-size: 18px;
+						height: 40px;
+					}
+					.q-title {
+						font-size: 16px;
+						color: #666666;
+						font-weight: 600;
+						margin-top: 20px;
+						margin-bottom: 10px;
+					}
+					.danger-message {
+						font-size: 12px;
+						color: #1e59ea;
+						font-weight: normal;
+					}
+					.select-form {
+						width: 100%;
+						height: 40px;
+						font-size: 12px;
+						.css-yk16xz-control {
+							border-radius: 0 !important;
+						}
+					}
+					.a-input {
+						width: 100%;
+						height: 30px;
+						border: solid 1px #cccccc;
+						background-color: #ffffff;
+					}
+				}
+			}
+		}
+		.footerBox {
+			// border: 1px solid black;
+			box-sizing: border-box;
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			height: 60px;
+			display: flex;
+			button {
+				width: 50%;
+				color: black;
+
+				&:first-child {
+					border-right: 1px solid #e4e4e4;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 415px) {
+	.JoinThird {
+		padding-bottom: 26vh;
+	}
+}

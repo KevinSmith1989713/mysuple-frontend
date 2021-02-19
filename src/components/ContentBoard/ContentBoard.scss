@@ -1,0 +1,21 @@
+
+
+@media(min-width:769px){
+	.ContentBoard {
+		&--content {
+			width: 1024px;
+			min-height: 500px;
+			border: solid 2px #322e3d;
+			background-color: white;
+			margin-bottom: 130px;
+		}
+	}
+}
+@media(max-width:768px){
+	.ContentBoard {
+		&--content {
+			width: 100%;
+			box-sizing: border-box;
+		}
+	}	
+}

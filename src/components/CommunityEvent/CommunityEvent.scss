@@ -1,0 +1,55 @@
+@media(min-width:769px){
+  .CommunityEvent{
+    &--Header{
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid #ccc;
+      padding-bottom: 10px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #cccccc;
+      margin-bottom: 24px;
+      .more{
+        margin-left: auto;
+        font-size: 14px;
+        color: #aaaaaa;
+        cursor: pointer;
+      }
+    }
+    &--Newest{
+      margin-bottom: 24px;
+    }
+    &--Bottom{
+      display: flex;
+      &:nth-child(){
+        margin-right: 10px;
+      }
+    }
+  }
+}
+@media(max-width:768px){
+  .CommunityEvent{
+    &--Header{
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid #ccc;
+      padding-bottom: 10px;
+      font-size: 24px;
+      font-weight: 500;
+      color: #cccccc;
+      margin-bottom: 24px;
+      .more{
+        margin-left: auto;
+        font-size: 14px;
+        color: #aaaaaa;
+        cursor: pointer;
+      }
+    }
+    &--Newest{
+      margin-bottom: 24px;
+    }
+    &--Bottom{
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.SettingPosts{
+  &--header{}
+  &--filter{
+    height: 49px;
+    border: solid 1px #cccccc;
+    background-color: #f2f2f2;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    .checkbox{
+      margin-right: 34px;
+    }
+    .select{
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      color: #666666;
+      border: none;
+      background-color: transparent;
+      outline: none;
+    }
+  }
+  &--list{
+    .row{
+      display: flex;
+      min-height: 75px;
+      padding: 20px 0 16px 24px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #ddd;
+      &--category{
+        font-size: 14px;
+        line-height: 1.43;
+        color: #1e59ea;
+        margin: 0 40px;
+      }
+      &--info{
+        cursor: pointer;
+        .title{
+          max-width: 310px;
+          margin-bottom: 3px;
+          font-size: 14px;
+          line-height: 1.43;
+          color: #666666;
+        }
+        .date{
+          font-size: 12px;
+          line-height: 1.5;
+          color: #aaaaaa;
+        }
+      }
+      &--UD{
+        margin-left: auto;
+        display: flex;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #aaaaaa;
+        
+        .update ,.delete{
+          cursor: pointer;
+          margin-left: 10px;
+        }
+      }
+    }
+
+  }
+}

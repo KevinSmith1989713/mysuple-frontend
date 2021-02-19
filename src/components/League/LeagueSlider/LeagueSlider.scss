@@ -1,0 +1,177 @@
+$blue: #1e59ea;
+$gray: #cccccc;
+$dark-gray: #666666;
+$white: #ffffff;
+$black: #322e3d;
+$sky: #f2f6ff;
+.Slider--container {
+	.title--box {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		height: 29px;
+		margin-bottom: 10px;
+		margin-top: 20px;
+
+		.title {
+			font-size: 20px;
+			font-weight: 900;
+			line-height: 1.45;
+			color: black;
+		}
+		.more-text {
+			margin-bottom: -10px;
+			font-size: 16px;
+			font-weight: 500;
+			color: $gray;
+		}
+	}
+	.Slider {
+		margin-bottom: 40px;
+		.Slider--box {
+			cursor: pointer;
+			border-top: 2px solid $blue;
+			width: 200px;
+			margin-left: 3px;
+			position: relative;
+
+			.img {
+				width: 100%;
+				height: 140px;
+			}
+			.pathImg {
+				width: 40px;
+				height: 25px;
+				position: absolute;
+				border: 1px solid black;
+				left: 10px;
+			}
+
+			.text--box {
+				background-color: $sky;
+				padding: 10px 20px;
+				box-sizing: border-box;
+				.box__time {
+					font-size: 12px;
+					line-height: 1.2;
+					color: $dark-gray;
+					font-weight: 500;
+					line-height: 1.5;
+					display: flex;
+					img {
+						margin-right: 5px;
+						margin-top: 4px;
+						width: 13px;
+						height: 13px;
+					}
+				}
+				.box__title {
+					margin-top: 5px;
+					font-size: 16px;
+					font-weight: bold;
+					font-stretch: normal;
+					font-style: normal;
+					color: $black;
+				}
+				.box__gameName {
+					margin-top: 5px;
+					font-size: 14px;
+					font-weight: 500;
+					color: $black;
+				}
+			}
+		}
+		.crew-other-size {
+			width: 264px;
+		}
+	}
+
+	.slick-slider {
+		button {
+			&:nth-of-type(2) {
+				right: -30px;
+				background: url('../../../static/images/vedio-arrow-right.svg');
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+			&::before {
+				content: none;
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		.title--box {
+			margin-top: -10px;
+
+			.title {
+				font-size: 14px;
+				// line-height: 1;
+			}
+		}
+
+		.Slider {
+			margin-bottom: 40px;
+			.Slider--box {
+				cursor: pointer;
+				border-top: 2px solid $blue;
+				width: 142px;
+				margin-left: 75px;
+				position: relative;
+
+				.img {
+					width: 100%;
+					height: 140px;
+				}
+				.pathImg {
+					width: 40px;
+					height: 25px;
+					position: absolute;
+					border: 1px solid black;
+					left: 10px;
+				}
+
+				.text--box {
+					background-color: $sky;
+					padding: 10px 20px;
+					box-sizing: border-box;
+					.box__time {
+						font-size: 8px;
+						line-height: 1.2;
+						color: $dark-gray;
+						font-weight: 500;
+						line-height: 1.5;
+						display: flex;
+						img {
+							margin-right: 5px;
+							margin-top: 4px;
+							width: 13px;
+							height: 13px;
+						}
+					}
+					.box__title {
+						margin-top: 5px;
+						font-size: 14px;
+						font-weight: bold;
+						font-stretch: normal;
+						font-style: normal;
+						color: $black;
+					}
+					.box__gameName {
+						margin-top: 5px;
+						font-size: 12px;
+						font-weight: 500;
+						color: $black;
+					}
+				}
+			}
+			.crew-other-size {
+				width: 264px;
+			}
+		}
+
+		button {
+			display: none !important;
+		}
+	}
+}

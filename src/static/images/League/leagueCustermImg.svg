@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#888}.prefix__cls-2{fill:#ddd}.prefix__cls-3{fill:#929497}
+        </style>
+    </defs>
+    <g id="prefix__Group_1478" data-name="Group 1478" transform="translate(-1504.795 -1852.922)">
+        <path id="prefix__Rectangle_5374" d="M0 0H33.941V8.485H0z" class="prefix__cls-1" data-name="Rectangle 5374" transform="rotate(-45 3018.043 -877.987)"/>
+        <path id="prefix__Rectangle_5375" d="M0 0H0.354V3.323H0z" class="prefix__cls-2" data-name="Rectangle 5375" transform="rotate(-45 3017.487 -879.332)"/>
+        <path id="prefix__Rectangle_5376" d="M0 0H0.354V3.323H0z" class="prefix__cls-2" data-name="Rectangle 5376" transform="rotate(-45 3013.146 -889.809)"/>
+        <path id="prefix__Rectangle_5377" d="M0 0H0.354V2.219H0z" class="prefix__cls-2" data-name="Rectangle 5377" transform="rotate(-45 3015.485 -884.165)"/>
+        <path id="prefix__Rectangle_5378" d="M0 0H0.354V1.158H0z" class="prefix__cls-2" data-name="Rectangle 5378" transform="rotate(-45 3016.528 -881.647)"/>
+        <path id="prefix__Rectangle_5379" d="M0 0H0.354V1.158H0z" class="prefix__cls-2" data-name="Rectangle 5379" transform="rotate(-45 3014.316 -886.987)"/>
+        <path id="prefix__Rectangle_5380" d="M0 0H0.354V3.323H0z" class="prefix__cls-3" data-name="Rectangle 5380" transform="rotate(-45 3008.546 -900.915)"/>
+        <path id="prefix__Rectangle_5381" d="M0 0H0.354V2.219H0z" class="prefix__cls-3" data-name="Rectangle 5381" transform="rotate(-45 3010.883 -895.272)"/>
+        <path id="prefix__Rectangle_5382" d="M0 0H0.354V1.158H0z" class="prefix__cls-2" data-name="Rectangle 5382" transform="rotate(-45 3011.926 -892.754)"/>
+        <path id="prefix__Rectangle_5383" d="M0 0H0.354V1.158H0z" class="prefix__cls-3" data-name="Rectangle 5383" transform="rotate(-45 3009.714 -898.094)"/>
+        <path id="prefix__Rectangle_5384" d="M0 0H0.354V3.323H0z" class="prefix__cls-2" data-name="Rectangle 5384" transform="rotate(-45 3004.13 -911.575)"/>
+        <path id="prefix__Rectangle_5385" d="M0 0H0.354V2.219H0z" class="prefix__cls-2" data-name="Rectangle 5385" transform="rotate(-45 3006.47 -905.93)"/>
+        <path id="prefix__Rectangle_5386" d="M0 0H0.354V1.158H0z" class="prefix__cls-2" data-name="Rectangle 5386" transform="rotate(-45 3007.512 -903.412)"/>
+        <path id="prefix__Rectangle_5387" d="M0 0H0.354V1.158H0z" class="prefix__cls-2" data-name="Rectangle 5387" transform="rotate(-45 3005.3 -908.752)"/>
+        <path id="prefix__Rectangle_5388" d="M0 0H0.354V2.219H0z" class="prefix__cls-2" data-name="Rectangle 5388" transform="rotate(-45 3002.786 -914.82)"/>
+        <path id="prefix__Rectangle_5389" d="M0 0H0.354V1.158H0z" class="prefix__cls-2" data-name="Rectangle 5389" transform="rotate(-45 3001.617 -917.642)"/>
+        <g id="prefix__Group_1477" data-name="Group 1477" transform="translate(1505.062 1853.19)">
+            <path id="prefix__Rectangle_5390" fill="#ccc" d="M0 0H30.612V7.653H0z" data-name="Rectangle 5390" transform="rotate(-135 17.76 9.598)"/>
+            <path id="prefix__Path_2102" fill="#f2f2f2" d="M1507.858 1861.4l5.411-5.411-7.3-1.886z" data-name="Path 2102" transform="translate(-1505.972 -1854.1)"/>
+            <path id="prefix__Path_2103" d="M1506.552 1856.343l1.692-1.692-2.272-.55z" class="prefix__cls-1" data-name="Path 2103" transform="translate(-1505.972 -1854.1)"/>
+            <path id="prefix__Rectangle_5391" d="M0 0H7.653V0.85H0z" class="prefix__cls-3" data-name="Rectangle 5391" transform="rotate(-45 40.965 -11.556)"/>
+            <path id="prefix__Rectangle_5392" fill="#aaa" d="M0 0H3.904V7.653H0z" data-name="Rectangle 5392" transform="rotate(-135 17.76 9.598)"/>
+        </g>
+    </g>
+</svg>

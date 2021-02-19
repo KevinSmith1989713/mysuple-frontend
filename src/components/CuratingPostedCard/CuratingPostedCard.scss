@@ -1,0 +1,29 @@
+.CuratingPostedCard{
+  height: 150px;
+  background-color: #ffffff;
+  display: flex;
+  .CuratingPostedCard--poster {
+    img{
+      width: 250px;
+      height: 150px;
+      object-fit: cover;
+      margin-right: 21px;
+    }
+  }
+  .CuratingPostedCard--info{
+    .explain, .tag{
+      font-size: 14px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      text-align: left;
+      color: #666666;
+    }
+    .explain{
+      margin-bottom: 10px;
+    }
+  }
+}
+

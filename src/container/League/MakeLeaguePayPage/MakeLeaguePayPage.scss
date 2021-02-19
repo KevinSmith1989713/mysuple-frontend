@@ -1,0 +1,497 @@
+$blue: #1e59ea;
+$ligth-blue: #f2f6ff;
+$white: #ffffff;
+$gray: #888888;
+$light1-gray: #cccccc;
+$light2-gray: #dfdfdf;
+$black: #322e3d;
+
+.MakeLeaguePayPageContainer {
+	background: #fff;
+	padding: 79px 89px;
+	border: solid 2px #322e3d;
+	margin-bottom: 130px;
+	&--inner {
+		margin-top: 60px;
+
+		// 공통
+		.explainTitle {
+			width: 240px;
+			padding-left: 50px;
+			box-sizing: border-box;
+			font-size: 16px;
+			font-weight: bold;
+			color: $black;
+			strong {
+				display: block;
+				font-size: 10px;
+				font-weight: 500;
+				color: $gray;
+				margin-top: 10px;
+			}
+		}
+
+		.explainBox {
+			border-bottom: 1px solid $light2-gray;
+			display: flex;
+			height: 105px;
+			margin-bottom: 50px;
+
+			.explain {
+				width: 607px;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 2;
+				color: $gray;
+			}
+		}
+		.payBox {
+			display: flex;
+			justify-content: space-between;
+
+			&--buyPath {
+				width: 590px;
+				.buyPathInner {
+					// height: 100%;
+					width: 100%;
+					display: flex;
+					border-bottom: 1px solid $light2-gray;
+					margin-bottom: 25px;
+					.pathContainer {
+						display: flex;
+						flex-direction: column;
+						width: 405px;
+						.pathBox {
+							display: flex;
+							justify-content: space-between;
+							width: 100%;
+							height: 50px;
+							font-size: 14px;
+							font-weight: bold;
+							color: $black;
+							cursor: pointer;
+
+							.path {
+								display: flex;
+								img {
+									margin-right: 10px;
+									width: 17.3px;
+									height: 14px;
+								}
+							}
+							.money {
+								font-size: 14px;
+								font-weight: 500;
+								color: $gray;
+								width: 95px;
+								height: 30px;
+								border-radius: 5px;
+								border: solid 1px #d2dfff;
+								background-color: #f2f6ff;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+							}
+						}
+					}
+				}
+
+				.pay {
+					box-sizing: border-box;
+					padding-left: 50px;
+					padding-top: 20px;
+
+					.pay-text {
+						font-size: 16px;
+						font-weight: bold;
+						color: #322e3d;
+					}
+					.pay--box {
+						display: flex;
+						margin-top: 30px;
+						.box {
+							border: 1px solid $light2-gray;
+							width: 100px;
+							height: 50px;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							margin-right: 10px;
+							font-size: 13px;
+							font-weight: bold;
+							color: rgb(112, 112, 112);
+						}
+						.select {
+							background: #1e59ea;
+							color: white;
+						}
+					}
+				}
+				.payWayContainer {
+					padding-left: 50px;
+					.payWaySelecter--box {
+						height: 50px;
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+
+						.payWay__title {
+							box-sizing: border-box;
+							font-size: 16px;
+							font-weight: bold;
+							color: $black;
+						}
+						.select-form {
+							font-size: 14px !important;
+							color: $gray !important;
+							.css-1uccc91-singleValue {
+								color: $gray !important;
+							}
+
+							width: 350px;
+						}
+					}
+					.selectCard--box {
+						margin-top: 30px;
+						display: flex;
+						flex-wrap: wrap;
+						justify-content: space-between;
+
+						.card {
+							width: 100px;
+							height: 55px;
+							border: 1px solid $gray;
+							font-size: 14px;
+							font-weight: 500;
+							color: $gray;
+							margin-bottom: 10px;
+							display: flex;
+							justify-content: center;
+							align-items: center;
+							word-break: keep-all;
+							padding: 0 10px;
+							box-sizing: border-box;
+							text-align: center;
+							line-height: 1.2;
+							cursor: pointer;
+						}
+						.blue {
+							border: 2px solid $blue;
+						}
+					}
+				}
+			}
+			.payViewContainer {
+				width: 230px;
+				height: 323px;
+				background-color: $ligth-blue;
+				padding: 20px;
+				box-sizing: border-box;
+				.title {
+					font-size: 16px;
+					font-weight: bold;
+					color: $black;
+				}
+				.pathCount--box {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					margin: 25px 0 30px 0;
+					height: 30px;
+					.text {
+						display: flex;
+						justify-content: space-between;
+						width: 167px;
+						font-size: 14px;
+						font-weight: bold;
+						color: $gray;
+						.count {
+							font-size: 16px;
+							font-weight: bold;
+							color: $gray;
+						}
+					}
+					.close {
+						font-size: 20px;
+						margin-top: -6px;
+						color: #bbbbbb;
+						cursor: pointer;
+					}
+				}
+
+				.vat--box {
+					display: flex;
+					justify-content: space-between;
+					height: 30px;
+					border-bottom: 1px solid $light1-gray;
+					margin-top: 45px;
+					.vat {
+						color: #aaaaaa;
+						font-size: 12px;
+						font-weight: bold;
+					}
+					.money {
+						font-size: 14px;
+						font-weight: 500;
+						color: $gray;
+					}
+				}
+
+				.total--box {
+					display: flex;
+					justify-content: space-between;
+					margin: 20px 0;
+					.totalText {
+						font-size: 15px;
+						font-weight: bold;
+						color: $black;
+					}
+					.money {
+						color: #1e59ea;
+					}
+				}
+
+				.term--box {
+					display: flex;
+					align-items: center;
+					.checkBox {
+						width: 15px;
+						height: 15px;
+						margin-right: 10px;
+						margin-left: 1px;
+					}
+					.termText {
+						strong {
+							text-decoration: underline;
+							cursor: pointer;
+							color: $gray;
+						}
+						font-size: 12px;
+						font-weight: 500;
+						color: $gray;
+					}
+				}
+
+				button {
+					margin-top: 15px;
+					width: 190px;
+					height: 52px;
+					background-color: $blue;
+					font-size: 16px;
+					font-weight: bold;
+					color: $white;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.MakeLeaguePayPageContainer {
+		padding: 20px;
+		border: none;
+		margin-bottom: 10px;
+
+		&--inner {
+			margin-top: 6px;
+
+			// 공통
+			.explainTitle {
+				padding-left: 0px;
+				// width: 240px;
+				// box-sizing: border-box;
+				// font-size: 16px;
+				// font-weight: bold;
+				// color: $black;
+				// strong {
+				// 	display: block;
+				// 	font-size: 10px;
+				// 	font-weight: 500;
+				// 	color: $gray;
+				// 	margin-top: 10px;
+				// }
+			}
+
+			.explainBox {
+				display: none;
+			}
+			.payBox {
+				display: flex;
+				flex-direction: column;
+				// justify-content: space-between;
+				&--buyPath {
+					width: 100%;
+					.buyPathInner {
+						// width: 100%;
+						// display: flex;
+						flex-direction: column;
+						// border-bottom: 1px solid $light2-gray;
+						margin-bottom: 25px;
+						.pathContainer {
+							// display: flex;
+							// flex-direction: column;
+							padding-bottom: 30px;
+							margin-top: 40px;
+							width: 100%;
+							// .pathBox {
+							// 	display: flex;
+							// 	justify-content: space-between;
+							// 	width: 100%;
+							// 	height: 50px;
+							// 	font-size: 14px;
+							// 	font-weight: bold;
+							// 	color: $black;
+							// 	cursor: pointer;
+
+							// 	.path {
+							// 		display: flex;
+							// 		img {
+							// 			margin-right: 10px;
+							// 			width: 17.3px;
+							// 			height: 14px;
+							// 		}
+							// 	}
+							// }
+						}
+					}
+					.pay {
+						padding-left: 0px;
+					}
+					.payWayContainer {
+						padding-left: 0px;
+						.payWaySelecter--box {
+							// height: 50px;
+							// display: flex;
+							// justify-content: space-between;
+							// align-items: center;
+						}
+						.selectCard--box {
+							margin-top: 10px;
+							position: relative;
+
+							.card {
+								width: 77px;
+								height: 42px;
+								font-size: 12px;
+
+								// border: 1px solid $gray;
+								// font-weight: 500;
+								// color: $gray;
+								// margin-bottom: 10px;
+								// display: flex;
+								// justify-content: center;
+								// align-items: center;
+								// word-break: keep-all;
+								// padding: 0 10px;
+								// box-sizing: border-box;
+								// text-align: center;
+								// line-height: 1.2;
+								// cursor: pointer;
+
+								&:last-child {
+									position: absolute;
+									bottom: -0.1vw;
+									left: 22.8vw;
+								}
+							}
+							// .blue {
+							// 	border: 2px solid $blue;
+							// }
+						}
+					}
+				}
+				.payViewContainer {
+					width: 100%;
+					margin-top: 20px;
+					// height: 323px;
+					// background-color: $ligth-blue;
+					// padding: 20px;
+					// box-sizing: border-box;
+					// .title {
+					// 	font-size: 16px;
+					// 	font-weight: bold;
+					// 	color: $black;
+					// }
+					.pathCount--box {
+						// display: flex;
+						// justify-content: space-between;
+						// align-items: center;
+						// margin: 25px 0 30px 0;
+						// height: 30px;
+						.text {
+							// display: flex;
+							// justify-content: space-between;
+							width: 90px;
+							// font-size: 14px;
+							// font-weight: bold;
+							// color: $gray;
+						}
+					}
+
+					// .vat--box {
+					// 	display: flex;
+					// 	justify-content: space-between;
+					// 	height: 30px;
+					// 	border-bottom: 1px solid $light1-gray;
+					// 	margin-top: 45px;
+					// 	.vat {
+					// 		color: #aaaaaa;
+					// 		font-size: 12px;
+					// 		font-weight: bold;
+					// 	}
+					// 	.money {
+					// 		font-size: 14px;
+					// 		font-weight: 500;
+					// 		color: $gray;
+					// 	}
+					// }
+
+					// .total--box {
+					// 	display: flex;
+					// 	justify-content: space-between;
+					// 	margin: 20px 0;
+					// 	.totalText {
+					// 		font-size: 15px;
+					// 		font-weight: bold;
+					// 		color: $black;
+					// 	}
+					// 	.money {
+					// 		color: #1e59ea;
+					// 	}
+					// }
+
+					// .term--box {
+					// 	display: flex;
+					// 	align-items: center;
+					// 	.checkBox {
+					// 		width: 15px;
+					// 		height: 15px;
+					// 		margin-right: 10px;
+					// 		margin-left: 1px;
+					// 	}
+					// 	.termText {
+					// 		strong {
+					// 			text-decoration: underline;
+					// 			cursor: pointer;
+					// 			color: $gray;
+					// 		}
+					// 		font-size: 12px;
+					// 		font-weight: 500;
+					// 		color: $gray;
+					// 	}
+					// }
+
+					button {
+						width: 100%;
+						// margin-top: 15px;
+						// height: 52px;
+						// background-color: $blue;
+						// font-size: 16px;
+						// font-weight: bold;
+						// color: $white;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,165 @@
+.LeagueDetailNotice {
+	margin-top: 30px;
+
+	.notice__none {
+		margin-top: -30px;
+		box-sizing: border-box;
+		padding: 80px 30px;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.43;
+		color: #888888;
+		background-color: #fbfbfb;
+	}
+	li {
+		cursor: pointer;
+		box-sizing: border-box;
+		padding: 15px 0;
+		border-bottom: 1px solid rgb(234, 234, 234);
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.43;
+		color: #666666;
+
+		.notice__contants {
+			display: flex;
+			width: 75%;
+
+			.notice__title {
+				word-break: break-all;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				color: #666666;
+				text-align: left;
+			}
+		}
+		.user__info {
+			display: flex;
+
+			.nickname,
+			.notice_date {
+				font-size: 12px;
+				margin-left: 30px;
+			}
+		}
+	}
+	.title--box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid #d8d8d8;
+		box-sizing: border-box;
+		padding: 10px 0 18px 0;
+		h1 {
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 1.5;
+			color: #666666;
+			width: 70%;
+		}
+		.userInfo--box {
+			display: flex;
+			font-size: 12px;
+			font-weight: 500;
+			line-height: 1.5;
+			color: #aaaaaa;
+			.user__ninkname {
+				margin-right: 50px;
+			}
+		}
+	}
+	.contants {
+		border-bottom: 1px solid #d8d8d8;
+		box-sizing: border-box;
+		padding: 20px 0 60px 0;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 2;
+		color: #888888;
+	}
+	.post__btn--box {
+		margin-top: 25px;
+		display: flex;
+		justify-content: flex-end;
+		button {
+			width: 110px;
+			height: 45px;
+			border-radius: 3px;
+			border: solid 1px #cccccc;
+			background-color: #f2f2f2;
+			margin-left: 10px;
+			font-size: 14px;
+			font-weight: 500;
+			color: #666666;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.LeagueDetailNotice {
+		margin-top: 10px;
+		li {
+			padding: 8px 0;
+			.notice__contants {
+				display: flex;
+				width: 70%;
+				.notice__title {
+					word-break: break-all;
+					font-size: 12px;
+					line-height: 1.2;
+				}
+			}
+			.user__info {
+				display: flex;
+				flex-direction: column;
+				word-break: break-all;
+				width: 30%;
+				line-height: 1.5;
+				.nickname,
+				.notice_date {
+					font-size: 10px;
+					margin-left: 0;
+					text-align: end;
+				}
+			}
+		}
+		.title--box {
+			padding: 5px 0 9px 0;
+			h1 {
+				font-size: 14px;
+			}
+			.userInfo--box {
+				width: 30%;
+				flex-direction: column;
+				font-size: 10px;
+				text-align: end;
+				.user__ninkname {
+					margin-right: 0;
+				}
+			}
+		}
+		.contants {
+			font-size: 12px;
+		}
+		.post__btn--box {
+			margin-top: 15px;
+			display: flex;
+			justify-content: flex-end;
+			button {
+				width: 65px;
+				height: 30px;
+				border-radius: 3px;
+				border: solid 1px #cccccc;
+				background-color: #f2f2f2;
+				margin-left: 10px;
+				font-size: 12px;
+				font-weight: 500;
+				color: #666666;
+			}
+		}
+	}
+}

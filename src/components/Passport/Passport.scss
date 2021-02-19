@@ -1,0 +1,325 @@
+.Passport {
+	height: 272px;
+	border: solid 1px #bbbbbb;
+	box-sizing: border-box;
+	@media (max-width: 768px) {
+		display: none;
+	}
+
+	.Passport--content {
+		display: flex;
+
+		.img--content {
+			box-sizing: border-box;
+			padding: 0 25px;
+			width: 160px;
+			height: 265px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			.profile--box {
+				position: relative;
+				.profile {
+					width: 110px;
+					height: 110px;
+					border-radius: 50%;
+					margin-bottom: 15px;
+					cursor: pointer;
+				}
+				.settings {
+					cursor: pointer;
+					width: 20px;
+					height: 20px;
+					position: absolute;
+					bottom: 12px;
+					right: 12px;
+				}
+			}
+
+			.img-text {
+				width: 100%;
+				margin-top: 20px;
+				font-size: 10px;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #aaaaaa;
+				p {
+					font-size: 12px;
+					color: #888888;
+				}
+			}
+		}
+
+		.info--content {
+			width: 100%;
+			height: 269px;
+			background-color: #f2f2f2;
+			box-sizing: border-box;
+			padding: 20px;
+			.title--box {
+				display: flex;
+				align-items: center;
+				.title {
+					font-size: 12px;
+					font-weight: 500;
+					line-height: 1.5;
+					color: #666666;
+				}
+				.blue-bar {
+					margin-left: 10px;
+					height: 2px;
+					width: 200px;
+					background: #1e59ea;
+				}
+			}
+			.name-text {
+				margin-top: 15px;
+				font-size: 10px;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #aaaaaa;
+			}
+			.name--box {
+				display: flex;
+				.name {
+					cursor: pointer;
+					font-size: 16px;
+					font-weight: 900;
+					line-height: 1.5;
+				}
+				.button {
+					margin-left: 10px;
+					font-family: NotoSansCJKkr;
+					font-size: 10px;
+					font-weight: 500;
+					color: #eeeeee;
+					background: #888888;
+					border-radius: 10px;
+					box-sizing: border-box;
+				}
+
+				.done {
+					margin-left: 10px;
+					display: flex;
+					align-items: center;
+					text-align: center;
+					font-family: NotoSansCJKkr;
+					font-size: 10px;
+					font-weight: 500;
+					color: #eeeeee;
+					background: #888888;
+					border-radius: 10px;
+					box-sizing: border-box;
+					padding: 0 5px;
+					.check {
+						margin-right: 5px;
+						margin-bottom: 2px;
+					}
+				}
+			}
+
+			.comment {
+				display: inline-block;
+				font-family: NotoSansCJKkr;
+				font-size: 14px;
+				font-weight: 500;
+				color: #666666;
+				background: white;
+				border-radius: 15px;
+				padding: 10px 15px;
+				margin-top: 20px;
+			}
+			.option--content {
+				margin-top: 15px;
+				border-top: 1px solid #aaaaaa;
+				box-sizing: border-box;
+				padding: 5px 0;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				.option--box {
+					margin-top: 5px;
+					width: 170px;
+					height: 38px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					background-color: #ffffff;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 14px;
+					font-weight: 500;
+					color: #888888;
+					cursor: pointer;
+					.count {
+						margin-left: 10px;
+						font-size: 14px;
+						font-weight: 900;
+						color: #1e59ea;
+					}
+				}
+			}
+		}
+	}
+}
+
+.Passport-mobile {
+	height: 344px;
+	border: solid 1px #bbbbbb;
+	box-sizing: border-box;
+
+	.Passport--content {
+		display: flex;
+
+		.info--content {
+			width: 100%;
+			height: 342px;
+			background-color: #f2f2f2;
+			box-sizing: border-box;
+			padding: 20px;
+			.title--box {
+				display: flex;
+				align-items: center;
+				.title {
+					font-size: 12px;
+					font-weight: 500;
+					line-height: 1.5;
+					color: #666666;
+				}
+				.blue-bar {
+					margin-left: 10px;
+					height: 2px;
+					width: 65%;
+					background: #1e59ea;
+				}
+			}
+			.profile--content {
+				display: flex;
+				margin-top: 25px;
+				.profile--box {
+					position: relative;
+					.profile {
+						cursor: pointer;
+						width: 60px;
+						height: 60px;
+						border-radius: 50%;
+						margin-bottom: 15px;
+					}
+					.settings {
+						cursor: pointer;
+						width: 20px;
+						height: 20px;
+						position: absolute;
+						bottom: 12px;
+						right: 0px;
+					}
+				}
+				.text--box {
+					// border: 1px solid black;
+					padding: 10px 0;
+					box-sizing: border-box;
+					margin-left: 20px;
+					.name-text {
+						font-size: 10px;
+						font-weight: 500;
+						line-height: 1.5;
+						color: #aaaaaa;
+					}
+					.name--box {
+						display: flex;
+						.name {
+							font-size: 16px;
+							font-weight: 900;
+							line-height: 1.5;
+						}
+						.button {
+							margin-left: 10px;
+							font-family: NotoSansCJKkr;
+							font-size: 10px;
+							font-weight: 500;
+							color: #eeeeee;
+							background: #888888;
+							border-radius: 10px;
+							box-sizing: border-box;
+						}
+		
+						.done {
+							margin-left: 10px;
+							display: flex;
+							align-items: center;
+							text-align: center;
+							font-family: NotoSansCJKkr;
+							font-size: 10px;
+							font-weight: 500;
+							color: #eeeeee;
+							background: #888888;
+							border-radius: 10px;
+							box-sizing: border-box;
+							padding: 0 5px;
+							.check {
+								margin-right: 5px;
+								margin-bottom: 2px;
+							}
+						}
+					}
+				}
+			}
+			.passport-text--content {
+				display: flex;
+				.img-text {
+					width: 100%;
+					margin-top: 20px;
+					font-size: 10px;
+					font-weight: 500;
+					line-height: 1.5;
+					color: #aaaaaa;
+					p {
+						font-size: 12px;
+						color: #888888;
+					}
+				}
+			}
+			.comment {
+				font-family: NotoSansCJKkr;
+				font-size: 14px;
+				font-weight: 500;
+				color: #666666;
+				background: white;
+				border-radius: 15px;
+				padding: 10px 15px;
+				word-wrap: break-word;
+			}
+			.option--content {
+				margin-top: 15px;
+				border-top: 1px solid #aaaaaa;
+				box-sizing: border-box;
+				padding: 10px 0;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				.option--box {
+					margin-top: 5px;
+					width: 35vw;
+					height: 32px;
+					border-radius: 5px;
+					border: solid 1px #bbbbbb;
+					background-color: #ffffff;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 12px;
+					font-weight: 500;
+					color: #888888;
+					cursor: pointer;
+
+					.count {
+						margin-left: 10px;
+						font-size: 14px;
+						font-weight: 900;
+						color: #1e59ea;
+					}
+				}
+			}
+		}
+	}
+}

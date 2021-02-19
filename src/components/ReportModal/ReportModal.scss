@@ -1,0 +1,138 @@
+.ReportModal {
+	.background {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		background-color: #000000;
+		opacity: 0.5;
+		z-index: 100;
+	}
+	.ReportModal--box {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 830px;
+		overflow: auto;
+		border-radius: 10px;
+		background-color: white;
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+		z-index: 1000;
+		box-sizing: border-box;
+		padding: 30px 35px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: 500px;
+
+		.ReportModal--Header {
+			display: flex;
+			justify-content: space-between;
+			.text {
+				font-size: 22px;
+				font-weight: 900;
+			}
+			.header__button {
+				width: 125px;
+				height: 45px;
+				font-size: 16px;
+				font-weight: 500;
+				border-radius: 5px;
+				border-top-right-radius: 13px;
+				font-family: 'Noto Sans KR';
+				background: #1e59ea;
+				color: white;
+			}
+		}
+		.ReportModal--Main {
+			margin-top: 40px;
+			.report--list {
+				margin-top: 20px;
+				font-size: 16px;
+				font-weight: 500;
+				color: #666666;
+				border-top: 1px solid #eee;
+			}
+			.report--row__selected,
+			.report--row {
+				display: flex;
+				align-items: center;
+				cursor: pointer;
+				padding: 0 26px;
+				height: 81px;
+				border-bottom: 1px solid #eee;
+			}
+			.report--row__selected {
+				background-color: #d2dfff;
+				input {
+					margin-left: auto;
+					width: 570px;
+					font-size: 16px;
+					border: none;
+					font-weight: 500;
+					border-bottom: 1px solid #aaa;
+					padding: 8px 0;
+					background-color: transparent;
+					outline: none;
+					font-family: inherit;
+				}
+			}
+			.report--accept {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 330px;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 1.75;
+				text-align: center;
+				color: #666666;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.ReportModal {
+		.ReportModal--box {
+			position: fixed;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			width: 90%;
+			overflow: auto;
+			border-radius: 10px;
+			background-color: white;
+			box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+			z-index: 1000;
+			box-sizing: border-box;
+			padding: 30px 35px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			min-height: 500px;
+			.ReportModal--Header {
+				display: flex;
+				justify-content: space-between;
+				.text {
+					font-size: 18px;
+					font-weight: 900;
+				}
+				.header__button {
+					width: 100px;
+					height: 35px;
+					font-size: 16px;
+					font-weight: 500;
+					border-radius: 5px;
+					border-top-right-radius: 13px;
+					font-family: 'Noto Sans KR';
+					background: #1e59ea;
+					color: white;
+				}
+			}
+		}
+	}
+}

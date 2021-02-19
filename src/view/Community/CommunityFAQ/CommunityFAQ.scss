@@ -1,0 +1,45 @@
+@media(min-width:769px){
+  .CommunityFAQ{
+    padding: 48px 35px;
+    box-sizing: border-box;
+    min-height: 1000px;
+    background-color: #322e3d;
+    &--header{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #aaa;
+      display: flex;
+      color: #ffffff;
+    }
+    &--list{
+    }
+    &--row{
+      .CommunityFAQRow:nth-child(odd){background-color:#242424;}
+    }
+  }  
+}
+
+@media(max-width:768px){
+  .CommunityFAQ{
+    padding: 40px 20px;
+    box-sizing: border-box;
+    min-height: 700px;
+    background-color: #322e3d;
+    &--header{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #aaa;
+      display: flex;
+      color: #ffffff;
+    }
+    &--list{
+    }
+    &--row{
+      .CommunityFAQRow:nth-child(odd){background-color:#242424;}
+    }
+  }  
+}

@@ -1,0 +1,59 @@
+.WriteInquiry {
+	position: relative;
+	color: #666;
+
+	&--text {
+		margin-top: 13.5px;
+		margin-bottom: 9px;
+	}
+
+	&--btnGroup {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 13px;
+
+		.box {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 130px;
+			height: 44px;
+			border-radius: 8px;
+			border: solid 1px #1e59ea;
+			&:hover{
+				background-color: #1e59ea;
+				font-size: 18px;
+				color: white;
+			}
+			&.selected {
+				background-color: #1e59ea;
+				font-size: 20px;
+				font-weight: 500;
+				color: white;
+			}
+		}
+	}
+	.c-Input{
+		.Input{
+			height: 38px;
+			border: 1px solid #dddddd;
+			width: 100%;
+			margin-bottom: 17px;
+		}
+	}
+	.custom-textarea{
+		padding: 15px 18px;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.43;
+		border: 1px solid #dddddd;
+		height: 226px;
+		margin-bottom: 10px;
+		
+	}
+	&--submit{
+		margin-top: 32px;
+		display: flex;
+		justify-content: flex-end;
+	}
+}

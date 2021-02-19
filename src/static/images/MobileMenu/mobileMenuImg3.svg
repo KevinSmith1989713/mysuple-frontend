@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.464" height="16" viewBox="0 0 16.464 16">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#322e3d}
+        </style>
+    </defs>
+    <g id="prefix__Group_1182" data-name="Group 1182" transform="translate(-3047.765 -1078.839)">
+        <path id="prefix__Path_1869" d="M3061.445 1095.122h-13.681v-13.682h6.84v1.772h-5.068v10.136h10.136v-5.069h1.772z" class="prefix__cls-1" data-name="Path 1869" transform="translate(0 -.283)"/>
+        <g id="prefix__Group_1179" data-name="Group 1179" transform="translate(3053.055 1079.559)">
+            <path id="prefix__Rectangle_4458" d="M0 0H2.352V8.851H0z" data-name="Rectangle 4458" transform="rotate(45 2.234 9.716)" style="fill:#1e59ea"/>
+            <path id="prefix__Path_1870" d="M3061.225 1080.914l1.662 1.662-6.258 6.259-1.663-1.663 6.259-6.258m0-1.266a1.265 1.265 0 0 0-.9.371l-6.258 6.259a1.265 1.265 0 0 0 0 1.79l1.662 1.663a1.267 1.267 0 0 0 1.791 0l6.26-6.258a1.268 1.268 0 0 0 0-1.791l-1.664-1.663a1.263 1.263 0 0 0-.895-.371z" class="prefix__cls-1" data-name="Path 1870" transform="translate(-3053.7 -1079.647)"/>
+        </g>
+        <g id="prefix__Group_1180" data-name="Group 1180" transform="translate(3051.63 1085.818)">
+            <path id="prefix__Path_1871" d="M3054.946 1088.089l-1.425 3.089 3.088-1.425z" data-name="Path 1871" transform="translate(-3052.255 -1086.823)" style="fill:#ffb361"/>
+            <path id="prefix__Path_1872" d="M3054.792 1087.935l1.663 1.663-3.089 1.425 1.426-3.089m0-1.266a1.239 1.239 0 0 0-.222.02 1.262 1.262 0 0 0-.927.716l-1.426 3.089a1.266 1.266 0 0 0 1.68 1.679l3.089-1.425a1.266 1.266 0 0 0 .364-2.045l-1.662-1.662a1.268 1.268 0 0 0-.9-.371z" class="prefix__cls-1" data-name="Path 1872" transform="translate(-3052.101 -1086.669)"/>
+        </g>
+        <g id="prefix__Group_1181" data-name="Group 1181" transform="translate(3059.313 1078.839)">
+            <path id="prefix__Rectangle_4459" d="M0 0H2.352V1.019H0z" data-name="Rectangle 4459" transform="rotate(45 -.535 3.032)" style="fill:#d2dfff"/>
+            <path id="prefix__Path_1873" d="M3062.708 1080.1l1.663 1.663-.721.72-1.663-1.662.72-.721m0-1.266a1.262 1.262 0 0 0-.895.371l-.721.72a1.268 1.268 0 0 0 0 1.791l1.664 1.663a1.266 1.266 0 0 0 .9.371 1.269 1.269 0 0 0 .9-.371l.72-.721a1.267 1.267 0 0 0 0-1.791l-1.663-1.662a1.264 1.264 0 0 0-.9-.371z" class="prefix__cls-1" data-name="Path 1873" transform="translate(-3060.722 -1078.839)"/>
+        </g>
+    </g>
+</svg>

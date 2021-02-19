@@ -1,0 +1,116 @@
+@media (min-width: 769px) {
+	.AuthContainer {
+		.borad {
+			display: none;
+		}
+		display: flex;
+		flex-direction: column;
+		padding-left: 311px;
+		box-sizing: border-box;
+		width: 100%;
+		padding-bottom: 100px;
+
+		@keyframes login {
+			0% {
+				opacity: 0;
+				transform: translate3d(0%, -100%, 0);
+				-webkit-transform: translate3d(0%, -100%, 0);
+			}
+			100% {
+				opacity: 1;
+				transform: translate3d(0, 0, 0);
+				-webkit-transform: translate3d(0, 0%, 0);
+			}
+		}
+
+		animation-name: login;
+		animation-fill-mode: both;
+		animation-duration: 1.5s;
+
+		&--login {
+			display: flex;
+			align-items: flex-end;
+			width: 100%;
+			height: 152px;
+			margin-bottom: 25px;
+		}
+
+		&--button {
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+
+		&--linkGroup {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 20px 0px 36px 0px;
+			width: 352px;
+			height: 24px;
+			color: #666666;
+
+			li {
+				padding: 0px 11px;
+				cursor: pointer;
+			}
+			.middleList {
+				border-left: 2px solid #bbbbbb;
+				border-right: 2px solid #bbbbbb;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.AuthContainer {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		padding: 39px 20px 85px 20px;
+		box-sizing: border-box;
+
+		.board {
+			position: absolute;
+			width: 100%;
+			top: 0px;
+			left: 0;
+			height: 60px;
+			background: #dddddd;
+			opacity: 0.5;
+			z-index: -1;
+		}
+
+		&--login {
+			width: 100%;
+			margin-bottom: 25px;
+		}
+
+		.AuthContainer--input {
+			width: 100% !important;
+		}
+
+		&--button {
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		&--linkGroup {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 20px 0px 36px 0px;
+			width: 100%;
+			height: 24px;
+			color: #666666;
+
+			li {
+				padding: 0px 5px;
+				cursor: pointer;
+			}
+			.middleList {
+				border-left: 2px solid #bbbbbb;
+				border-right: 2px solid #bbbbbb;
+			}
+		}
+	}
+}

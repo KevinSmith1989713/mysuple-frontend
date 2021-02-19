@@ -1,0 +1,10 @@
+.Textarea {
+  width: 100%;
+  resize: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.Textarea::placeholder{
+  color: #bbbbbb;
+  font-family: inherit;
+}

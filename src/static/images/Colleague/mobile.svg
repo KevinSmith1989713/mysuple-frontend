@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11.558" height="16.942" viewBox="0 0 11.558 16.942">
+    <defs>
+        <style>
+            .prefix__cls-2{fill:#322e3d}
+        </style>
+    </defs>
+    <g id="prefix__Group_1147" data-name="Group 1147" transform="translate(432.344 1649.543)">
+        <g id="prefix__Group_1146" data-name="Group 1146">
+            <rect id="prefix__Rectangle_4368" width="8.723" height="14.107" data-name="Rectangle 4368" rx="1.446" transform="translate(-430.927 -1648.126)" style="fill:#d2dfff"/>
+            <path id="prefix__Path_1858" d="M-423.649-1648.126a1.447 1.447 0 0 1 1.446 1.446v11.216a1.446 1.446 0 0 1-1.446 1.445h-5.832a1.446 1.446 0 0 1-1.446-1.445v-11.216a1.447 1.447 0 0 1 1.446-1.446h5.832m0-1.417h-5.832a2.866 2.866 0 0 0-2.863 2.863v11.216a2.866 2.866 0 0 0 2.863 2.863h5.832a2.866 2.866 0 0 0 2.863-2.863v-11.216a2.866 2.866 0 0 0-2.863-2.863z" class="prefix__cls-2" data-name="Path 1858"/>
+        </g>
+        <circle id="prefix__Ellipse_936" cx=".897" cy=".897" r=".897" class="prefix__cls-2" data-name="Ellipse 936" transform="translate(-427.634 -1636.457)"/>
+        <path id="prefix__Rectangle_4369" d="M0 0H3.245V1H0z" class="prefix__cls-2" data-name="Rectangle 4369" transform="translate(-428.187 -1647.138)"/>
+        <path id="prefix__Rectangle_4370" d="M0 0H8.723V8.337H0z" data-name="Rectangle 4370" transform="translate(-430.927 -1645.475)" style="fill:#1e59ea"/>
+    </g>
+</svg>

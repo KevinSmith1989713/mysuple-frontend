@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.305" height="50.223" viewBox="0 0 37.305 50.223">
+    <defs>
+        <style>
+            .survival-4{fill:#a87c4f}
+        </style>
+    </defs>
+    <g id="prefix__Group_876" data-name="Group 876" transform="translate(-73.399 -401.1)">
+        <g id="prefix__Group_875" data-name="Group 875">
+            <path id="prefix__Path_1521" d="M92.1 413.3c-.9-7 6.2-9.4 6.2-9.4-2.6 6.4 4.5 10.8 7.7 16 1.2 2 2.1 4 1.7 6.3a8.461 8.461 0 0 1-3.9 6c-2.9 1.9-6.7 2.7-10.4 2.9a27.424 27.424 0 0 1-10.7-1.3 11.683 11.683 0 0 1-5-3.2 7.326 7.326 0 0 1-1.7-4.9c-.1-7.4 6.2-11.8 12.8-16.2a.1.1 0 0 0 .1-.1c.6-.4.8-.4 1.1-.6-.7 4.4 2.1 4.5 2.1 4.5z" data-name="Path 1521" style="fill:#c4331d"/>
+            <path id="prefix__Path_1522" d="M98.3 403.9c-2.6 6.4 4.5 10.8 7.7 16 1.2 2 2.1 4 1.7 6.3a8.461 8.461 0 0 1-3.9 6c-2.9 1.9-6.7 2.7-10.4 2.9-.7 0-1.4.1-2 .1a27.773 27.773 0 0 1-8.7-1.3 11.683 11.683 0 0 1-5-3.2 7.326 7.326 0 0 1-1.7-4.9c-.1-7.4 6.2-11.8 12.8-16.2a.1.1 0 0 0 .1-.1c.6-.4.8-.4 1.1-.6-.8 4.2 2 4.4 2 4.4-.8-7 6.3-9.4 6.3-9.4m0-2.8a3.553 3.553 0 0 0-1 .2 12.526 12.526 0 0 0-6.3 5 2.485 2.485 0 0 0-.8-.1 2.663 2.663 0 0 0-1.2.3h-.1a3.438 3.438 0 0 0-1.4.8c-6.3 4.2-14.2 9.4-14.1 18.6a10.277 10.277 0 0 0 2.4 6.6 13.27 13.27 0 0 0 6.2 4.1 28.454 28.454 0 0 0 9.6 1.5 16.2 16.2 0 0 0 2.2-.1c4.8-.3 8.8-1.4 11.7-3.3a11.65 11.65 0 0 0 5.1-8 12.273 12.273 0 0 0-2.1-8.2 41.719 41.719 0 0 0-3.6-4.7c-3.1-3.6-5-5.9-3.8-8.7a2.674 2.674 0 0 0-.2-2.6 3.419 3.419 0 0 0-2.6-1.4zm-5.4 9.7z" data-name="Path 1522" style="fill:#931e2d"/>
+        </g>
+        <path id="prefix__Path_1523" d="M92.8 418s-.1 2.6-5.3 5.5c-5.2 2.8-3.1 10.1 4.6 10.1 8.8.1 10-10.1.7-15.6z" data-name="Path 1523" style="fill:#f1b52e"/>
+        <ellipse id="prefix__Ellipse_662" cx="3.1" cy="2" class="survival-4" data-name="Ellipse 662" rx="3.1" ry="2" transform="rotate(-73.98 330.343 171.633)"/>
+        <ellipse id="prefix__Ellipse_663" cx="3.1" cy="2" class="survival-4" data-name="Ellipse 663" rx="3.1" ry="2" transform="rotate(-73.98 350.883 156.098)"/>
+        <path id="prefix__Rectangle_3577" d="M0 0H31V6.3H0z" class="survival-4" data-name="Rectangle 3577" transform="rotate(16.05 -1510.477 495.625)"/>
+        <ellipse id="prefix__Ellipse_664" cx="2" cy="3.1" class="survival-4" data-name="Ellipse 664" rx="2" ry="3.1" transform="rotate(-16.05 1604.049 -150.551)"/>
+        <ellipse id="prefix__Ellipse_665" cx="2" cy="3.1" class="survival-4" data-name="Ellipse 665" rx="2" ry="3.1" transform="rotate(-16.05 1619.288 -40.014)"/>
+        <path id="prefix__Rectangle_3578" d="M0 0H31V6.3H0z" class="survival-4" data-name="Rectangle 3578" transform="rotate(163.95 22.752 228.77)"/>
+    </g>
+</svg>

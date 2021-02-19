@@ -1,0 +1,45 @@
+@media(min-width:769px){
+  .Figure{
+    text-align: center;
+    cursor: pointer;
+    img{
+      width: auto;
+      height: 97px;
+    }
+    &--name{
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 1.43;
+      color: #666666;
+    }
+    &--date{
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #bbbbbb;
+    }
+  }
+}
+
+@media(max-width:768px){
+  .Figure{
+    text-align: center;
+    cursor: pointer;
+    img{
+      width: auto;
+      height: 100px;
+    }
+    &--name{
+      font-size: 14px;
+      font-weight: 900;
+      line-height: 1.43;
+      color: #666666;
+    }
+    &--date{
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #bbbbbb;
+    }
+  }
+}

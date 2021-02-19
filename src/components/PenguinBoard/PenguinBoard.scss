@@ -1,0 +1,50 @@
+@media(min-width:769px){
+	.PenguinBoard {
+		width: 845px;
+		height: 232px;
+		background-color: #1e59ea;
+	
+		&--text {
+			margin-left: 36px;
+			margin-top: 22px;
+			color: #ffffff;
+			font-size: 32px;
+			font-weight: 900;
+	
+			p {
+				font-size: 45px;
+				color: #ccc;
+				height: 66px;
+			}
+	
+			span {
+				color: #ffb361;
+			}
+		}
+	}
+}
+@media(max-width:768px){
+	.PenguinBoard {
+		width: 100%;
+		height: 232px;
+		background-color: #1e59ea;
+	
+		&--text {
+			margin-left: 36px;
+			margin-top: 22px;
+			color: #ffffff;
+			font-size: 32px;
+			font-weight: 900;
+	
+			p {
+				font-size: 45px;
+				color: #ccc;
+				height: 66px;
+			}
+	
+			span {
+				color: #ffb361;
+			}
+		}
+	}	
+}

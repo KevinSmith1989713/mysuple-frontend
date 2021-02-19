@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="472.096" height="388" viewBox="0 0 472.096 388">
+    <defs>
+        <style>
+            .showcaseOpen-1{fill:#fff;stroke-width:19.843px}.showcaseOpen-1,.showcaseOpen-4{stroke:#221f1f}.showcaseOpen-1,.showcaseOpen-10,.showcaseOpen-12,.showcaseOpen-3,.showcaseOpen-4{stroke-miterlimit:10}.showcaseOpen-2{fill:#221f1f}.showcaseOpen-10,.showcaseOpen-12,.showcaseOpen-3,.showcaseOpen-4{fill:none}.showcaseOpen-3{stroke:#f9ae42;stroke-width:31.263px}.showcaseOpen-4{stroke-width:19.901px}.showcaseOpen-5{fill:#d2dfff}.showcaseOpen-6{fill:#bbbdbf}.showcaseOpen-7{fill:#d0d2d3}.showcaseOpen-8{fill:#a6a8ab}.showcaseOpen-9{fill:#ffa69c}.showcaseOpen-10{stroke:#ffa69c}.showcaseOpen-10,.showcaseOpen-12{stroke-width:5.669px}.showcaseOpen-11{fill:#22ba90}.showcaseOpen-12{stroke:#22ba90}
+        </style>
+    </defs>
+    <g id="Group_649" data-name="Group 649" transform="translate(3.397)">
+        <path id="Path_1170" d="M48.8 198.9l15.6-15.4a89.663 89.663 0 0 1 125.9 127.7l-25 24.7-38.8 38.3H48.8z" class="showcaseOpen-1" data-name="Path 1170"/>
+        <g id="Group_635" data-name="Group 635">
+            <circle id="Ellipse_494" cx="10.1" cy="10.1" r="10.1" class="showcaseOpen-2" data-name="Ellipse 494" transform="translate(122.1 205.2)"/>
+            <circle id="Ellipse_495" cx="10.1" cy="10.1" r="10.1" class="showcaseOpen-2" data-name="Ellipse 495" transform="translate(149.3 232.8)"/>
+        </g>
+        <path id="Line_807" d="M0 0l40.5 41.1" class="showcaseOpen-3" data-name="Line 807" transform="translate(96.7 233.4)"/>
+        <path id="Line_808" d="M12.6 0L0 32.5" class="showcaseOpen-4" data-name="Line 808" transform="translate(88.5 344.4)"/>
+        <g id="Group_636" data-name="Group 636">
+            <path id="Path_1171" d="M51.5 386.5a12.249 12.249 0 0 1-12.2-12.2V13.6A12.249 12.249 0 0 1 51.5 1.4h403.6a12.249 12.249 0 0 1 12.2 12.2v360.8a12.249 12.249 0 0 1-12.2 12.2H51.5zm18-97a9.347 9.347 0 0 0-9.3 9.3v57.5a9.347 9.347 0 0 0 9.3 9.3h367.7a9.347 9.347 0 0 0 9.3-9.3v-57.5a9.347 9.347 0 0 0-9.3-9.3zm0-89.2a9.347 9.347 0 0 0-9.3 9.3v58.9a9.347 9.347 0 0 0 9.3 9.3h367.7a9.347 9.347 0 0 0 9.3-9.3v-58.9a9.347 9.347 0 0 0-9.3-9.3zm0-91.7a9.347 9.347 0 0 0-9.3 9.3v61.4a9.347 9.347 0 0 0 9.3 9.3h367.7a9.347 9.347 0 0 0 9.3-9.3v-61.4a9.347 9.347 0 0 0-9.3-9.3zm0-86.3a9.347 9.347 0 0 0-9.3 9.3v55.9a9.347 9.347 0 0 0 9.3 9.3h367.7a9.347 9.347 0 0 0 9.3-9.3V31.6a9.347 9.347 0 0 0-9.3-9.3z" class="showcaseOpen-5" data-name="Path 1171"/>
+            <path id="Path_1172" d="M455.1 2.8a10.819 10.819 0 0 1 10.8 10.8v360.8a10.819 10.819 0 0 1-10.8 10.8H51.5a10.819 10.819 0 0 1-10.8-10.8V13.6A10.819 10.819 0 0 1 51.5 2.8h403.6M69.5 98.3h367.7A10.819 10.819 0 0 0 448 87.5V31.6a10.819 10.819 0 0 0-10.8-10.8H69.5a10.819 10.819 0 0 0-10.8 10.8v55.9a10.755 10.755 0 0 0 10.8 10.8m0 91.8h367.7a10.819 10.819 0 0 0 10.8-10.8v-61.4a10.819 10.819 0 0 0-10.8-10.8H69.5a10.819 10.819 0 0 0-10.8 10.8v61.4a10.819 10.819 0 0 0 10.8 10.8m0 89.2h367.7a10.819 10.819 0 0 0 10.8-10.8v-58.9a10.819 10.819 0 0 0-10.8-10.8H69.5a10.819 10.819 0 0 0-10.8 10.8v58.9a10.819 10.819 0 0 0 10.8 10.8m0 87.8h367.7a10.819 10.819 0 0 0 10.8-10.8v-57.5a10.819 10.819 0 0 0-10.8-10.8H69.5a10.819 10.819 0 0 0-10.8 10.8v57.5a10.819 10.819 0 0 0 10.8 10.8M455.1 0H51.5a13.614 13.614 0 0 0-13.6 13.6v360.8A13.614 13.614 0 0 0 51.5 388h403.6a13.614 13.614 0 0 0 13.6-13.6V13.6A13.614 13.614 0 0 0 455.1 0zM69.5 95.5a7.917 7.917 0 0 1-7.9-7.9v-56a7.917 7.917 0 0 1 7.9-7.9h367.7a7.917 7.917 0 0 1 7.9 7.9v55.9a7.917 7.917 0 0 1-7.9 7.9H69.5zm0 91.7a7.917 7.917 0 0 1-7.9-7.9v-61.4a7.917 7.917 0 0 1 7.9-7.9h367.7a7.917 7.917 0 0 1 7.9 7.9v61.4a7.917 7.917 0 0 1-7.9 7.9zm0 89.2a7.917 7.917 0 0 1-7.9-7.9v-58.9a7.917 7.917 0 0 1 7.9-7.9h367.7a7.917 7.917 0 0 1 7.9 7.9v58.9a7.917 7.917 0 0 1-7.9 7.9zm0 87.8a7.917 7.917 0 0 1-7.9-7.9v-57.5a7.917 7.917 0 0 1 7.9-7.9h367.7a7.917 7.917 0 0 1 7.9 7.9v57.5a7.917 7.917 0 0 1-7.9 7.9z" class="showcaseOpen-5" data-name="Path 1172"/>
+        </g>
+        <path id="Rectangle_2894" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2894" transform="translate(326.6 180.9)"/>
+        <path id="Rectangle_2895" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2895" transform="translate(337.9 173.6)"/>
+        <path id="Rectangle_2896" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2896" transform="translate(342.8 173.6)"/>
+        <g id="Group_637" data-name="Group 637">
+            <path id="Path_1173" d="M341.1 132.7a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.629 10.629 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1173"/>
+            <path id="Path_1174" d="M341.1 175.5a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 0 1 24.2 0v20.3a12.142 12.142 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.878 8.878 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1174"/>
+        </g>
+        <circle id="Ellipse_496" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 496" transform="translate(335.3 138.9)"/>
+        <circle id="Ellipse_497" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 497" transform="translate(339.9 138.9)"/>
+        <path id="Rectangle_2897" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2897" transform="translate(334.3 142.7)"/>
+        <path id="Rectangle_2898" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2898" transform="rotate(-45 357.843 -334.132)"/>
+        <path id="Rectangle_2899" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2899" transform="translate(385 180.9)"/>
+        <path id="Rectangle_2900" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2900" transform="translate(396.4 173.6)"/>
+        <path id="Rectangle_2901" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2901" transform="translate(401.3 173.6)"/>
+        <g id="Group_638" data-name="Group 638">
+            <path id="Path_1175" d="M399.5 132.7a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.5 10.5 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1175"/>
+            <path id="Path_1176" d="M399.5 175.5a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1176"/>
+        </g>
+        <circle id="Ellipse_498" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 498" transform="translate(393.8 138.9)"/>
+        <circle id="Ellipse_499" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 499" transform="translate(398.3 138.9)"/>
+        <path id="Rectangle_2902" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2902" transform="translate(392.8 142.7)"/>
+        <path id="Rectangle_2903" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2903" transform="rotate(-45 387.111 -404.626)"/>
+        <path id="Rectangle_2904" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2904" transform="translate(268.3 180.9)"/>
+        <path id="Rectangle_2905" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2905" transform="translate(279.6 173.6)"/>
+        <path id="Rectangle_2906" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2906" transform="translate(284.5 173.6)"/>
+        <g id="Group_639" data-name="Group 639">
+            <path id="Path_1177" d="M282.7 132.7a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 1 0 21 0v-20.3a10.5 10.5 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1177"/>
+            <path id="Path_1178" d="M282.7 175.5a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.015 12.015 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.749 8.749 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1178"/>
+        </g>
+        <circle id="Ellipse_500" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 500" transform="translate(277 138.9)"/>
+        <circle id="Ellipse_501" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 501" transform="translate(281.5 138.9)"/>
+        <path id="Rectangle_2907" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2907" transform="translate(276 142.7)"/>
+        <path id="Rectangle_2908" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2908" transform="rotate(-45 328.734 -263.638)"/>
+        <path id="Rectangle_2909" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2909" transform="translate(296.2 270.3)"/>
+        <path id="Rectangle_2910" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2910" transform="translate(307.5 263)"/>
+        <path id="Rectangle_2911" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2911" transform="translate(312.4 263)"/>
+        <g id="Group_640" data-name="Group 640">
+            <path id="Path_1179" d="M310.7 222a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.563 10.563 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1179"/>
+            <path id="Path_1180" d="M310.7 264.8a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.142 12.142 0 0 1-12.1 12.1zm0-41.1a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1180"/>
+        </g>
+        <circle id="Ellipse_502" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 502" transform="translate(305 228.2)"/>
+        <circle id="Ellipse_503" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 503" transform="translate(309.5 228.2)"/>
+        <path id="Rectangle_2912" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2912" transform="translate(303.9 232)"/>
+        <path id="Rectangle_2913" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2913" transform="rotate(-45 450.575 -252.817)"/>
+        <path id="Rectangle_2914" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2914" transform="translate(354.6 270.3)"/>
+        <path id="Rectangle_2915" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2915" transform="translate(366 263)"/>
+        <path id="Rectangle_2916" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2916" transform="translate(370.9 263)"/>
+        <g id="Group_641" data-name="Group 641">
+            <path id="Path_1181" d="M369.1 222a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.5 10.5 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1181"/>
+            <path id="Path_1182" d="M369.1 264.8a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 0 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.1a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.687 8.687 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1182"/>
+        </g>
+        <circle id="Ellipse_504" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 504" transform="translate(363.4 228.2)"/>
+        <circle id="Ellipse_505" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 505" transform="translate(367.9 228.2)"/>
+        <path id="Rectangle_2917" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2917" transform="translate(362.4 232)"/>
+        <path id="Rectangle_2918" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2918" transform="rotate(-45 479.843 -323.312)"/>
+        <path id="Rectangle_2919" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2919" transform="translate(237.9 270.3)"/>
+        <path id="Rectangle_2920" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2920" transform="translate(249.2 263)"/>
+        <path id="Rectangle_2921" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2921" transform="translate(254.1 263)"/>
+        <g id="Group_642" data-name="Group 642">
+            <path id="Path_1183" d="M252.4 222a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 1 0 21 0v-20.3a10.629 10.629 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1183"/>
+            <path id="Path_1184" d="M252.4 264.8a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.142 12.142 0 0 1-12.1 12.1zm0-41.1a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1184"/>
+        </g>
+        <circle id="Ellipse_506" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 506" transform="translate(246.6 228.2)"/>
+        <circle id="Ellipse_507" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 507" transform="translate(251.2 228.2)"/>
+        <path id="Rectangle_2922" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2922" transform="translate(245.6 232)"/>
+        <path id="Rectangle_2923" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2923" transform="rotate(-45 421.415 -182.444)"/>
+        <path id="Rectangle_2924" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2924" transform="translate(326.7 358)"/>
+        <path id="Rectangle_2925" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2925" transform="translate(338.1 350.7)"/>
+        <path id="Rectangle_2926" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2926" transform="translate(343 350.7)"/>
+        <g id="Group_643" data-name="Group 643">
+            <path id="Path_1185" d="M341.2 309.8a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.5 10.5 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1185"/>
+            <path id="Path_1186" d="M341.2 352.6a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1186"/>
+        </g>
+        <circle id="Ellipse_508" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 508" transform="translate(335.5 316)"/>
+        <circle id="Ellipse_509" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 509" transform="translate(340 316)"/>
+        <path id="Rectangle_2927" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2927" transform="translate(334.5 319.8)"/>
+        <path id="Rectangle_2928" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2928" transform="rotate(-45 571.742 -245.72)"/>
+        <path id="Rectangle_2929" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2929" transform="translate(385.2 358)"/>
+        <path id="Rectangle_2930" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2930" transform="translate(396.5 350.7)"/>
+        <path id="Rectangle_2931" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2931" transform="translate(401.4 350.7)"/>
+        <g id="Group_644" data-name="Group 644">
+            <path id="Path_1187" d="M399.7 309.8a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.5 10.5 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1187"/>
+            <path id="Path_1188" d="M399.7 352.6a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0v-20.3a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1188"/>
+        </g>
+        <circle id="Ellipse_510" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 510" transform="translate(394 316)"/>
+        <circle id="Ellipse_511" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 511" transform="translate(398.5 316)"/>
+        <path id="Rectangle_2932" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2932" transform="translate(393 319.8)"/>
+        <path id="Rectangle_2933" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2933" transform="rotate(-45 600.96 -316.334)"/>
+        <path id="Rectangle_2934" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2934" transform="translate(268.4 358)"/>
+        <path id="Rectangle_2935" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2935" transform="translate(279.8 350.7)"/>
+        <path id="Rectangle_2936" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2936" transform="translate(284.6 350.7)"/>
+        <g id="Group_645" data-name="Group 645">
+            <path id="Path_1189" d="M282.9 309.8a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0v-20.3a10.5 10.5 0 0 0-10.5-10.5z" class="showcaseOpen-7" data-name="Path 1189"/>
+            <path id="Path_1190" d="M282.9 352.6a12.078 12.078 0 0 1-12.1-12.1v-20.3a12.1 12.1 0 1 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 0 0 17.6 0v-20.3a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1190"/>
+        </g>
+        <circle id="Ellipse_512" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 512" transform="translate(277.2 316)"/>
+        <circle id="Ellipse_513" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 513" transform="translate(281.7 316)"/>
+        <path id="Rectangle_2937" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2937" transform="translate(276.2 319.8)"/>
+        <path id="Rectangle_2938" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2938" transform="rotate(-45 542.582 -175.345)"/>
+        <path id="Rectangle_2939" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2939" transform="translate(288.6 89.2)"/>
+        <path id="Rectangle_2940" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2940" transform="translate(300 81.9)"/>
+        <path id="Rectangle_2941" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2941" transform="translate(304.9 81.9)"/>
+        <g id="Group_646" data-name="Group 646">
+            <path id="Path_1191" d="M303.1 41a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0V51.4A10.478 10.478 0 0 0 303.1 41z" class="showcaseOpen-7" data-name="Path 1191"/>
+            <path id="Path_1192" d="M303.1 83.8A12.078 12.078 0 0 1 291 71.7V51.4a12.1 12.1 0 0 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0V51.4a8.749 8.749 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1192"/>
+        </g>
+        <circle id="Ellipse_514" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 514" transform="translate(297.4 47.2)"/>
+        <circle id="Ellipse_515" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 515" transform="translate(301.9 47.2)"/>
+        <path id="Rectangle_2942" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2942" transform="translate(296.4 51)"/>
+        <path id="Rectangle_2943" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2943" transform="rotate(-45 228.237 -334.126)"/>
+        <path id="Rectangle_2944" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2944" transform="translate(347.1 89.2)"/>
+        <path id="Rectangle_2945" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2945" transform="translate(358.5 81.9)"/>
+        <path id="Rectangle_2946" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2946" transform="translate(363.3 81.9)"/>
+        <g id="Group_647" data-name="Group 647">
+            <path id="Path_1193" d="M361.6 41a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0V51.4A10.478 10.478 0 0 0 361.6 41z" class="showcaseOpen-7" data-name="Path 1193"/>
+            <path id="Path_1194" d="M361.6 83.8a12.078 12.078 0 0 1-12.1-12.1V51.4a12.1 12.1 0 0 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0V51.4a8.813 8.813 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1194"/>
+        </g>
+        <circle id="Ellipse_516" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 516" transform="translate(355.9 47.2)"/>
+        <circle id="Ellipse_517" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 517" transform="translate(360.4 47.2)"/>
+        <path id="Rectangle_2947" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2947" transform="translate(354.9 51)"/>
+        <path id="Rectangle_2948" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2948" transform="rotate(-45 257.456 -404.742)"/>
+        <path id="Rectangle_2949" d="M0 0h30.4v6.1H0z" class="showcaseOpen-6" data-name="Rectangle 2949" transform="translate(230.3 89.2)"/>
+        <path id="Rectangle_2950" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2950" transform="translate(241.7 81.9)"/>
+        <path id="Rectangle_2951" d="M0 0h1.8v7.3H0z" class="showcaseOpen-7" data-name="Rectangle 2951" transform="translate(246.6 81.9)"/>
+        <g id="Group_648" data-name="Group 648">
+            <path id="Path_1195" d="M244.8 41a10.5 10.5 0 0 0-10.5 10.5v20.3a10.5 10.5 0 0 0 21 0V51.4A10.478 10.478 0 0 0 244.8 41z" class="showcaseOpen-7" data-name="Path 1195"/>
+            <path id="Path_1196" d="M244.8 83.8a12.078 12.078 0 0 1-12.1-12.1V51.4a12.1 12.1 0 1 1 24.2 0v20.3a12.078 12.078 0 0 1-12.1 12.1zm0-41.2a8.813 8.813 0 0 0-8.8 8.8v20.3a8.8 8.8 0 1 0 17.6 0V51.4a8.749 8.749 0 0 0-8.8-8.8z" class="showcaseOpen-8" data-name="Path 1196"/>
+        </g>
+        <circle id="Ellipse_518" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 518" transform="translate(239.1 47.2)"/>
+        <circle id="Ellipse_519" cx="1.2" cy="1.2" r="1.2" class="showcaseOpen-8" data-name="Ellipse 519" transform="translate(243.6 47.2)"/>
+        <path id="Rectangle_2952" d="M0 0h6.7v3.6H0z" class="showcaseOpen-8" data-name="Rectangle 2952" transform="translate(238.1 51)"/>
+        <path id="Rectangle_2953" d="M0 0h3.3v13.2H0z" class="showcaseOpen-8" data-name="Rectangle 2953" transform="rotate(-45 199.078 -263.753)"/>
+        <ellipse id="Ellipse_520" cx="8.7" cy="12.8" class="showcaseOpen-9" data-name="Ellipse 520" rx="8.7" ry="12.8" transform="rotate(-61.041 136.524 84.367)"/>
+        <path id="Rectangle_2954" d="M0 0h5.1v45.7H0z" class="showcaseOpen-9" data-name="Rectangle 2954" transform="rotate(28.959 -224.498 141.17)"/>
+        <path id="Path_1197" d="M43 125.8s2.5 13.6 12.5 10.7 11.2 9.2 11.2 9.2" class="showcaseOpen-10" data-name="Path 1197"/>
+        <ellipse id="Ellipse_521" cx="12.8" cy="8.7" class="showcaseOpen-11" data-name="Ellipse 521" rx="12.8" ry="8.7" transform="translate(197.3 326.1)"/>
+        <path id="Rectangle_2955" d="M0 0h5.1v45.7H0z" class="showcaseOpen-11" data-name="Rectangle 2955" transform="translate(217.8 290.3)"/>
+        <path id="Path_1198" d="M219.9 288.5s8.8 10.7 16.2 3.3 14.2 2.6 14.2 2.6" class="showcaseOpen-12" data-name="Path 1198"/>
+    </g>
+</svg>

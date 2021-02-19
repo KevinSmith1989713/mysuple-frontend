@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78.944" height="123.483" viewBox="0 0 78.944 123.483">
+    <defs>
+        <style>
+            .prefix__cls-1,.prefix__cls-5{fill:none}.prefix__cls-1{stroke:#f9ae42}.prefix__cls-1,.prefix__cls-5{stroke-miterlimit:10}.prefix__cls-1{stroke-width:4.515px}.prefix__cls-5{stroke:#221f1f}.prefix__cls-3{fill:#221f1f}.prefix__cls-5{stroke-width:5.748px}.prefix__cls-6{fill:#ec1c24}
+        </style>
+    </defs>
+    <g id="prefix__Group_1257" data-name="Group 1257" transform="translate(-2760.553 -1166.55)">
+        <path id="prefix__Line_1457" d="M0 0L0 18.073" class="prefix__cls-1" data-name="Line 1457" transform="translate(2784.973 1271.96)"/>
+        <path id="prefix__Line_1458" d="M0 0L0 18.073" class="prefix__cls-1" data-name="Line 1458" transform="translate(2797.052 1271.96)"/>
+        <path id="prefix__Path_1929" d="M2790.516 1170.613a25.9 25.9 0 0 0-25.9 25.9v50.145a25.9 25.9 0 0 0 51.8 0v-50.145a25.9 25.9 0 0 0-25.9-25.9z" data-name="Path 1929" style="stroke:#221f1f;fill:#fff;stroke-width:8.127px;stroke-miterlimit:10"/>
+        <g id="prefix__Group_1256" data-name="Group 1256">
+            <circle id="prefix__Ellipse_1092" cx="2.92" cy="2.92" r="2.92" class="prefix__cls-3" data-name="Ellipse 1092" transform="translate(2782.001 1186.078)"/>
+            <circle id="prefix__Ellipse_1093" cx="2.92" cy="2.92" r="2.92" class="prefix__cls-3" data-name="Ellipse 1093" transform="translate(2793.189 1186.078)"/>
+        </g>
+        <path id="prefix__Line_1459" d="M0 0L16.66 0" data-name="Line 1459" transform="translate(2781.449 1199.963)" style="stroke-width:9.03px;stroke-miterlimit:10;stroke:#f9ae42;fill:none"/>
+        <path id="prefix__Line_1460" d="M0 0L11.25 24.991" class="prefix__cls-5" data-name="Line 1460" transform="translate(2805.164 1221.584)"/>
+        <path id="prefix__Line_1461" d="M11.25 0L0 24.991" class="prefix__cls-5" data-name="Line 1461" transform="translate(2764.617 1221.584)"/>
+        <path id="prefix__Rectangle_4701" d="M0 0H3.054V13.077H0z" class="prefix__cls-6" data-name="Rectangle 4701" transform="translate(2836.443 1171.362)"/>
+        <path id="prefix__Rectangle_4702" d="M0 0H3.054V3.054H0z" class="prefix__cls-6" data-name="Rectangle 4702" transform="translate(2836.443 1186.949)"/>
+    </g>
+</svg>

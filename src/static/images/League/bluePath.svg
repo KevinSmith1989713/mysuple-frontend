@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.645" height="14.188" viewBox="0 0 17.645 14.188">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#1e59ea}.prefix__cls-2,.prefix__cls-3{fill:none;stroke:#1e59ea;stroke-miterlimit:10}.prefix__cls-3{stroke-width:2.835px}
+        </style>
+    </defs>
+    <g id="prefix__Group_1379" data-name="Group 1379" transform="translate(-2227.279 -1342.546)">
+        <path id="prefix__Rectangle_5183" d="M0 0H6.907V0.525H0z" class="prefix__cls-1" data-name="Rectangle 5183" transform="translate(2229.055 1352.487)"/>
+        <path id="prefix__Rectangle_5184" d="M0 0H5.322V0.525H0z" class="prefix__cls-1" data-name="Rectangle 5184" transform="translate(2229.055 1353.74)"/>
+        <path id="prefix__Rectangle_5185" d="M0 0H5.322V0.525H0z" class="prefix__cls-1" data-name="Rectangle 5185" transform="translate(2229.055 1351.293)"/>
+        <path id="prefix__Path_2004" d="M2292.561 1388.2h-1.655v-.258a1.553 1.553 0 0 1 .351-1.214 1.154 1.154 0 0 1 .771-.246h2.188v.518h-2.225a.508.508 0 0 0-.352.119.906.906 0 0 0-.2.567h1.125z" class="prefix__cls-1" data-name="Path 2004" transform="translate(-51.43 -35.386)"/>
+        <path id="prefix__Path_2005" d="M2293.127 1397.337h-2.221v-.517h2.217a.562.562 0 0 0 .406-.13.486.486 0 0 0 .153-.432h-1.12v-.516h1.655v.258a1.362 1.362 0 0 1-.306 1.056 1.215 1.215 0 0 1-.784.281z" class="prefix__cls-1" data-name="Path 2005" transform="translate(-51.43 -42.933)"/>
+        <path id="prefix__Path_2006" d="M2237.8 1360.195h6.625v10.011h-16.645v-10.011h6.542" class="prefix__cls-2" data-name="Path 2006" transform="translate(0 -13.971)"/>
+        <path id="prefix__Line_1602" d="M16.644 0L0 0" class="prefix__cls-2" data-name="Line 1602" transform="translate(2227.779 1349.985)"/>
+        <path id="prefix__Rectangle_5186" d="M0 0H3.33V4.348H0z" class="prefix__cls-2" data-name="Rectangle 5186" transform="translate(2234.377 1343.046)"/>
+    </g>
+</svg>

@@ -1,0 +1,210 @@
+@media (min-width: 769px) {
+	.game-detail-review__card {
+		display: flex;
+		padding: 18px;
+		box-sizing: border-box;
+		border: solid 1px #eeeeee;
+		background-color: #fbfbfb;
+		border-radius: 10px;
+		margin-top: 20px;
+		.card-left {
+			margin-right: 36px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			img {
+				width: 77px;
+				height: 77px;
+				border-radius: 50%;
+				border: 1px solid #cccccc;
+				margin-bottom: 10px;
+			}
+		}
+
+		.card-right {
+			width: 100%;
+			line-height: 1.45;
+
+			&__title {
+				display: flex;
+				.main {
+					width: 610px;
+					font-size: 20px;
+					font-weight: 900;
+					color: #322e3d;
+					margin-right: 21px;
+					img {
+						margin-right: 9px;
+						width: 16.4px;
+						height: 20px;
+					}
+				}
+				.rating {
+					background-color: #eeeeee;
+					border-radius: 10px;
+					width: 61px;
+					height: 28px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 16px;
+					font-weight: bold;
+					color: #322e3d;
+
+					img {
+						margin-right: 7px;
+						width: 16.4px;
+						height: 20px;
+					}
+				}
+				.helpful {
+					margin-left: auto;
+					font-size: 14px;
+					font-weight: 500;
+					color: #666666;
+					display: flex;
+					img {
+						margin-right: 7px;
+						width: 16.4px;
+						height: 20px;
+					}
+				}
+			}
+			&__review-prev {
+				display: -webkit-box;
+				margin-top: 13px;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 1.75;
+				color: #666666;
+			}
+			&__review-all {
+				margin-top: 13px;
+				font-size: 16px;
+				font-weight: 500;
+				line-height: 1.75;
+				color: #666666;
+			}
+			&__more--report {
+				display: flex;
+				justify-content: flex-end;
+				margin-left: auto;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				color: #bbbbbb;
+				width: 90px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.game-detail-review__card {
+		display: flex;
+		padding: 30px 20px;
+		border-bottom: 1px solid #eeeeee;
+
+		.card-left {
+			margin-right: 15px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			img {
+				width: 50px;
+				height: 50px;
+				border-radius: 50%;
+				border: 1px solid #cccccc;
+				margin-bottom: 10px;
+			}
+		}
+
+		.card-right {
+			width: 100%;
+			line-height: 1.45;
+			&__title {
+				display: flex;
+				align-items: center;
+				.main {
+					font-size: 15px;
+					font-weight: 900;
+					color: #322e3d;
+					img {
+						margin-right: 9px;
+						width: 17px;
+						height: 19px;
+					}
+				}
+				.rating {
+					background-color: #eeeeee;
+					border-radius: 10px;
+					width: 45px;
+					height: 20.7px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 11px;
+					font-weight: bold;
+					color: #322e3d;
+					img {
+						margin-right: 7px;
+						width: 12px;
+						height: 12px;
+					}
+				}
+			}
+			&__review-prev {
+				display: -webkit-box;
+				height: 60px;
+				-webkit-line-clamp: 2;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				margin-top: 8px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.75;
+				color: #666666;
+			}
+			&__review-all {
+				margin-top: 8px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.75;
+				color: #666666;
+			}
+			&__more--report {
+				display: flex;
+				width: 100%;
+				justify-content: flex-start;
+				margin-top: 16px;
+				margin-left: auto;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.43;
+				color: #bbbbbb;
+
+				.report {
+					width: 30px;
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
+				}
+				.helpful {
+					margin-right: auto;
+					font-size: 12px;
+					font-weight: 500;
+					color: #666666;
+					display: flex;
+					align-items: center;
+					img {
+						margin-right: 7px;
+						width: 13px;
+						height: 15px;
+					}
+				}
+			}
+		}
+	}
+}

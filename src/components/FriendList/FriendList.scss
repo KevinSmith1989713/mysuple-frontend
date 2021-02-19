@@ -1,0 +1,113 @@
+.Friends {
+	.title--wrapper {
+		// border-top: 1px solid #d8d8d8;
+		padding: 20px 20px 0px 20px;
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+
+		.title {
+			font-size: 14px;
+			font-weight: 500;
+			color: #666666;
+		}
+		.img--box {
+			display: flex;
+			img {
+				cursor: pointer;
+				margin-left: 15px;
+			}
+		}
+	}
+	&--Mine {
+		width: 100%;
+		height: 88px;
+		background-color: #ffffff;
+		display: flex;
+		align-items: center;
+		padding: 0 20px;
+		box-sizing: border-box;
+		.profile {
+			position: relative;
+			img {
+				width: 48px;
+				height: 48px;
+				border-radius: 50%;
+				background-color: #d2dfff;
+				margin: 0;
+			}
+			.status {
+				position: absolute;
+				bottom: 0;
+				right: 0px;
+				width: 11px;
+				height: 11px;
+				background-color: #61d100;
+				border-radius: 50%;
+			}
+		}
+		.info {
+			margin-left: 10px;
+			.guild {
+				font-size: 10px;
+				font-weight: 500;
+				line-height: 1.5;
+				letter-spacing: -0.25px;
+				color: #ffb361;
+			}
+			.nickname {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				letter-spacing: -0.35px;
+				color: #333333;
+			}
+			.status {
+				font-size: 11px;
+				font-weight: 500; 
+				line-height: 1.55;
+				letter-spacing: -0.28px;
+				color: #888888;
+			}
+		}
+	}
+	&--List {
+		.friends--list {
+			padding: 0 20px;
+			box-sizing: border-box;
+			.friend {
+				display: flex;
+				align-items: center;
+				height: 54px;
+				.profile {
+					position: relative;
+					margin-right: 18px;
+				}
+				img {
+					width: 40px;
+					height: 40px;
+					object-fit: cover;
+					background-color: #d2dfff;
+					border-radius: 50%;
+					margin: 0;
+				}
+				.status {
+					position: absolute;
+					bottom: 0;
+					right: 0px;
+					width: 11px;
+					height: 11px;
+					background-color: #61d100;
+					border-radius: 50%;
+				}
+				.nickname {
+					font-size: 13px;
+					font-weight: 500;
+					line-height: 1.46;
+					letter-spacing: -0.33px;
+					color: #666666;
+				}
+			}
+		}
+	}
+}

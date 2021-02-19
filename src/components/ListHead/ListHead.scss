@@ -1,0 +1,113 @@
+.ListHead {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 46px;
+	box-sizing: border-box;
+	border-bottom: solid 2px #1e59ea;
+
+	&.background {
+		background: #f2f2f2;
+		border: solid 1px #bbbbbb !important;
+	}
+	&.my-post {
+		.ListHead-text {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 14px;
+			font-weight: 500;
+			height: 24px;
+			color: #666;
+
+			&:not(:last-child) {
+				border-right: solid 1px #bbbbbb;
+			}
+
+			&.number {
+				width: 42px;
+			}
+
+			&.boardType {
+				width: 80px;
+			}
+
+			&.title {
+				display: flex;
+				flex: 1;
+			}
+			&.date {
+				width: 82px;
+			}
+			&.views {
+				width: 58px;
+			}
+
+			&.recommends {
+				width: 61px;
+			}
+		}
+	}
+
+	.ListHead-text {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 14px;
+		font-weight: 500;
+		height: 24px;
+		color: #666;
+
+		@media (max-width: 769px) {
+			font-size: 11px;
+		}
+
+		&:not(:last-child) {
+			border-right: solid 1px #bbbbbb;
+		}
+
+		&.date {
+			width: 100px;
+			@media (max-width: 769px) {
+				width: 14vw;
+			}
+		}
+
+		&.category {
+			width: 111px;
+			@media (max-width: 769px) {
+				width: 20vw;
+			}
+		}
+
+		&.title {
+			width: 290px;
+			@media (max-width: 769px) {
+				width: 45vw;
+			}
+		}
+
+		&.isProcess {
+			width: 83px;
+			@media (max-width: 769px) {
+				width: 14vw;
+			}
+		}
+
+		&.comment {
+			width: 290px;
+		}
+
+		&.author {
+			width: 100px;
+		}
+
+		&.seeCount {
+			width: 58px;
+		}
+
+		&.recommendCount {
+			width: 58px;
+		}
+	}
+}

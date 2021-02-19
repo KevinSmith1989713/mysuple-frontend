@@ -1,0 +1,45 @@
+.EditorPickContainer{
+  padding: 40px 32px;
+  box-sizing: border-box;
+  &--Intro{
+    margin: 63px 62px;  
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.13;
+    color: #878787;
+    .titles{
+      margin-bottom: 40px;
+      .main-title{
+        font-size: 28px;
+        font-weight: 900;
+        line-height: 1.46;
+        color: #322e3d;
+      }
+      .sub-title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #bbbbbb;
+      }
+      .underline{
+        margin-top: 13px;
+        width: 40px;
+        border-bottom: 3px solid #1e59ea;
+      }
+    }
+  }
+  .main--content{
+    display: flex;
+    flex-direction: column;
+    p{
+      display: flex;
+      justify-content: center;
+      img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 0;
+      }
+    }
+  }
+}

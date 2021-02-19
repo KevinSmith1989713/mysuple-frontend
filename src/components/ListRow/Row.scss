@@ -1,0 +1,171 @@
+@media(min-width:769px){
+  .Row--component{
+    .game{
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #dedede;
+      
+      .rank-high{
+        font-size: 20px;
+        font-weight: 900;
+        margin-left: 26px;
+        color: #1e59ea;
+      }
+      .rank-low{
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 26px;
+        color: #666666;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 50px;
+        max-width: 120px;
+        color: #333333;
+        overflow: hidden;
+      }
+      .zero{
+        width: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 32px;
+        font-size: 10px;
+        color: #333333;
+      }
+      .up{
+        width: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 32px;
+        font-size: 10px;
+        color: #1e59ea;
+      }
+      .down{
+        width: 20px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: 32px;
+        font-size: 10px;
+        color:#ffb361
+      }
+  
+    }
+    .community{
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px solid #dedede;
+  
+      .dot{
+        color: #1e59ea;
+        margin: 0 12px;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+        color: #322e3d;
+      }
+      .commentCnt{
+        font-size: 14px;
+        font-weight: 500;
+        color: #1e59ea;
+      }
+      .author{
+        margin-left: auto;
+        margin-right: 15px;
+        color:#bbbbbb;
+      }
+  
+    }
+    .last {
+      border-bottom: none;
+    }
+  }
+}
+
+@media(max-width:768px){
+  .Row--component{
+    .game{
+      display: flex;
+      align-items: center;
+      padding: 5px 14px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #dedede;
+      
+      .rank-high{
+        font-size: 12px;
+        font-weight: 900;
+        margin: 0 17px;
+        color: #1e59ea;
+      }
+      .rank-low{
+        font-size: 10px;
+        font-weight: 900;
+        margin: 0 17px;
+        color: #666666;
+      }
+      .title{
+        font-size: 12px;
+        max-width: 120px;
+        color: #333333;
+        overflow: hidden;
+      }
+      .zero{
+        width: 20px;
+        text-align: center;
+        margin-left: auto;
+        font-size: 10px;
+        color: #333333;
+      }
+      .up{
+        width: 20px;
+        text-align: center;
+        margin-left: auto;
+        font-size: 10px;
+        color: #1e59ea;
+      }
+      .down{
+        width: 20px;
+        text-align: center;
+        margin-left: auto;
+        font-size: 10px;
+        color:#ffb361
+      }
+  
+    }
+    .community{
+      display: flex;
+      align-items: center;
+      padding: 15px 0;
+      border-bottom: 1px solid #dedede;
+  
+      .dot{
+        color: #1e59ea;
+        margin: 0 12px;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: 10px;
+        color: #322e3d;
+      }
+      .commentCnt{
+        font-size: 14px;
+        font-weight: 500;
+        color: #1e59ea;
+      }
+      .author{
+        margin-left: auto;
+        margin-right: 15px;
+        color:#bbbbbb;
+      }
+  
+    }
+    .last {
+      border-bottom: none;
+    }
+  }
+}

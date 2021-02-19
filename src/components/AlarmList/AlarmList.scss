@@ -1,0 +1,23 @@
+.AlarmList{
+  .Alarm--list{
+    .Alarm--row{
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      letter-spacing: -0.3px;
+      color: #666;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      border-bottom: 1px solid #eee;
+      .type{
+        color: #444;
+      }
+      .infoBlue{
+        color: #1e59ea;
+      }
+      .time--ago{
+        margin-top: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+.TermsContainer {
+	padding: 77px 89px;
+	box-sizing: border-box;
+	.term {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 50px;
+		.term--text {
+			max-height: 200px;
+			overflow-y: auto;
+			line-height: 1.5;
+		}
+	}
+	.personal {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 50px;
+		.personal--text {
+			max-height: 200px;
+			overflow-y: auto;
+			line-height: 1.5;
+		}
+	}
+	.marketing {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 50px;
+		.marketing--text {
+			max-height: 200px;
+			overflow-y: auto;
+			line-height: 1.5;
+		}
+	}
+
+	.term--text,
+	.personal--text,
+	.marketing--text {
+		&::-webkit-scrollbar {
+			width: 5px;
+		}
+		&::-webkit-scrollbar-thumb {
+			background: #aaa;
+			border-radius: 5px;
+		}
+		&::-webkit-scrollbar-track {
+			background: #ddd;
+			border-radius: 5px;
+		}
+		&::-webkit-scrollbar-button {
+			display: none;
+		}
+	}
+	.Title {
+		margin-bottom: 20px;
+	}
+	textarea {
+		height: 150px;
+		resize: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.TermsContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 30px;
+		margin-top: 20px;
+	}
+}

@@ -1,0 +1,118 @@
+@media(min-width:769px){
+  .SearchContainer{
+    padding: 77px 89px;
+    box-sizing: border-box;
+    .result--Title{
+      margin-bottom: 25px;
+    }
+    
+    .result--list__game{
+      display: flex;
+      margin-bottom: 20px;
+      .SearchContainer--Card{
+        margin-right: 15px;
+        :last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .result--list__recommend{ 
+      display: flex;
+      margin-bottom: 20px;
+      .SearchContainer--Curating{
+        margin-right: 15px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .result--more{
+      display: flex;
+      justify-content: flex-end;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #aaaaaa;
+    }
+    &--Title{
+      margin-bottom: 55px;
+    }
+    &--SearchBar{
+      border-bottom: 1px solid #1e59ea;
+      margin-bottom: 55px;
+      
+    }
+    &--GameInfo{
+      margin-bottom: 55px;
+    }
+    &--Recommend{
+      margin-bottom: 55px;
+    }
+    &--Community{
+      margin-bottom: 55px;
+    }
+  }
+}
+@media(max-width:768px){
+  .SearchContainer{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    .result--Title{
+      margin-bottom: 25px;
+    }
+    
+    .result--list__game{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      .SearchContainer--Link{
+        width: calc( 50% - 8px);
+        margin-bottom: 15px;
+        // margin: 0 7px;
+        .SearchContainer--Card{
+          width: 100%;
+
+        }
+      }
+      
+    }
+    .result--list__recommend{ 
+      display: flex;
+      margin-bottom: 20px;
+      .SearchContainer--Curating{
+        margin-right: 15px;
+        &:last-child{
+          margin-right: 0;
+        }
+      }
+    }
+    .result--more{
+      display: flex;
+      justify-content: flex-end;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #aaaaaa;
+    }
+    &--Title{
+      display:none;
+    }
+    &--SearchBar{
+      border-bottom: 1px solid #1e59ea;
+      margin-bottom: 55px;
+      
+    }
+    &--GameInfo{
+      margin-bottom: 55px;
+    }
+    &--Recommend{
+      margin-bottom: 55px;
+    }
+    &--Community{
+      margin-bottom: 55px;
+    }
+  }
+}

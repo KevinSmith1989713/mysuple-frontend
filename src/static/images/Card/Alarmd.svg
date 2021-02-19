@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Component_38_1" width="35" height="35" data-name="Component 38 – 1" viewBox="0 0 35 35">
+    <defs>
+        <style>
+            .Alarmd-1{fill:none}.Alarmd-2{fill:#1e59ea}.Alarmd-3{clip-path:url(#clip-path)}.Alarmd-4{fill:#fff;fill-rule:evenodd}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h15v15H0z" class="Alarmd-1"/>
+        </clipPath>
+    </defs>
+    <circle id="Ellipse_25" cx="17.5" cy="17.5" r="17.5" class="Alarmd-2" data-name="Ellipse 25"/>
+    <g id="Alert" class="Alarmd-3" transform="translate(10 10)">
+        <path id="Rectangle_479" d="M0 0h15v15H0z" class="Alarmd-1" data-name="Rectangle 479"/>
+        <path id="Path_1" d="M13.709 12.773H9.141a1.827 1.827 0 0 1-3.654 0H.919a.877.877 0 0 1-.819-.639.973.973 0 0 1 .274-1 3.671 3.671 0 0 0 1.462-2.92v-2.74a5.481 5.481 0 0 1 10.963 0v2.737a3.671 3.671 0 0 0 1.462 2.92.863.863 0 0 1 .274 1 .877.877 0 0 1-.826.642z" class="Alarmd-4" data-name="Path 1" transform="translate(-.063)"/>
+    </g>
+</svg>

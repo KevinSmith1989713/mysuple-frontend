@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.5" height="39.3" viewBox="0 0 38.5 39.3">
+    <defs>
+        <style>
+            .racing_gray-1{fill:#d0d2d3}.racing_gray-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_883" data-name="Group 883" transform="translate(-153.6 -178.8)">
+        <path id="prefix__Rectangle_3579" d="M0 0H3.8V39.3H0z" class="racing_gray-1" data-name="Rectangle 3579" transform="translate(153.6 178.8)"/>
+        <path id="prefix__Rectangle_3580" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3580" transform="translate(157.4 178.8)"/>
+        <path id="prefix__Rectangle_3581" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3581" transform="translate(157.4 184.6)"/>
+        <path id="prefix__Rectangle_3582" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3582" transform="translate(166.1 178.8)"/>
+        <path id="prefix__Rectangle_3583" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3583" transform="translate(166.1 184.6)"/>
+        <path id="prefix__Rectangle_3584" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3584" transform="translate(166.1 190.3)"/>
+        <path id="prefix__Rectangle_3585" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3585" transform="translate(166.1 196.1)"/>
+        <path id="prefix__Rectangle_3586" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3586" transform="translate(157.4 190.3)"/>
+        <path id="prefix__Rectangle_3587" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3587" transform="translate(157.4 196.1)"/>
+        <path id="prefix__Rectangle_3588" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3588" transform="translate(174.7 178.8)"/>
+        <path id="prefix__Rectangle_3589" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3589" transform="translate(174.7 184.6)"/>
+        <path id="prefix__Rectangle_3590" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3590" transform="translate(183.4 178.8)"/>
+        <path id="prefix__Rectangle_3591" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3591" transform="translate(183.4 184.6)"/>
+        <path id="prefix__Rectangle_3592" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3592" transform="translate(183.4 190.3)"/>
+        <path id="prefix__Rectangle_3593" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3593" transform="translate(183.4 196.1)"/>
+        <path id="prefix__Rectangle_3594" d="M0 0H8.7V5.8H0z" class="racing_gray-1" data-name="Rectangle 3594" transform="translate(174.7 190.3)"/>
+        <path id="prefix__Rectangle_3595" d="M0 0H8.7V5.8H0z" class="racing_gray-2" data-name="Rectangle 3595" transform="translate(174.7 196.1)"/>
+        <path id="prefix__Path_1544" d="M189.2 181.7V199h-32.8v-17.3h32.8m2.9-2.9h-38.5v23h38.5v-23z" class="racing_gray-1" data-name="Path 1544"/>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="240" viewBox="0 0 375 240">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-opacity="0"/>
+            <stop offset=".732" stop-color="#322e3d"/>
+            <stop offset="1" stop-color="#322e3d"/>
+        </linearGradient>
+    </defs>
+    <path id="header_2_" fill="url(#linear-gradient)" d="M0 0H375V240H0z" data-name="header (2)"/>
+</svg>

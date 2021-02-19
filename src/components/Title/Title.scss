@@ -1,0 +1,37 @@
+.Title {
+	width: max-content;
+	font-weight: 900;
+	&.small {
+		font-size: 16px;
+	}
+
+	@media (min-width: 769px) {
+		&.large {
+			font-size: 22px;
+		}
+	}
+	@media (max-width: 768px) {
+		&.large {
+			font-size: 20px;
+		}
+	}
+
+	&.largest {
+		font-size: 28px;
+	}
+
+	&.none {
+		border: none;
+	}
+
+	&.thin {
+		border-bottom: solid 3px #1e59ea;
+	}
+
+	&.thick {
+		border-bottom: solid 5px #1e59ea;
+	}
+	&.blue {
+		color: #1e59ea;
+	}
+}

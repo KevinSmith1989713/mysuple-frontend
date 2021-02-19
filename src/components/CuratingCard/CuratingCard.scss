@@ -1,0 +1,44 @@
+.CuratingCard--Component{
+  .CuratingCard--Card{
+    width: 145px;
+    height: 157.1px;
+    border: solid 1px #707070;
+    border-radius: 15px;
+    border-top-right-radius: 40px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+    padding: 20px 18px;
+    display: flex;
+    box-sizing: border-box;
+    .title{
+      align-items: flex-end;
+      display: flex;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.43;
+      letter-spacing: normal;
+      text-align: left;
+      word-break: keep-all;
+      color: #322e3d;
+    }
+  }
+  .CuratingCard--info{
+    .TextWithIcon{
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1.43;
+      font-stretch: normal;
+      color: #666666;
+      img{
+        margin-right: 11px;
+      }
+    }
+    .date{
+      color: #aaa;
+    }
+    cursor: pointer;
+  }
+}

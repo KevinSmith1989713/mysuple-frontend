@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:#cccccc}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h20v20H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Search" class="cls-2">
+        <path id="Rectangle_176" d="M0 0h20v20H0z" class="cls-1" data-name="Rectangle 176"/>
+        <path id="Path_99" d="M19.9 18.148l-4.13-4.13a8.569 8.569 0 0 0 1.752-5.257A8.707 8.707 0 0 0 8.761 0 8.707 8.707 0 0 0 0 8.761a8.707 8.707 0 0 0 8.761 8.761 8.569 8.569 0 0 0 5.257-1.752l4.13 4.13zM2.5 8.761A6.2 6.2 0 0 1 8.761 2.5a6.2 6.2 0 0 1 6.258 6.258 6.2 6.2 0 0 1-6.258 6.258A6.2 6.2 0 0 1 2.5 8.761z" class="cls-3" data-name="Path 99"/>
+    </g>
+</svg>

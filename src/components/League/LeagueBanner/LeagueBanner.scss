@@ -1,0 +1,295 @@
+.LeagueBannerContainer {
+	.title--box {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+
+		.title {
+			font-size: 22px;
+			font-weight: bold;
+			color: #666666;
+		}
+		.sub--box {
+			display: flex;
+			align-items: center;
+			margin-top: 10px;
+			font-family: NotoSansCJKkr;
+			font-size: 14px;
+			font-weight: 500;
+			.participant {
+				color: #749cff;
+				border-right: 1px solid #dddddd;
+				box-sizing: border-box;
+				padding-right: 5px;
+			}
+			.date {
+				box-sizing: border-box;
+				padding-left: 5px;
+				padding-right: 5px;
+				margin-right: 5px;
+				border-right: 1px solid #dddddd;
+				color: #888888;
+			}
+			.state {
+				border-radius: 10px;
+				border: solid 1px #749cff;
+				background-color: rgba(116, 156, 255, 0.8);
+				font-size: 10px;
+				font-weight: 500;
+				color: #ffffff;
+				box-sizing: border-box;
+				padding: 2px 5px;
+				text-align: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.recuit {
+				border: solid 1px #ffb361;
+				background-color: rgba(255, 179, 97, 0.8);
+				color: #322e3d;
+			}
+			.end {
+				border: solid 1px #cccccc;
+				background-color: rgba(204, 204, 204, 0.8);
+				color: #666666;
+			}
+			.expected {
+				border: solid 1px rgba(0, 0, 0, 0.8);
+				background-color: rgba(0, 0, 0, 0.8);
+			}
+		}
+
+		.leagueManaging {
+			width: 112px;
+			height: 40px;
+			border-radius: 10px;
+			border: solid 1px #cccccc;
+			background-color: rgba(255, 255, 255, 0.6);
+			font-size: 14px;
+			font-weight: 500;
+			color: #888888;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			img {
+				margin-left: 8px;
+			}
+		}
+	}
+	.main {
+		margin-top: 20px;
+		height: 349px;
+		display: flex;
+		.mainImg--box {
+			position: relative;
+			.img {
+				width: 480px;
+				height: 100%;
+			}
+			.sponsorButton {
+				position: absolute;
+				right: 30px;
+				bottom: 30px;
+				width: 106px;
+				height: 34px;
+				background-color: rgba(255, 255, 255, 0.4);
+				font-size: 16px;
+				font-weight: bold;
+				color: #322e3d;
+				box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+					0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+			}
+		}
+	}
+}
+.infoBox {
+	border: solid 1px #d2dfff;
+	border-left: none;
+	width: 365px;
+	box-sizing: border-box;
+	padding: 30px 20px 30px 40px;
+	.info {
+		display: flex;
+		margin-bottom: 19px;
+
+		// &:nth-child(4) {
+		// 	margin-bottom: 30px;
+		// }
+		&:nth-child(5) {
+			margin-bottom: 30px;
+		}
+		.key {
+			margin-top: 1px;
+			width: 130px;
+			font-size: 12px;
+			font-weight: 500;
+			color: #888888;
+			.infoImg {
+				width: 11.9px;
+				height: 11.9px;
+				margin-right: 10px;
+			}
+		}
+		.value {
+			font-size: 14px;
+			font-weight: 500;
+			color: #666666;
+		}
+		.bold {
+			font-weight: bold;
+			color: #322e3d;
+		}
+	}
+	.consumption {
+		font-size: 14px;
+		font-weight: 500;
+		color: #666666;
+		margin-bottom: 10px;
+		.grayPathImg {
+			width: 16.6px;
+			height: 13.2px;
+			margin-right: 20px;
+			color: #888888;
+		}
+		strong {
+			color: #ffb361;
+		}
+	}
+	.btnBox {
+		height: 45px;
+		display: flex;
+		.goBtn {
+			width: 185px;
+			height: 100%;
+			background-color: #1e59ea;
+			color: #ffffff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 16px;
+			font-weight: 500;
+		}
+		.btn {
+			margin-left: 6px;
+			width: 45px;
+			height: 45px;
+			border: solid 1px #dddddd;
+			background-color: #ffffff;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.LeagueBannerContainer {
+		display: none;
+	}
+
+	.leagueBannerMobile--box {
+		.box-banner {
+			// border: 1px solid black;
+			.thumbnail {
+				width: 100%;
+				height: 273px;
+				object-fit: cover;
+			}
+			.box-groupInfo {
+				position: absolute;
+				box-sizing: border-box;
+				padding: 0 20px;
+				width: 100%;
+				margin-top: -100px;
+
+				.box--sponsorButton {
+					display: flex;
+					justify-content: flex-end;
+					.sponsorButton {
+						width: 106px;
+						height: 34px;
+						background-color: rgba(255, 255, 255, 0.4);
+						font-size: 16px;
+						font-weight: bold;
+						color: #393641;
+						box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+							0 1px 10px 0 rgba(0, 0, 0, 0.12),
+							0 2px 4px -1px rgba(0, 0, 0, 0.2);
+					}
+				}
+				.box-groupInfoInner {
+					margin-top: 10px;
+					border: solid 1px #d2dfff;
+					background-color: #ffffff;
+					box-sizing: border-box;
+					padding: 20px 20px;
+
+					.groupInfoInner__title {
+						display: flex;
+						h1 {
+							font-size: 22px;
+							line-height: 1.5;
+							font-weight: bold;
+							color: #322e3d;
+						}
+					}
+					.sub--box {
+						display: flex;
+						align-items: center;
+						margin-top: 10px;
+						font-family: NotoSansCJKkr;
+						font-size: 14px;
+						font-weight: 500;
+						.participant {
+							color: #749cff;
+							border-right: 1px solid #dddddd;
+							box-sizing: border-box;
+							padding-right: 5px;
+						}
+						.groupInfoInner__date {
+							font-size: 14px;
+							font-weight: 500;
+							line-height: 1.43;
+							color: #cccccc;
+							box-sizing: border-box;
+							padding-left: 5px;
+							padding-right: 5px;
+							margin-right: 5px;
+						}
+						.state {
+							border-radius: 10px;
+							border: solid 1px #749cff;
+							background-color: rgba(116, 156, 255, 0.8);
+							font-size: 10px;
+							font-weight: 500;
+							color: #ffffff;
+							box-sizing: border-box;
+							padding: 2px 5px;
+							text-align: center;
+							display: flex;
+							align-items: center;
+							justify-content: center;
+						}
+						.recuit {
+							border: solid 1px #ffb361;
+							background-color: rgba(255, 179, 97, 0.8);
+							color: #322e3d;
+						}
+						.end {
+							border: solid 1px #cccccc;
+							background-color: rgba(204, 204, 204, 0.8);
+							color: #666666;
+						}
+						.expected {
+							border: solid 1px rgba(0, 0, 0, 0.8);
+							background-color: rgba(0, 0, 0, 0.8);
+						}
+					}
+					.infoBox {
+						border: none;
+						padding: 25px 0 0 0;
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

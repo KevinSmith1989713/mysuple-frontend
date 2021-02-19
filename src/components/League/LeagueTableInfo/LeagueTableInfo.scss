@@ -1,0 +1,143 @@
+.LeagueTableInfo {
+	background-color: #fbfbfb;
+	box-sizing: border-box;
+	padding: 10px 40px 30px 40px;
+
+	.bold--title {
+		font-size: 18px;
+		font-weight: bold;
+		line-height: 1.5;
+		letter-spacing: -0.45px;
+		color: #666666;
+		margin-bottom: 20px;
+	}
+	.text--value {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 1.43;
+		color: #888888;
+		margin-bottom: 20px;
+	}
+
+	&--Rule {
+		box-sizing: border-box;
+		padding: 30px 0 30px 0;
+		.attend__info {
+			overflow-y: hidden;
+			overflow-x: scroll;
+			box-sizing: border-box;
+			display: flex;
+			box-sizing: border-box;
+
+			.info--box {
+				margin-right: 28px;
+
+				.info {
+					width: 70px;
+					height: 70px;
+					border: solid 1px #cccccc;
+					border-radius: 50%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					font-size: 10px;
+					font-weight: 500;
+					color: #888888;
+					margin-bottom: 5px;
+					// -webkit-transform: font-size(0.8);
+					text-align: center;
+
+					b {
+						font-size: 13px;
+						font-weight: 500;
+						color: #1e59ea;
+						padding-right: 3px;
+
+						@media (max-width: 768px) {
+							margin-top: -6px;
+						}
+					}
+					.blue {
+						margin-bottom: 5px;
+					}
+					.tier--box {
+						margin-bottom: 5px;
+					}
+					.manualText {
+						font-size: 10px;
+					}
+					.infoImg {
+						width: 30px;
+						height: 36px;
+					}
+					.progamer {
+						width: 38px;
+						height: 45px;
+					}
+				}
+				.info__subTitle {
+					font-size: 12px;
+					color: #888888;
+					text-align: center;
+					line-height: 1.2;
+					font-weight: 500;
+				}
+			}
+			.column {
+				box-sizing: border-box;
+				padding: 6px 0 0 1px;
+				flex-direction: column;
+				@media (max-width: 768px) {
+					padding: 3px 0 0 0px;
+				}
+			}
+		}
+	}
+	&--Limit {
+		box-sizing: border-box;
+		padding: 30px 0 10px 0;
+		border-top: 2px solid #eee;
+		word-break: break-all;
+
+		.IntroduceBox {
+			border: 1px solid black;
+			.category {
+				display: flex;
+				margin-top: 10px;
+				.text {
+					border: 1px solid black;
+					width: 150px;
+				}
+				.date {
+					border: 1px solid black;
+					width: 215px;
+					font-size: 14px;
+				}
+				&:nth-child(3) {
+					margin-top: 20px;
+				}
+			}
+		}
+		.desc {
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 1.43;
+			color: #888888;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.LeagueTableInfo {
+		padding: 0;
+		&--Rule {
+			.attend__info {
+			}
+		}
+		.desc {
+			img {
+				width: 100% !important;
+			}
+		}
+	}
+}

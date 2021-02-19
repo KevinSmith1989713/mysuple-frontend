@@ -1,0 +1,307 @@
+.LeagueLayout {
+	font-weight: bold;
+	h3 {
+		font-size: 12px;
+		font-weight: 500;
+		margin-left: 15px;
+	}
+	&--emptied {
+		margin-top: 50px;
+		width: 100%;
+		height: 352px;
+		background-color: #f2f2f2;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.emptiedText {
+			font-size: 16px;
+			font-weight: 500;
+			color: #666666;
+		}
+		.makeTournamentBtn {
+			margin-top: 20px;
+			width: 150px;
+			height: 40px;
+			background-color: #dddddd;
+			font-size: 14px;
+			font-weight: 500;
+			color: #666666;
+		}
+	}
+
+	&--view {
+		margin-top: 30px;
+		position: relative;
+		box-sizing: border-box;
+		padding-bottom: 35px;
+		border-bottom: 1px solid #eeeeee;
+
+		.view--container {
+			margin-top: 20px;
+			display: flex;
+			.count__user {
+				box-sizing: border-box;
+				padding: 15px 10px;
+				font-size: 14px;
+				font-weight: 500;
+				color: #666666;
+				border-bottom: 1px solid #dadada;
+				border: 1px solid black;
+				display: flex;
+				justify-content: center;
+				li {
+					display: flex;
+					.number {
+						width: 50px;
+					}
+				}
+			}
+		}
+
+		.tournament__view--box {
+			border-top: 1px solid #dadada;
+			width: 100%;
+
+			.header {
+				background-color: #f2f2f2;
+				height: 50px;
+				font-size: 14px;
+				color: #322e3d;
+				display: flex;
+				align-items: center;
+				box-sizing: border-box;
+				padding: 0 15px;
+				display: flex;
+				justify-content: space-between;
+				.winner__btn {
+					font-family: NotoSansCJKkr;
+					font-size: 14px;
+					font-weight: normal;
+					color: #322e3d;
+					width: 100px;
+					height: 36px;
+					border-radius: 3px;
+					border: solid 1px #0080ff;
+					background-color: #ffffff;
+				}
+				.Preliminary {
+					width: 120px;
+				}
+			}
+			.tournament--wrapper {
+				font-size: 12px;
+				font-weight: 500;
+				color: #666666;
+				overflow: auto;
+
+				.Deathmatch {
+					.round--box {
+						overflow: auto;
+						.inner--box {
+							display: flex;
+							.round {
+								font-family: NotoSansCJKkr;
+								font-size: 14px;
+								font-weight: 500;
+								color: #888888;
+								height: 45px;
+								width: 130px;
+								text-align: center;
+								cursor: pointer;
+							}
+							.roundSelect {
+								background: #d2dfff;
+								color: black;
+							}
+						}
+					}
+					&--board {
+						border: solid 1px #eeeeee;
+						min-height: 500px;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						box-sizing: border-box;
+						padding: 34px;
+
+						.battle--box {
+							max-width: 465px;
+							display: flex;
+							// justify-content: center;
+							flex-wrap: wrap;
+							align-items: center;
+							border-right: none;
+							border-bottom: none;
+
+							// border: 1px solid black;
+							// box-sizing: border-box;
+							// padding: 25px;
+							.user--box {
+								cursor: pointer;
+								position: relative;
+								width: 155px;
+								height: 30px;
+								background-color: #ffffff;
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								box-sizing: border-box;
+								padding: 0 5px 0 5px;
+								border: 1px solid #cccccc;
+
+								.img--box {
+									// margin-right: 5px;
+									width: 35px;
+
+									.upload {
+										cursor: pointer;
+									}
+									.photo {
+										cursor: pointer;
+										// margin-right: 5px;
+										margin-left: 5px;
+										width: 13px;
+										height: 10.4px;
+									}
+								}
+								.box2 {
+									display: flex;
+									justify-content: space-between;
+									align-items: center;
+									width: 100px;
+									.score--box {
+										width: 30px;
+										height: 20px;
+										border-radius: 6px;
+										background-color: #d2dfff;
+										display: flex;
+										align-items: center;
+										justify-content: space-around;
+										img {
+											cursor: pointer;
+											width: 8px;
+											height: 8px;
+										}
+										.left {
+											transform: rotate(180deg);
+										}
+										.team-score {
+											font-weight: 600;
+											&:empty {
+												display: none;
+											}
+										}
+									}
+								}
+								.team--box {
+									border: 1px solid black;
+									position: absolute;
+									border: 1px solid #cccccc;
+									background: #fff;
+									width: 155px;
+									font-size: 12px;
+									color: #666666;
+									box-sizing: border-box;
+									padding: 5px;
+									font-weight: normal;
+									line-height: 2;
+									left: -1px;
+									top: 29px;
+									z-index: 100 !important;
+								}
+							}
+							.group {
+								width: 153px;
+								margin-right: 30px;
+								margin-left: 30px;
+								margin-bottom: 30px;
+								.groupName {
+									margin-bottom: 5px;
+									font-size: 12px;
+									font-weight: 500;
+									color: #888888;
+								}
+							}
+						}
+						.width100 {
+							max-width: 100%;
+						}
+						.display {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	.winnerBoad {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 20px;
+		font-family: NotoSansCJKkr;
+		font-size: 12px;
+		font-weight: 500;
+		color: #888888;
+
+		@media (max-width: 768px) {
+			flex-direction: column;
+		}
+		.noOne {
+			text-align: center;
+			box-sizing: border-box;
+			padding: 60px 0 40px 0;
+			font-size: 12px;
+			font-weight: 500;
+			color: #888888;
+		}
+		.user--box {
+			border-top: 1px solid #0e0a0a;
+			width: 66%;
+			@media (max-width: 768px) {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+
+			.category {
+				display: flex;
+				align-items: center;
+				height: 50px;
+				background-color: #f2f2f2;
+				text-align: center;
+
+				.ranking {
+					width: 20%;
+				}
+				.buleColor {
+					color: #1e59ea;
+				}
+				.nickname {
+					width: 60%;
+				}
+				.count {
+					width: 20%;
+				}
+			}
+			.winnerUser {
+				background: #fff;
+				border-bottom: 1px solid #eeeeee;
+				height: 40px;
+			}
+		}
+
+		.gameInfo--box {
+			background-color: #f2f2f2;
+			width: 30%;
+			box-sizing: border-box;
+			padding: 20px 20px;
+			p {
+				box-sizing: border-box;
+				padding: 15px 0;
+			}
+			@media (max-width: 768px) {
+				width: 100%;
+			}
+		}
+	}
+}

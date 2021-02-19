@@ -1,0 +1,127 @@
+$light-grey:#cccccc;
+$grey:#666666;
+$white:white;
+$black:#322e3d;
+@media(min-width:769px){
+  .AccordionRow{
+    width:100%;
+    .AccordionRow--row{
+      display: flex;
+      height: 44px;
+      width:100%;
+      border-bottom: 1px solid #aaaaaa;
+      font-size: 14px;
+      font-weight: 500;
+      color: #666666;
+      cursor: pointer;
+      
+    }
+    .row-date,.row-category,
+    .row-content,.row-title,
+    .row-rewardType,.row-state,
+    .row-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .state-true{
+      color: #1e59ea;
+    }
+    .state-false{
+      color: #ffb361
+    }
+
+    .row-reward{
+      .row-date{
+        width:113px !important;
+      }
+      .row-content{
+        flex:1;
+      }
+      .row-rewardType{
+        width:163px !important;
+      }
+      .row-state{
+        width:89px !important;
+      }
+    }
+    .row-inquirey{
+      .row-date{
+        width:90px !important;
+      }
+      .row-category{
+        width:110px !important;;
+      }
+      .row-title{
+        flex:1;
+      }
+      .row-state{
+        width:82px !important;
+      }
+    }
+  }
+}
+
+
+
+
+
+@media(max-width:768px){
+  .AccordionRow{
+    width:100%;
+    .AccordionRow--row{
+      display: flex;
+      height: 44px;
+      width:100%;
+      border-bottom: 1px solid #aaaaaa;
+      font-size: 13px;
+      font-weight: 500;
+      color: #666666;
+      cursor: pointer;
+      
+    }
+    .row-date,.row-category,
+    .row-content,.row-title,
+    .row-rewardType,.row-state,
+    .row-state {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .state-true{
+      color: #1e59ea;
+    }
+    .state-false{
+      color: #ffb361
+    }
+
+    .row-reward{
+      .row-date{
+        width:114px;
+      }
+      .row-content{
+        flex:1;
+      }
+      .row-rewardType{
+        width:164px;
+      }
+      .row-state{
+        width:88px;
+      }
+    }
+    .row-inquirey{
+      .row-date{
+        width:90px !important;
+      }
+      .row-category{
+        width:110px !important;;
+      }
+      .row-title{
+        flex:1;
+      }
+      .row-state{
+        width:82px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.SNSBox-login {
+	position: relative;
+	font-weight: Medium;
+	&--section {
+		position: relative;
+
+		button {
+			display: flex !important;
+			justify-content: center !important;
+			align-items: center !important;
+			position: relative !important;
+			font-family: 'Noto Sans KR' !important;
+
+			@media (min-width: 769px) {
+				width: 350px !important;
+				height: 60px !important;
+			}
+			@media (max-width: 768px) {
+				width: 100% !important;
+				height: 58px !important;
+			}
+			margin-bottom: 15px !important;
+			border-radius: 10px !important;
+			border: solid 1px #cccccc !important;
+			background-color: white;
+			color: #666666 !important;
+			font-size: 16px !important;
+			font-weight: 500 !important;
+			box-shadow: none !important;
+
+			div {
+				display: none !important;
+			}
+
+			&:hover {
+				background-color: #eeeeee !important;
+				div {
+					display: none !important;
+				}
+			}
+
+			&:focus {
+				background-color: transparent !important;
+				div {
+					display: none !important;
+				}
+			}
+			&:active {
+				background-color: transparent !important;
+				div {
+					display: none !important;
+				}
+			}
+			span {
+				font-weight: 500 !important;
+				font-family: 'Noto Sans KR';
+			}
+		}
+		.logo {
+			position: absolute;
+			left: 26px;
+			top: 16.5px;
+		}
+	}
+}
+
+.SNSBox-join {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	font-weight: 500 !important;
+	&--section {
+		position: relative;
+
+		button {
+			display: flex !important;
+			justify-content: center !important;
+			align-items: center !important;
+			position: relative !important;
+			width: 350px !important;
+			height: 60px !important;
+			margin-bottom: 15px !important;
+			border-radius: 10px !important;
+			border: solid 1px #cccccc !important;
+			background-color: white;
+			color: #666666 !important;
+			font-family: 'Noto Sans KR';
+			font-size: 16px !important;
+			font-weight: 500 !important;
+			box-shadow: none !important;
+			margin-right: 9px;
+
+			div {
+				display: none !important;
+			}
+
+			&:hover {
+				background-color: transparent !important;
+				div {
+					display: none !important;
+				}
+			}
+
+			&:focus {
+				background-color: transparent !important;
+				div {
+					display: none !important;
+				}
+			}
+			&:active {
+				background-color: transparent !important;
+				div {
+					display: none !important;
+				}
+			}
+
+			span {
+				margin-left: 16px;
+				font-weight: 500 !important;
+				font-family: 'Noto Sans KR';
+			}
+		}
+		.logo {
+			position: absolute;
+			left: 16px;
+			top: 16.5px;
+		}
+	}
+}

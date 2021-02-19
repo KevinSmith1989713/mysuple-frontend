@@ -1,0 +1,185 @@
+@media(min-width:769px){
+  .ColleagueCard{
+    height: 150px;
+    position: relative;
+    &--Info{
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      .cnt, .game{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        color: #cccccc;
+        margin-bottom: 4px;
+        img{
+          width: 20px;
+          height: 15.2px;
+          margin-right: 5px;
+        }
+      }
+      .cnt{
+        display: flex;
+        align-items: center;
+      }
+
+      .name{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: -0.4px;
+        color: #cccccc;
+      }
+    }
+    &--Poster{
+      .gradient{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #322e3d 73%, #322e3d);
+      }
+    }
+    &.large{
+      width: 618px;
+      display: flex;
+      .ColleagueCard--Poster{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 396px;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .ColleagueCard--Desc{
+        width: calc(618px - 396px);
+        height: 100%;
+        background-color: #322e3d;
+        position: absolute;
+        z-index: 10;
+        right:0;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.67;
+        letter-spacing: -0.3px;
+        color: #aaaaaa;
+        padding: 15px 20px;
+        box-sizing: border-box;
+      }
+    }
+    &.normal{
+      display: flex;
+      flex:1;
+
+      .ColleagueCard--Poster{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .ColleagueCard--Desc{
+
+      }
+    }
+  }
+}
+
+@media(max-width:768px){
+  .ColleagueCard{
+    height: 150px;
+    position: relative;
+    &--Info{
+      position: absolute;
+      bottom: 15px;
+      left: 20px;
+      .cnt, .game{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        color: #cccccc;
+        margin-bottom: 4px;
+        img{
+          width: 20px;
+          height: 15.2px;
+          margin-right: 5px;
+        }
+      }
+      .cnt{
+        display: flex;
+        align-items: center;
+      }
+
+      .name{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        letter-spacing: -0.4px;
+        color: #cccccc;
+      }
+    }
+    &--Poster{
+      .gradient{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #322e3d 73%, #322e3d);
+      }
+    }
+    &.large{
+      width: 100%;
+      display: flex;
+      .ColleagueCard--Poster{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 52%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .ColleagueCard--Desc{
+        width: 48%;
+        height: 100%;
+        background-color: #322e3d;
+        position: absolute;
+        z-index: 10;
+        right:0;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.67;
+        letter-spacing: -0.3px;
+        color: #aaaaaa;
+        padding: 15px 20px;
+        box-sizing: border-box;
+      }
+    }
+    &.normal{
+      display: flex;
+      flex:1;
+
+      .ColleagueCard--Poster{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+      .ColleagueCard--Desc{
+
+      }
+    }
+  }
+}

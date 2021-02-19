@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <defs>
+        <style>
+            .BlyeHappyFace-1{fill:#1e59ea}
+        </style>
+    </defs>
+    <path id="mood-happy-solid" d="M10 20a10 10 0 1 1 10-10 10 10 0 0 1-10 10zM6.5 9A1.5 1.5 0 1 0 5 7.5 1.5 1.5 0 0 0 6.5 9zm7 0A1.5 1.5 0 1 0 12 7.5 1.5 1.5 0 0 0 13.5 9zm2.16 3H4.34a6 6 0 0 0 11.32 0z" class="BlyeHappyFace-1"/>
+</svg>

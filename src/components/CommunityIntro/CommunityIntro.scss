@@ -1,0 +1,113 @@
+@media(min-width:769px){
+	.CommunityIntro{
+		width: 100%;
+		height: 602px;
+		position: relative;
+		&--Bg{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			.bg--opacity{
+				width: 100%;
+				height: 100%;
+				background-color: black;
+				position: absolute;
+				opacity: 0.8;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		&--Info{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			padding: 33px 76px;
+			text-align: center;
+			box-sizing: border-box;
+			.title--top{
+				font-size: 14px;
+				font-weight: 500;
+				color: #cccccc;
+			}
+			.title--bot{
+				font-size: 28px;
+				font-weight: 500;
+				line-height: 2.86;
+				color: #ffb361;
+			}
+			iframe{
+				margin-top: 16px;
+				margin-bottom: 36px;
+				width: 488px;
+				height: 276px;
+			}
+			.explain{
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 2.14;
+				text-align: left;
+				color: #cccccc;
+			}
+		}
+	}	
+}
+
+@media(max-width:768px){
+	.CommunityIntro{
+		width: 100%;
+		height: 600px;
+		position: relative;
+		&--Bg{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			.bg--opacity{
+				width: 100%;
+				height: 100%;
+				background-color: black;
+				position: absolute;
+				opacity: 0.8;
+			}
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+		&--Info{
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			padding: 43px 0;
+			box-sizing: border-box;
+			text-align: center;
+			.title--top{
+				font-size: 14px;
+				font-weight: 500;
+				color: #cccccc;
+			}
+			.title--bot{
+				font-size: 28px;
+				font-weight: 500;
+				line-height: 2.86;
+				margin-bottom: 10px;
+				color: #ffb361;
+			}
+			iframe{
+				margin-top: 10px;
+				width: calc(100% - 60px);
+				height: 190px;
+			}
+			.explain{
+				padding: 40px 25px;
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 2.14;
+				color: #cccccc;
+			}
+		}
+	}	
+}

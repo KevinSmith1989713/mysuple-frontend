@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <clipPath id="prefix__clip-path">
+            <circle id="prefix__Ellipse_555" cx="20" cy="20" r="20" data-name="Ellipse 555"/>
+        </clipPath>
+        <style>
+            .prefix__cls-2{clip-path:url(#prefix__clip-path)}.prefix__cls-5{fill:#a6a8ab}
+        </style>
+    </defs>
+    <g id="prefix__Ellipse_78_1_" style="isolation:isolate">
+        <g id="prefix__Group_686" data-name="Group 686">
+            <g id="prefix__Group_683" class="prefix__cls-2" data-name="Group 683">
+                <circle id="prefix__Ellipse_554" cx="20" cy="20" r="20" data-name="Ellipse 554" style="fill:#d0d2d3"/>
+            </g>
+            <g id="prefix__Group_685" class="prefix__cls-2" data-name="Group 685">
+                <g id="prefix__Group_684" data-name="Group 684" transform="translate(9.256 7.207)">
+                    <path id="prefix__Path_1234" d="M41.147 67.112A10.363 10.363 0 0 1 30.8 56.765V34.947a10.347 10.347 0 0 1 20.694 0v21.818a10.341 10.341 0 0 1-10.347 10.347z" data-name="Path 1234" transform="translate(-29.874 -23.674)" style="fill:#f1f1f2"/>
+                    <path id="prefix__Path_1235" d="M39.273 23.684a9.4 9.4 0 0 1 9.388 9.388v21.852a9.388 9.388 0 0 1-18.777 0V33.073a9.425 9.425 0 0 1 9.388-9.388m0-1.884A11.287 11.287 0 0 0 28 33.073v21.851a11.273 11.273 0 1 0 22.545 0V33.073A11.265 11.265 0 0 0 39.273 21.8z" class="prefix__cls-5" data-name="Path 1235" transform="translate(-28 -21.8)"/>
+                </g>
+                <circle id="prefix__Ellipse_556" cx="1.752" cy="1.752" r="1.752" class="prefix__cls-5" data-name="Ellipse 556" transform="translate(13.983 16.066)"/>
+                <path id="prefix__Rectangle_3101" d="M0 0H8V6.182H0z" class="prefix__cls-5" data-name="Rectangle 3101" transform="translate(2.512 16.463)"/>
+                <path id="prefix__Line_917" d="M0 0L11.372 11.372" data-name="Line 917" transform="translate(20.397 28.727)" style="fill:none;stroke:#bbbdbf;stroke-miterlimit:10;stroke-width:8.504px"/>
+                <path id="prefix__Path_1236" d="M36.729 64.876A12.542 12.542 0 0 1 24.2 52.347V30.529a12.529 12.529 0 0 1 25.058 0v21.818a12.542 12.542 0 0 1-12.529 12.529zm0-44.364a10.031 10.031 0 0 0-10.017 10.017v21.818a10.017 10.017 0 0 0 20.033 0V30.529a9.989 9.989 0 0 0-10.016-10.017z" class="prefix__cls-5" data-name="Path 1236" transform="translate(-16.2 -12.05)"/>
+            </g>
+        </g>
+    </g>
+</svg>

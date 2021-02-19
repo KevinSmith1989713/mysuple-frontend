@@ -1,0 +1,143 @@
+@media (min-width: 769px) {
+	.FriendsContainer {
+		&--Title {
+			padding: 88px 79px 29px 79px;
+			box-sizing: border-box;
+		}
+		&--Table {
+			display: flex;
+			border-top: 1px solid #eeeeee;
+			height: 564px;
+
+			.nav,
+			.nav__selected {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				color: #aaaaaa;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 45px;
+				border-bottom: 1px solid #eee;
+				width: 100%;
+				svg {
+					width: 19px;
+					height: 19px;
+					margin-right: 10px;
+				}
+			}
+
+			.nav__selected {
+				color: #666666;
+			}
+
+			.crew--column {
+				width: 87px;
+				height: 100%;
+				border-right: 1px solid #eee;
+				.crew--list {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					height: calc(100% - 45px);
+					overflow: scroll;
+					padding: 10px 0;
+					box-sizing: border-box;
+					img {
+						width: 50px;
+						height: 50px;
+						object-fit: cover;
+						border-radius: 50%;
+					}
+					.crew--recent {
+						position: absolute;
+						bottom: 3px;
+						right: 3px;
+						width: 15px;
+						height: 15px;
+						background-color: #1e59ea;
+						border-radius: 50%;
+						font-size: 6px;
+						font-weight: 500;
+						line-height: 1.5;
+						letter-spacing: -1px;
+						color: #ffffff;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+					}
+					.crew--circle {
+						width: 54px;
+						height: 54px;
+						border-radius: 50%;
+						position: relative;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin: 5px 0;
+					}
+					.crew--circle__selected {
+						width: 54px;
+						height: 54px;
+						border-radius: 50%;
+						position: relative;
+						background-color: #1e59ea;
+						display: flex;
+						align-items: center;
+						justify-content: center;
+						margin: 5px 0;
+					}
+				}
+			}
+			.menus--column {
+				width: 295px;
+				height: 100%;
+				border-right: 5px solid #eee;
+				.navigation {
+					display: flex;
+					align-items: center;
+				}
+			}
+			.main--menu {
+				height: calc(100% - 46px);
+				overflow: scroll;
+				.Friends {
+					.small--title {
+						font-size: 14px;
+						font-weight: 500;
+						line-height: 1.43;
+						letter-spacing: -0.35px;
+						color: #666666;
+						width: 100%;
+						display: flex;
+						align-items: center;
+						padding-left: 20px;
+						box-sizing: border-box;
+						height: 60px;
+						b {
+							margin-left: 5px;
+							color: #1e59ea;
+						}
+					}
+				}
+				.ChattingList,
+				.AlarmList {
+					.small--title {
+						display: none;
+					}
+				}
+			}
+			.selected--column {
+				position: relative;
+				flex: 1;
+				overflow: hidden;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.FriendsContainer {
+	}
+}

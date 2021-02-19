@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .GrayCalendar-1{fill:none}.GrayCalendar-2{clip-path:url(#clip-path)}.GrayCalendar-3{fill:#bbbbbb;fill-rule:evenodd}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h30v30H0z" class="GrayCalendar-1"/>
+        </clipPath>
+    </defs>
+    <g id="Calendar" class="GrayCalendar-2">
+        <path id="Rectangle_557" d="M0 0h30v30H0z" class="GrayCalendar-1" data-name="Rectangle 557"/>
+        <path id="Path_149" d="M3.75 9.375V26.25h22.5V9.375zM24.375 3.75h3.75A1.771 1.771 0 0 1 30 5.625v22.5A1.771 1.771 0 0 1 28.125 30H1.875A1.771 1.771 0 0 1 0 28.125v-22.5A1.771 1.771 0 0 1 1.875 3.75h3.75V1.875A1.771 1.771 0 0 1 7.5 0a1.771 1.771 0 0 1 1.875 1.875V3.75h11.25V1.875a1.875 1.875 0 0 1 3.75 0zM22.5 22.5h-3.75v-3.75h3.75zm-5.625 0h-3.75v-3.75h3.75zm5.625-5.625h-3.75v-3.75h3.75zm-5.625 0h-3.75v-3.75h3.75zM11.25 22.5H7.5v-3.75h3.75z" class="GrayCalendar-3" data-name="Path 149"/>
+    </g>
+</svg>

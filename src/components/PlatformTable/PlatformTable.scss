@@ -1,0 +1,146 @@
+.PlatformTable {
+	width: 100%;
+	table,
+	tbody,
+	tr,
+	a {
+		width: 100%;
+	}
+
+	table {
+		border-top: 4px solid #1e59ea;
+		border-bottom: 1px dashed #dddddd;
+	}
+
+	@media (min-width: 769px) {
+		tr,
+		a {
+			display: flex;
+			height: 50px;
+			color: #cccccc;
+		}
+		a:hover {
+			color: #ffb361;
+		}
+		&__Header {
+			display: flex;
+			height: 50px;
+			font-size: 16px;
+			font-weight: bold;
+			line-height: 1.5;
+			align-items: center;
+			color: #ffffff;
+			border-bottom: 1px dashed #dddddd;
+
+			th {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+				color: #ffffff;
+			}
+		}
+		&__Row {
+			display: flex;
+			height: 50px;
+			&:nth-child(odd) {
+				background-color: #00000022;
+			}
+		}
+		td {
+			// color: white;
+			justify-content: center;
+			align-items: center;
+			// &:hover{
+			//   color: #ddd;
+			// }
+		}
+		.row--platform {
+			display: flex;
+			flex: 1;
+		}
+		.row--price {
+			display: flex;
+			flex: 1;
+		}
+		.row--lowprice {
+			display: flex;
+			justify-content: start;
+			flex: 1;
+		}
+		.row--percent {
+			display: flex;
+			flex: 1;
+		}
+		.price--explanation {
+			color: #ffffff;
+			font-size: 13px;
+			margin-top: 10px;
+		}
+		.more {
+			display: flex;
+			font-size: 16px;
+			font-weight: bold;
+			color: #ffffff;
+			cursor: pointer;
+			&:hover {
+				background: #ffffff;
+				opacity: 0.1;
+				color: black;
+			}
+		}
+	}
+
+	@media (max-width: 768px) {
+		table {
+			border: none;
+		}
+		tr,
+		a {
+			display: flex;
+			height: 45px;
+		}
+		&__Header {
+			display: flex;
+			height: 50px;
+			font-size: 13px;
+			font-weight: bold;
+			line-height: 1.5;
+			align-items: center;
+			color: #888888;
+			background-color: #fbfbfb;
+
+			th {
+				flex: 1;
+				display: flex;
+				justify-content: center;
+			}
+		}
+		&__Row {
+			display: flex;
+			height: 50px;
+		}
+		td {
+			text-align: center;
+			color: #888888;
+			justify-content: center;
+			align-items: center;
+			font-size: 13px;
+		}
+		.row--platform {
+			display: flex;
+			flex: 1;
+		}
+		.row--price {
+			display: flex;
+			flex: 1;
+		}
+		.row--lowprice {
+			display: flex;
+			flex: 1;
+		}
+		.row--percent {
+			display: flex;
+			flex: 1;
+		}
+	}
+}

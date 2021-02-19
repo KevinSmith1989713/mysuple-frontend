@@ -1,0 +1,105 @@
+@media(min-width:769px){
+  .FigureModal {
+    width: 830px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 36px 54px;
+    box-sizing: border-box;
+    &--Header{
+      margin-bottom: 58px;
+    }
+    &--Info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .figure{
+        min-width: 180px;
+        min-height: 100px;
+        border: 1px solid #dddddd;
+        height: auto;
+        margin-bottom: 30px;
+      }
+      .figure--name{
+        margin-bottom: 15px;
+      }
+      .figure--serial{
+        color: #666666;
+        max-height: 25px;
+        overflow: hidden;
+        margin-bottom: 18.5px;
+        .number, .type {
+          margin: 0 20px;
+        }
+        .rank{
+          padding:0 20px;
+          border-left: 1px solid ;
+          border-right: 1px solid ;
+        }
+      }
+      .figure--story{
+        border-top: 3px solid #1e59ea;
+        padding-top: 37px;
+        margin-bottom: 20px;
+        width: 450px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.8;
+        color: #bbbbbb;
+      }
+    }
+  }  
+}
+
+@media(max-width:768px){
+  .FigureModal {
+    width: 90%;
+    height: auto;
+    max-height: 90%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    &--Header{
+      margin-bottom: 58px;
+    }
+    &--Info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .figure{
+        width: 183.7px;
+        height: auto;
+        min-height: 100px;
+        border: 1px solid #dddddd;
+        margin-bottom: 36px;
+      }
+      .figure--name{
+        margin-bottom: 15px;
+      }
+      .figure--serial{
+        color: #666666;
+        max-height: 25px;
+        overflow: hidden;
+        margin-bottom: 18.5px;
+        .number, .type {
+          margin: 0 20px;
+        }
+        .rank{
+          padding:0 20px;
+          border-left: 1px solid ;
+          border-right: 1px solid ;
+        }
+      }
+      .figure--story{
+        border-top: 3px solid #1e59ea;
+        padding-top: 22px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.8;
+        color: #bbbbbb;
+      }
+    }
+  }  
+}

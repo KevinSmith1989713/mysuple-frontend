@@ -1,0 +1,232 @@
+@media (min-width: 769px) {
+	.JoinSeventh {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 110%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 66px;
+		padding-bottom: 50px;
+		background: white;
+
+		.header--wrapper {
+			z-index: 10000;
+			position: fixed;
+			top: 0;
+			height: 90px;
+			width: 100%;
+			background: #1e59ea;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+		}
+		.JoinSeventh-title {
+			width: 845px;
+			margin: 80px 0px 0px 0px;
+		}
+		.JoinSeventh--progressBar {
+			margin-top: 70px;
+			width: 845px;
+			display: flex;
+			.StepProgressBar {
+				margin-right: 100px;
+			}
+		}
+		.JoinSeventh-question {
+			position: relative;
+			width: 750px;
+
+			&--cardGroup {
+				margin-top: 43px;
+				display: flex;
+			}
+
+			&--button {
+				position: absolute;
+				right: 0px;
+				display: flex;
+				margin-top: 17px;
+				top: 24px;
+
+				button {
+					margin-left: 16px;
+				}
+			}
+			&.slide {
+				transition: 0.3s;
+				transform: translateY(0%);
+			}
+			.title {
+				display: flex;
+				justify-content: space-between;
+				.skip {
+					margin-bottom: 10px;
+				}
+			}
+			.miniTitle {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.5;
+				letter-spacing: -0.4px;
+				text-align: left;
+				margin-top: 10px;
+				color: #666666;
+				b,
+				span {
+					color: #1e59ea;
+					font-weight: 700;
+				}
+			}
+		}
+		&--filter-box {
+			width: 100%;
+			height: 50px;
+			margin-top: 52px;
+			border-bottom: 1px solid #ddd;
+			background-color: #eeeeee;
+		}
+		&--content-box {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 44px;
+			width: 100%;
+			padding-bottom: 80px;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.JoinSeventh {
+		z-index: 10;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		min-height: 600px;
+
+		.header--wrapper {
+			z-index: 10000;
+			position: fixed;
+			top: 0;
+			height: 60px;
+			width: 100%;
+			background: #1e59ea;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+
+			.Logos {
+				width: 148px;
+				height: 25px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				.logos {
+					width: 20px;
+					height: 23px;
+					margin-right: 5px;
+				}
+				.logo {
+					width: 105px;
+					height: 23px;
+				}
+			}
+		}
+		&--Header {
+			width: 100%;
+			height: 60px;
+			display: flex;
+			align-items: center;
+			padding: 0 20px;
+			box-sizing: border-box;
+			margin-bottom: 30px;
+			.title {
+				display: flex;
+				font-size: 18px;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #322e3d;
+				justify-self: stretch;
+				margin: auto;
+			}
+			.skip {
+				display: flex;
+				width: 20px;
+				font-size: 12px;
+				font-weight: 500;
+				line-height: 1.5;
+				color: #cccccc;
+			}
+		}
+		&--Body {
+			padding: 0 20px;
+			.miniTitle {
+				font-size: 12px;
+				font-weight: 500;
+				color: #666666;
+				b {
+					font-size: 16px;
+					font-weight: 700;
+					color: #1e59ea;
+				}
+				span {
+					color: #1e59ea;
+				}
+			}
+			.body {
+				box-sizing: border-box;
+				padding: 0 20px 50px 20px;
+				// padding-bottom: 30px;
+				background: white;
+				left: 0;
+				height: 100%;
+				// position: absolute;
+				margin-top: 20px;
+				display: flex;
+				width: 100%;
+
+				.games {
+					justify-self: center;
+					padding-left: 15px;
+					display: flex;
+					flex-wrap: wrap;
+					overflow-y: auto;
+				}
+				// .StepProgressBar {
+				// 	position: fixed;
+				// }
+			}
+		}
+
+		// &--Footer {
+		// 	display: flex;
+		// 	position: fixed;
+		// 	bottom: 0;
+
+		// 	width: 100%;
+		// 	height: 60px;
+		// 	border-top: 1px solid #ededed;
+		// 	background: white;
+		// 	.back,
+		// 	.next {
+		// 		display: flex;
+		// 		flex: 1;
+		// 		justify-content: center;
+		// 		align-items: center;
+		// 		font-size: 12px;
+		// 		font-weight: 500;
+		// 		color: #666666;
+		// 	}
+		// 	.back {
+		// 		border-right: 1px solid #ededed;
+		// 	}
+		// }
+	}
+}

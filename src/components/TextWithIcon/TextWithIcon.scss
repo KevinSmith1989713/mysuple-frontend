@@ -1,0 +1,11 @@
+.TextWithIcon{
+  display: flex;
+  justify-content: flex-start;
+  font-family: inherit;
+  
+  img{
+    width: 20px !important;
+    height: 21px !important;
+    margin-right: 28px;
+  }
+}

@@ -1,0 +1,181 @@
+@media (min-width: 769px) {
+	.CommunityHeader {
+		display: block;
+		width: 100%;
+		height: 157px;
+		position: relative;
+
+		&--background {
+			position: absolute;
+			display: block;
+			.bg--opacity,
+			.bg--img {
+				width: 100%;
+				height: 157px;
+				object-fit: cover;
+			}
+			.bg--opacity {
+				position: absolute;
+				background: black;
+				opacity: 0.5;
+			}
+		}
+		&--info {
+			position: absolute;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 157px;
+			padding: 20px 40px;
+			box-sizing: border-box;
+			.logo {
+				width: 304px;
+				max-height: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-right: 40px;
+				img {
+					// max-width: 100%;
+					height: 117px;
+					box-sizing: border-box;
+					object-fit: contain;
+				}
+			}
+			.info {
+				.Title {
+					color: white;
+				}
+				.official {
+					font-size: 12px;
+					font-weight: bold;
+					line-height: 1.5;
+					color: #ffb361;
+					margin-bottom: 3px;
+				}
+				.cnt {
+					display: flex;
+					align-items: center;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 1.5;
+
+					color: #cccccc;
+					.cnt__player {
+						width: 22px;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+		&--buttons {
+			margin-left: auto;
+			margin-bottom: auto;
+			display: flex;
+
+			.alarm--btn {
+				width: 34px;
+				height: 34px;
+			}
+			.setting--btn {
+				width: 33px;
+				height: 33px;
+				background-color: #ffffff;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				cursor: pointer;
+				margin-left: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.CommunityHeader {
+		display: block;
+		width: 100%;
+		height: 125px;
+		position: relative;
+
+		&--background {
+			position: absolute;
+			display: block;
+			.bg--opacity,
+			.bg--img {
+				width: 100%;
+				height: 125px;
+				object-fit: cover;
+			}
+			.bg--opacity {
+				position: absolute;
+				background: black;
+				opacity: 0.5;
+			}
+		}
+		&--info {
+			position: absolute;
+			display: flex;
+			align-items: center;
+			width: 100%;
+			height: 125px;
+			padding: 0 20px;
+			box-sizing: border-box;
+			.logo {
+				max-width: 100px;
+				max-height: 117px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-right: 20px;
+				img {
+					max-width: 100px;
+					max-height: 117px;
+					box-sizing: border-box;
+					object-fit: contain;
+				}
+			}
+			.info {
+				.Title {
+					color: white;
+					font-size: 18px;
+					font-weight: 900;
+					line-height: 1.5;
+					text-align: left;
+					color: #ffffff;
+				}
+				.official {
+					width: 70px;
+					height: 18px;
+					font-family: NotoSansCJKkr;
+					font-size: 12px;
+					font-weight: bold;
+					line-height: 1.5;
+					letter-spacing: -0.3px;
+					text-align: left;
+					color: #ffb361;
+				}
+				.cnt {
+					display: flex;
+					align-items: center;
+					font-size: 12px;
+					font-weight: bold;
+					line-height: 1.5;
+					letter-spacing: -0.3px;
+					text-align: left;
+					color: #cccccc;
+
+					color: #cccccc;
+					.cnt__player {
+						width: 15px;
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+		&--buttons {
+			display: none;
+		}
+	}
+}

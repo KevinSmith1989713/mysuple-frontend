@@ -1,0 +1,151 @@
+@media(min-width:769px){
+  .OSTable{
+    width: 100%;
+    border: 1px solid #dddddd;
+    &--Header{
+      display: flex;
+      width: 100%;
+      height: 72px;
+      background-color: #bbbbbb;
+      border-bottom: 1px solid #dddddd;
+
+      .Header--OS{
+        width:153px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #dddddd;
+        cursor: pointer;
+      }
+
+      .Header--OS__selected{
+        width:153px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-right: 1px solid #dddddd;
+        cursor: pointer;
+      }
+    }
+
+    &--Data{
+      width: 100%;
+      min-height: 30px;
+      padding: 20px 25px;
+      box-sizing: border-box;
+      display: flex;
+  
+      .Data-low, .Data-stable {
+        flex: 1;
+      }
+  
+      .Data-low {
+        border-right: 1px solid #dddddd;
+        padding-right: 40px;
+        box-sizing: border-box;
+      }
+      .Data-stable {
+        padding-left: 40px;
+        box-sizing: border-box;
+  
+      }
+    
+      .Data-title{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 1.5;
+        color: #322e3d;
+        margin-bottom: 20px;
+      }
+      .Data{
+        display: flex;
+      }
+      .sub-title{
+        margin-right: 24px;
+      }
+      .sub-title, .spec {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.43;
+        color:#666666;
+      }
+    }
+  }
+}
+@media(max-width:768px){
+  .OSTable{
+    width: 100%;
+    border: 1px solid #dddddd;
+    &--Header{
+      display: flex;
+      width: 100%;
+      height: 72px;
+      background-color: #bbbbbb;
+      border-bottom: 1px solid #dddddd;
+
+      .Header--OS{
+        width:153px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #dddddd;
+        cursor: pointer;
+      }
+      .Header--OS__selected{
+        width:153px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-right: 1px solid #dddddd;
+        cursor: pointer;
+      }
+    }
+    &--Data{
+      width: 100%;
+      min-height: 30px;
+      padding: 20px 25px;
+      box-sizing: border-box;
+  
+      .Data-low, .Data-stable {
+        flex: 1;
+      }
+  
+      .Data-low {
+        border-bottom: 1px solid #dddddd;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+      }
+      .Data-stable {
+        padding-top: 20px;
+        box-sizing: border-box;
+  
+      }
+    
+      .Data-title{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 1.5;
+        color: #322e3d;
+        margin-bottom: 20px;
+      }
+      .Data{
+        display: flex;
+      }
+      .sub-title{
+        margin-right: 24px;
+      }
+      .sub-title, .spec {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.43;
+        color:#666666;
+      }
+    }
+  }
+}

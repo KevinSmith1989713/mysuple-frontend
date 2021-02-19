@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34.802" height="51.543" viewBox="0 0 34.802 51.543">
+    <defs>
+        <style>
+            .NoteIcon-1{fill:none;stroke:#ffb361;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Group_632" data-name="Group 632" transform="translate(.29 .29)">
+        <path id="Rectangle_2884" d="M0 0h32.802v45.75H0z" class="NoteIcon-1" data-name="Rectangle 2884" transform="translate(.71 4.504)"/>
+        <path id="Line_790" d="M0 0v7.567" class="NoteIcon-1" data-name="Line 790" transform="translate(7.122 .71)"/>
+        <path id="Line_791" d="M0 0v7.567" class="NoteIcon-1" data-name="Line 791" transform="translate(13.678 .71)"/>
+        <path id="Line_792" d="M0 0v7.567" class="NoteIcon-1" data-name="Line 792" transform="translate(20.338 .71)"/>
+        <path id="Line_793" d="M0 0v7.567" class="NoteIcon-1" data-name="Line 793" transform="translate(27.1 .71)"/>
+        <path id="Line_794" d="M0 0h20.452" class="NoteIcon-1" data-name="Line 794" transform="translate(6.875 16.75)"/>
+        <path id="Line_795" d="M0 0h20.452" class="NoteIcon-1" data-name="Line 795" transform="translate(6.875 24.42)"/>
+        <path id="Line_796" d="M0 0h20.452" class="NoteIcon-1" data-name="Line 796" transform="translate(6.875 31.615)"/>
+        <path id="Line_797" d="M0 0h20.452" class="NoteIcon-1" data-name="Line 797" transform="translate(6.875 38.708)"/>
+    </g>
+</svg>

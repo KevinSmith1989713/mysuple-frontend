@@ -1,0 +1,161 @@
+.ColleagueLinkModal {
+	.background {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		left: 0;
+		background-color: #000000;
+		opacity: 0.5;
+		z-index: 10;
+	}
+
+	.modal--box {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 360px;
+		overflow: auto;
+		border-radius: 10px;
+		background-color: white;
+		box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+		z-index: 1000;
+		box-sizing: border-box;
+		padding: 30px 35px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+		.modal__title {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			font-size: 14px;
+			font-weight: bold;
+			color: #322e3d;
+			height: 35px;
+
+			border-bottom: 1px solid #f2f2f2;
+			padding-bottom: 21px;
+
+			.info--box {
+				display: flex;
+				.profile {
+					width: 30px;
+					height: 30px;
+					border-radius: 50%;
+				}
+				.title--box {
+					margin-left: 10px;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+
+					.viewBtn {
+						margin-left: 10px;
+						width: 81px;
+						height: 19px;
+						border-radius: 9px;
+						background-color: #f2f2f2;
+						font-family: NotoSansCJKkr;
+						font-size: 11px;
+						font-weight: 500;
+						color: #aaaaaa;
+					}
+					.face--box {
+						display: flex;
+						margin-top: 5px;
+
+						.face {
+							margin-right: 10px;
+							font-family: NotoSansCJKkr;
+							font-size: 12px;
+							font-weight: bold;
+							color: #aaaaaa;
+							.img {
+								margin-bottom: -3px;
+								margin-right: 5px;
+								width: 18px;
+								height: 18px;
+							}
+						}
+						.blue {
+							color: #749cff;
+						}
+						.orange {
+							color: #ffb361;
+						}
+					}
+				}
+			}
+			.closeBtn {
+				width: 18px;
+				height: 18px;
+			}
+		}
+
+		.modal--inner {
+			box-sizing: border-box;
+			padding: 10px 0 10px 0;
+			font-size: 14px;
+			font-weight: bold;
+			font-stretch: normal;
+			color: #666666;
+			line-height: 1.79;
+			.gameInfo--box {
+				font-family: NotoSansCJKkr;
+				font-size: 13px;
+				font-weight: 500;
+				color: #749cff;
+				margin-bottom: 15px;
+				.img {
+					margin-bottom: -2px;
+					margin-right: 5px;
+				}
+				.gaem__title {
+					font-family: NotoSansCJKkr;
+					font-size: 15px;
+					font-weight: 500;
+					color: #666666;
+				}
+			}
+			.btn {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 10px;
+				margin-bottom: 10px;
+				width: 100%;
+				height: 56.8px;
+				border: solid 1px #cccccc;
+				background-color: #eeeeee;
+				font-family: NotoSansCJKkr;
+				font-size: 13px;
+				font-weight: 500;
+				color: #322e3d;
+				cursor: pointer;
+				.messageImg {
+					margin-bottom: 2px;
+					margin-right: 10px;
+				}
+			}
+
+			.discode {
+				height: 56px;
+				border-radius: 5px;
+				border: solid 1px #a7c0ff;
+				background-color: #e4ecff;
+			}
+		}
+		.Link__report {
+			text-align: end;
+			margin-top: -10px;
+			font-family: NotoSansCJKkr;
+			font-size: 12px;
+			font-weight: 500;
+			color: #aaaaaa;
+			text-decoration: underline;
+		}
+	}
+}

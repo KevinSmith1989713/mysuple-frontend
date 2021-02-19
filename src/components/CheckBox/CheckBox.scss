@@ -1,0 +1,84 @@
+$gray: #adb5bd;
+$blue: #1e59ea;
+$pink: #f783ac;
+$red: #ff8787;
+$grape: #da77f2;
+
+@mixin checkbox-color($color) {
+	.checked {
+		color: $color;
+	}
+}
+
+.checkbox {
+	display: flex;
+	// align-items: center;
+
+	label {
+		cursor: pointer;
+	}
+
+	input {
+		position: absolute;
+		width: 0;
+		height: 0;
+		opacity: 0;
+	}
+
+	.icon {
+		display: flex;
+		align-items: center;
+		font-size: 2rem;
+		margin-right: 0.25rem;
+		color: #707070;
+
+		&.medium {
+			font-size: 27px;
+		}
+
+		&.small {
+			font-size: 20px;
+		}
+	}
+
+	&.pink {
+		@include checkbox-color($pink);
+	}
+
+	&.blue {
+		@include checkbox-color($blue);
+	}
+
+	&.grape {
+		@include checkbox-color($grape);
+	}
+
+	&.gray {
+		@include checkbox-color($gray);
+	}
+
+	&.red {
+		@include checkbox-color($red);
+	}
+
+	.selected {
+		color: #000;
+		margin-top: 5px;
+		font-weight: 500;
+		font-family:inherit !important; 
+	}
+
+	.label {
+		color: #aaaaaa;
+		margin-top: 5px;
+		font-weight: 500;
+		font-family:inherit !important; 
+	}
+
+	.allCheck {
+		font-size: 18px;
+		color: #322e3d;
+		font-weight: 900;
+		margin-top: 3px;
+	}
+}

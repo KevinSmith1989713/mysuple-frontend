@@ -1,0 +1,121 @@
+.addFriends--wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: white;
+	z-index: 10;
+
+	.header {
+		width: 100%;
+		height: 70px;
+		background: #eff4ff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.back {
+			position: absolute;
+			left: 20px;
+			font-size: 25px;
+			cursor: pointer;
+		}
+		.title {
+			font-weight: bold;
+		}
+	}
+	.body {
+		box-sizing: border-box;
+		padding: 10px;
+		height: 100%;
+
+		.img--box {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 400px;
+
+			@media (max-width: 768px) {
+				height: 450px;
+			}
+			.text {
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 1.43;
+				text-align: center;
+				color: #666666;
+			}
+			img {
+				width: 110px;
+				height: 110px;
+				border-radius: 50%;
+				margin-left: 0px;
+				object-fit: cover;
+			}
+			.user-name {
+				font-size: 13px;
+				font-weight: normal;
+				padding: 20px 0;
+			}
+		}
+		.chating--box {
+			height: 100%;
+			overflow-y: scroll;
+			.chating--list {
+				box-sizing: border-box;
+				padding: 20px;
+
+				.chatingRoom {
+					display: flex;
+					align-items: center;
+					position: relative;
+					box-sizing: border-box;
+					padding: 5px 0;
+
+					img {
+						margin-left: 0px;
+						width: 45px;
+						height: 45px;
+						border-radius: 50%;
+					}
+
+					.roomName {
+						font-size: 15px;
+						margin-left: 15px;
+					}
+					.span-tag {
+						border: 1px solid black;
+						position: absolute;
+						right: 10px;
+						width: 18px;
+						height: 18px;
+						border-radius: 50%;
+						cursor: pointer;
+
+						&.selected {
+							border: none;
+							background: #1e59ea;
+						}
+					}
+				}
+			}
+		}
+	}
+	.footer {
+		z-index: 110;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		height: 50px;
+		background: #e7e7e7;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+
+		&.selected {
+			background: #1e59ea;
+			color: white;
+		}
+	}
+}

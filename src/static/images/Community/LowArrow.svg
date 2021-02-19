@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="7" viewBox="0 0 11 7">
+    <defs>
+        <style>
+            .LowArrow-1{fill:#aaa}
+        </style>
+    </defs>
+    <path id="Polygon_63" d="M4.714 1a1 1 0 0 1 1.572 0l3.443 4.382A1 1 0 0 1 8.943 7H2.057a1 1 0 0 1-.786-1.618z" class="LowArrow-1" data-name="Polygon 63" transform="rotate(180 5.5 3.5)"/>
+</svg>

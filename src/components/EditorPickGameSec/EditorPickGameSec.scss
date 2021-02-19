@@ -1,0 +1,56 @@
+.EditorPickGameSec {
+  padding: 71px 0;
+  margin: 0 62px;
+  box-sizing: border-box;
+  border-top: 1px solid #eee;
+	&--Title{
+    margin-bottom: 40px;
+    .underline{
+      margin-top: 15px;
+      width:40px;
+      border-bottom: 4px solid #1e59ea;
+    }
+  }
+  &--Tags{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 2.13;
+    color: #666666;
+    
+    p{
+      display: flex;
+      justify-content: center;
+      img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 30px 0;
+      }
+    }
+  }
+  &--GameCard{
+    .EditorLongCard{
+      display: flex;
+      margin: 30px 0;
+      border: solid 1px #bbbbbb;
+      border-top-right-radius: 50px;
+      overflow: hidden;
+      &--introduce{
+        width: 645px;
+        height: 249px;
+        padding: 50px 60px;
+        box-sizing: border-box;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f2f2f2;
+
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 2.13;
+        color: #666666;
+      }
+    }
+  }
+}

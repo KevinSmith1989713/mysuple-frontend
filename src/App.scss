@@ -1,0 +1,68 @@
+@import 'src/assets/styles/main';
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+$blue: #1e59ea;
+
+@media (min-width: 769px) {
+	#root {
+		overflow: hidden;
+	}
+	body {
+		font-family: 'Noto Sans KR' !important;
+		min-width: 1050px;
+	}
+
+	.header-bg {
+		position: absolute;
+		z-index: -10;
+		width: 100%;
+		height: 479px;
+		min-width: 1050px;
+		background: linear-gradient(to bottom, #1e59ea, #0080ff);
+	}
+
+	.container {
+		min-height: 500px;
+		display: flex;
+		justify-content: center;
+		margin-top: 70px;
+	}
+}
+
+@media (max-width: 768px) {
+	#root {
+		overflow: hidden;
+	}
+	body {
+		font-family: 'Noto Sans KR' !important;
+		width: 100%;
+	}
+
+	.header {
+		width: 100%;
+	}
+
+	.header-bg {
+		position: absolute;
+		z-index: -10;
+		width: 100%;
+		height: 60px;
+		background-color: #fff;
+		// background: #1e59ea;
+	}
+	.header-bg-blue {
+		background: #fff;
+	}
+	.Home,
+	.Info,
+	.Inquirey,
+	.Search,
+	.Community {
+		width: 100%;
+	}
+	.container {
+		min-height: 530px;
+		// display: flex;
+		// justify-content: center;
+	}
+}

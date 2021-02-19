@@ -1,0 +1,299 @@
+@media(min-width:769px){
+  .CommunityNotice{
+    padding: 48px 35px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #322e3d;
+    &--header{
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.5;
+      padding-bottom: 15px;
+      border-bottom: 3px solid #aaa;
+      display: flex;
+      color: #ffffff;
+      margin-bottom: 20px;
+      justify-content: space-between;
+    }
+    
+    &--Newest{
+      margin-bottom: 20px;
+    }
+    &--Pagination{
+      display: flex;
+      justify-content: center;
+    }
+    &--List{
+      width:100%;
+      height: 278px;
+      background-color: #242424;
+      padding: 0 23px 23px 23px;
+      box-sizing: border-box;
+    }
+    &--Row{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px dashed#666;
+      .notice--checkbox{
+  
+      }
+      .notice--type{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.43;
+        color: #ffb361;
+        width:80px;
+      }
+      .notice--title{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        color: #eeeeee;
+      }
+      .notice--date{
+        margin-left: auto;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.43;
+        color: #aaaaaa;
+      }
+    }
+    &--Edit{
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 50px;
+      .c-Button{
+        margin: 12px 0 0 15px;
+      }
+    }
+  
+    //Notice Detail
+     
+    &--Title{
+      height: 61px;
+      background-color: #242424;
+      
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      
+      padding: 0 25px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      .Title--type{
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .Title--text{
+        color: #eeeeee;
+      }
+    }
+  
+    &--Info{
+      height: 61px;
+      border-bottom: 1px dashed #444;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #aaaaaa;
+      margin-bottom: 25px;
+      
+      svg{
+        margin: 0 5px 0 25px;
+      }
+  
+      .Info--view{
+        display: flex;
+        align-items: center;
+  
+      }
+      .Info--createdAt{
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    &--Content{
+      border-bottom: 1px dashed #444;
+    }
+    &--UpDownList{
+      .UpDownList--up, .UpDownList--down{
+        display: flex;
+        align-items: center;
+        height: 61px;
+        border-bottom: 1px dashed #444;
+      }
+      .text{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #aaaaaa;
+        margin: 0 30px 0 5px;
+      }
+      .type{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.43;
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #eeeeee;
+      }
+    }
+  }  
+}
+
+@media(max-width:768px){
+  .CommunityNotice{
+    padding: 40px 20px;
+    box-sizing: border-box;
+    height: auto;
+    background-color: #322e3d;
+    &--header{
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.45;
+      letter-spacing: -0.8px;
+      color: #ffffff;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #aaa;
+      .c-Button{
+        display: none;
+      }
+    }
+    &--Newest{
+      margin-bottom: 20px;
+    }
+    &--List{
+      width:100%;
+      height: auto;
+      background-color: #242424;
+      padding: 12px 20px 12px 20px;
+      box-sizing: border-box;
+    }
+    &--Row{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 8px 0;
+      box-sizing: border-box;
+      border-bottom: 1px dashed#666;
+      &:nth-child(4){
+        border: none;
+      }
+      .notice--type{
+        display: none;
+      }
+      .notice--title{
+        font-size: 14px;
+        line-height: 1.43;
+        letter-spacing: -0.56px;
+        color: #eeeeee;
+        margin-bottom: 5px;
+      }
+      .notice--date{
+        font-size: 10px;
+        line-height: 1.5;
+        color: #aaaaaa;
+      }
+    }
+    &--Edit{
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 50px;
+      .c-Button{
+        margin: 12px 0 0 15px;
+      }
+    }
+    &--Title{
+      height: 61px;
+      background-color: #242424;
+      
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.5;
+      
+      padding: 0 25px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      .Title--type{
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .Title--text{
+        color: #eeeeee;
+      }
+    }
+  
+    &--Info{
+      height: 61px;
+      border-bottom: 1px dashed #444;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: #aaaaaa;
+      margin-bottom: 25px;
+      
+      svg{
+        margin: 0 5px 0 25px;
+      }
+  
+      .Info--view{
+        display: flex;
+        align-items: center;
+  
+      }
+      .Info--createdAt{
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    &--Content{
+      border-bottom: 1px dashed #444;
+    }
+    &--UpDownList{
+      .UpDownList--up, .UpDownList--down{
+        display: flex;
+        align-items: center;
+        height: 61px;
+        border-bottom: 1px dashed #444;
+      }
+      .text{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #aaaaaa;
+        margin: 0 30px 0 5px;
+      }
+      .type{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.43;
+        color: #ffb361;
+        margin-right: 25px;
+      }
+      .title{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        color: #eeeeee;
+      }
+    }
+  }  
+}

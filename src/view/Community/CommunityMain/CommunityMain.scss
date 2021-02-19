@@ -1,0 +1,28 @@
+@media(min-width:769px){
+  .CommunityMain{
+    .MainIntro{}
+    .MainNotice{}
+    .MainDev{
+      margin-top: 58px;
+    }
+  }
+}
+
+@media(max-width:768px){
+  .CommunityMain{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+  }  
+  .MainIntro{
+  }
+  .MainNotice{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .MainDev{
+    margin-top: 58px;
+  }
+}

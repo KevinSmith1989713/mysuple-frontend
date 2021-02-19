@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="40.9" viewBox="0 0 44 40.9">
+    <defs>
+        <style>
+            .gore_gray-1{fill:#d0d2d3}.gore_gray-2{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Group_805" data-name="Group 805" transform="translate(-12.8 -91.1)">
+        <path id="prefix__Path_1395" d="M47.6 126.4h-.8c-2.7-1.4-9-2.4-16.3-2.4-9.8 0-17.7 1.8-17.7 4s7.9 4 17.7 4c6.7 0 12.5-.8 15.6-2.1.5 0 1 .1 1.5.1 3.1 0 5.6-.8 5.6-1.8s-2.5-1.8-5.6-1.8z" class="gore_gray-1" data-name="Path 1395"/>
+        <g id="prefix__Group_802" data-name="Group 802">
+            <path id="prefix__Path_1396" d="M39.6 101.7l-22.2 22.4s8 5.8 14.5-.8 14.5-14.7 14.5-14.7z" class="gore_gray-2" data-name="Path 1396"/>
+            <path id="prefix__Path_1397" d="M24.7 127.8a14.656 14.656 0 0 1-8.1-2.6l-1.3-1 24.4-24.6 8.9 9L33 124.3a11.506 11.506 0 0 1-8.3 3.5zm-5-4c2.4 1.2 7.2 2.6 11.2-1.5l13.5-13.7-4.9-4.9z" class="gore_gray-1" data-name="Path 1397"/>
+        </g>
+        <g id="prefix__Group_803" data-name="Group 803">
+            <path id="prefix__Path_1398" d="M39.6 101.7l8.5-8.6 3.5 3.5-8.5 8.5z" class="gore_gray-1" data-name="Path 1398"/>
+            <path id="prefix__Path_1399" d="M43.1 107.2l-5.4-5.5 10.5-10.6 5.4 5.5zm-1.5-5.5l1.4 1.5 6.5-6.6-1.4-1.5z" class="gore_gray-1" data-name="Path 1399"/>
+        </g>
+        <g id="prefix__Group_804" data-name="Group 804">
+            <path id="prefix__Path_1400" d="M40.6 108s-3.7.1-3.7 3.7a3.042 3.042 0 0 1-3.3 3.4s-3.7.2-3.7 3.7-4.4 4.4-4.4 4.4" class="gore_gray-2" data-name="Path 1400"/>
+            <path id="prefix__Path_1401" d="M25.7 124.7l-.6-2.8s3.3-.8 3.3-3.1c0-3.8 3.3-5 5-5.2h.2a1.915 1.915 0 0 0 1.3-.4 2.07 2.07 0 0 0 .5-1.5 5.113 5.113 0 0 1 5.1-5.2l.1 2.8a2.243 2.243 0 0 0-2.3 2.3 4.854 4.854 0 0 1-1.4 3.6 4.365 4.365 0 0 1-3.3 1.1c-.5.1-2.3.4-2.3 2.3 0 3.9-3.5 5.6-5.6 6.1z" class="gore_gray-1" data-name="Path 1401"/>
+        </g>
+        <ellipse id="prefix__Ellipse_656" cx="2.2" cy=".9" class="gore_gray-1" data-name="Ellipse 656" rx="2.2" ry=".9" transform="translate(52.4 123.3)"/>
+    </g>
+</svg>

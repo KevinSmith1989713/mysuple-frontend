@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_363" width="30" height="21.16" data-name="Group 363" viewBox="0 0 30 21.16">
+    <defs>
+        <style>
+            .Exit-1{fill:#322e3d}.Exit-2{fill:#1e59ea}.Exit-3{fill:#d2dfff}
+        </style>
+    </defs>
+    <g id="Group_357" data-name="Group 357">
+        <path id="Rectangle_2787" d="M0 0h20.9v20.9H0z" class="Exit-1" data-name="Rectangle 2787"/>
+    </g>
+    <path id="Path_776" d="M21.855 9.754v12.1H9.754v-12.1h12.1m2.713-2.714H7.04v17.527h17.527V7.04z" class="Exit-2" data-name="Path 776" transform="translate(-5.355 -5.355)"/>
+    <g id="Group_359" data-name="Group 359" transform="translate(8.468 2.707)">
+        <path id="Path_777" d="M49.848 30.105l.754-.754H41.05v-5.428h9.55l-.754-.754 3.839-3.839 5.388 5.388a2.716 2.716 0 0 1 0 3.839l-5.388 5.385z" class="Exit-3" data-name="Path 777" transform="translate(-39.693 -17.41)"/>
+        <g id="Group_358" data-name="Group 358">
+            <path id="Path_778" d="M49.374 15.147l4.426 4.428a1.359 1.359 0 0 1 0 1.92l-4.428 4.428L47.455 24l2.111-2.111H38.094V19.18h11.472l-2.111-2.111 1.92-1.922m0-3.837l-1.92 1.92-1.92 1.92-1.316 1.316H35.38v8.142h8.839l1.316 1.316 1.92 1.92 1.92 1.92 1.92-1.92 4.428-4.428a4.075 4.075 0 0 0 0-5.756l-4.428-4.428-1.92-1.922z" class="Exit-1" data-name="Path 778" transform="translate(-35.38 -11.31)"/>
+        </g>
+    </g>
+</svg>

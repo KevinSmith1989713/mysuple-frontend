@@ -1,0 +1,144 @@
+@media(min-width:769px){
+	.SearchModal {
+		width: 830px;
+		height: 530px;
+		color: black;
+		padding:46px 71px;
+		box-sizing: border-box;
+		&--Title{
+			margin-bottom: 40px;
+		}
+		&--input{
+			border-bottom: 1px solid #1e59ea;
+		}
+		&--Recent{
+			display: flex;
+			flex-direction: column;
+			.header{
+				width: 100%;
+				height: 45px;
+				background-color: #eeeeee;
+				font-size: 16px;
+				font-weight: 500;
+				color: #666666;
+				display: flex;
+				align-items: center;
+				padding-left: 21px;
+				box-sizing: border-box;
+			}
+			.search{
+				display: flex;
+				height: 235px;
+				flex-direction: column;
+				overflow: auto;
+				border-bottom: 1px solid #666666;
+				&--row{
+					display: flex;
+					align-items: center;
+					padding: 11px 21px;
+					box-sizing: border-box;
+					border-top: 1px solid #eeeeee;
+					font-size: 16px;
+					font-weight: 500;
+					line-height: 1.5;
+					color: #666666;
+					cursor: pointer;
+				}
+			}
+		}
+		&--NoRecent{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 20px;
+			color: #aaa;
+			width: 100%;
+			height: 280px;
+		}
+		&--DeleteRecent{
+			margin-top: 10px;
+			display: flex;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 1.5;
+			color: #666666;
+			span{
+				margin-left: auto;
+				cursor: pointer;
+			}
+		}
+	}	
+}
+
+@media(max-width:768px){
+	.SearchModal {
+		width: 90%;
+		height: auto;
+		max-height: 80%;
+		color: black;
+		padding:36px 26px;
+		box-sizing: border-box;
+		&--Title{
+			margin-bottom: 36px;
+		}
+		&--input{
+			border-bottom: 1px solid #1e59ea;
+		}
+		&--Recent{
+			display: flex;
+			flex-direction: column;
+			.header{
+				width: 100%;
+				height: 35px;
+				background-color: #eeeeee;
+				font-size: 14px;
+				font-weight: 500;
+				color: #666666;
+				display: flex;
+				align-items: center;
+				padding-left: 21px;
+				box-sizing: border-box;
+			}
+			.search{
+				display: flex;
+				height: 235px;
+				flex-direction: column;
+				overflow: auto;
+				border-bottom: 1px solid #666666;
+				&--row{
+					display: flex;
+					align-items: center;
+					padding: 8px 21px;
+					box-sizing: border-box;
+					border-top: 1px solid #eeeeee;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 1.5;
+					color: #666666;
+					cursor: pointer;
+				}
+			}
+		}
+		&--NoRecent{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 14px;
+			color: #aaa;
+			width: 100%;
+			height: 280px;
+		}
+		&--DeleteRecent{
+			margin-top: 10px;
+			display: flex;
+			font-size: 13px;
+			font-weight: 500;
+			line-height: 1.5;
+			color: #666666;
+			span{
+				margin-left: auto;
+				cursor: pointer;
+			}
+		}
+	}	
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="38.423" viewBox="0 0 40 38.423">
+    <defs>
+        <style>
+            .prefix__cls-1,.prefix__cls-2{fill:#ccc}.prefix__cls-2{stroke:#231f20;stroke-miterlimit:10;stroke-width:5.669px}
+        </style>
+    </defs>
+    <g id="prefix__Group_1473" data-name="Group 1473" transform="translate(-2534.252 -1874.38)">
+        <path id="prefix__Path_2093" d="M2554.252 1874.38a20 20 0 0 0-13.159 35.062 1.577 1.577 0 1 0 2.076-2.375 16.846 16.846 0 1 1 22.165 0 1.577 1.577 0 1 0 2.076 2.375 20 20 0 0 0-13.159-35.062z" class="prefix__cls-1" data-name="Path 2093"/>
+        <circle id="prefix__Ellipse_1244" cx="5.209" cy="5.209" r="5.209" class="prefix__cls-1" data-name="Ellipse 1244" transform="translate(2549.043 1889.171)"/>
+        <path id="prefix__Path_2096" d="M2564.946 1891.379a13.695 13.695 0 0 0-10.159 22.879 1.577 1.577 0 0 0 2.339-2.116 10.54 10.54 0 1 1 15.639 0 1.577 1.577 0 0 0 2.339 2.116 13.695 13.695 0 0 0-10.159-22.879z" class="prefix__cls-1" data-name="Path 2096" transform="translate(-10.694 -10.694)"/>
+    </g>
+</svg>

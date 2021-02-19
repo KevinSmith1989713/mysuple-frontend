@@ -1,0 +1,138 @@
+@media(min-width:769px){
+  .EditorCard{
+    width: 409px;
+    height: 190px;
+    border: solid 1px #bbbbbb;
+    background-color: #f2f2f2;
+    border-top-right-radius: 40px;
+    display: flex;
+    .Editor--image{
+      width: 214px;
+    height: 190px;
+      position: relative;
+      img, .image--bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+      .image--bg{
+        z-index: 10;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #322e3d 73%, #322e3d);
+      }
+      img{
+        object-fit: cover;
+        z-index: 9;
+      }
+      .text{
+        position: absolute;
+        bottom: 25px;
+        left: 27px;
+        z-index: 11;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 1.45;
+        color: #cccccc;
+      }
+    }
+    .Editor--Info{
+      padding: 27px 22px 17px 22px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      .info--title{
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 1.5;
+        color: #322e3d;
+        margin-bottom: 8px;
+      }
+      .info--sub{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.43;
+        color: #666666;
+      }
+      .info--tag{
+        margin-top: auto;
+        color: #666;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        img{
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+@media(max-width:768px){
+  .EditorCard{
+    width: 100%;
+    height: 155px;
+    border: solid 1px #bbbbbb;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    border-top-right-radius: 40px;
+    display: flex;
+    .Editor--image{
+      width: 50%;
+      height: 100%;
+      position: relative;
+      img, .image--bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      .image--bg{
+        z-index: 10;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), #322e3d 73%, #322e3d);
+      }
+      img{
+        object-fit: cover;
+        z-index: 9;
+      }
+      .text{
+        position: absolute;
+        bottom: 18px;
+        left: 16px;
+        z-index: 11;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.5;
+        color: #cccccc;
+      }
+    }
+    .Editor--Info{
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      .info--title{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.43;
+        color: #666666;
+        margin-bottom: auto;
+      }
+      .info--sub{
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: -0.3px;
+        color: #888888;
+      }
+      .info--tag{
+        margin-top: 10px;
+        img{
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
