@@ -33,12 +33,12 @@ import banner3 from '../../static/images/Carousel/banner3_img.png';
 
 const getUserInfo = JSON.parse(localStorage.getItem('data'));
 
-const date = e =>
+const date = (e) =>
 	`${e.substring(5, 10).replace(/-/g, '.')} ${
 		e.substring(11, 13) >= 12 ? 'PM' : 'AM'
 	} ${e.substring(11, 16)}`;
 
-const timeForToday = value => {
+const timeForToday = (value) => {
 	const today = new Date();
 	const timeValue = new Date(value);
 
@@ -110,7 +110,7 @@ const HomeContainer = ({
 			2: 'Carousel-button button3 prevTarget',
 		};
 
-		adminService.getMainBanner().then(res => {
+		adminService.getMainBanner().then((res) => {
 			res.Info.map((item, index) => {
 				array.push({
 					...item,
@@ -129,16 +129,18 @@ const HomeContainer = ({
 
 				{ contentType: 'application/json' },
 			)
-			.then(res => {
+			.then((res) => {
 				setVideoContents(res.data.items);
 			})
-			.catch(e => console.log(e));
+			.catch((e) => console.log(e));
 		searchLeague(1, text, gameId, [], null, [], []);
 
 		axios
 			.get(`${url.file}/RecentReview`, { contentType: 'application/json' })
-			.then(res => {
-				setReview(res.data.Info.recent_review);
+			.then((res) => {
+				if (res.data.Info) {
+					setReview(res.data.Info.recent_review);
+				}
 			});
 		getPassCount();
 	}, []);
@@ -194,7 +196,7 @@ const HomeContainer = ({
 		<div className="HomeContainer">
 			<FigureModal />
 			<Media query={{ maxWidth: 768 }}>
-				{matches =>
+				{(matches) =>
 					matches ? (
 						// ******************
 						// ******************
@@ -741,7 +743,7 @@ const HomeContainer = ({
 	);
 };
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
 	return {
 		userInfo: state.auth.userInfo,
 		mainEditorPick: state.editorPick.mainEditorPick,
@@ -749,9 +751,9 @@ const mapStateToProps = state => {
 	};
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
 	return {
-		changeMenu: menu => dispatch(changeMenu(menu)),
+		changeMenu: (menu) => dispatch(changeMenu(menu)),
 		searchLeague: (
 			count,
 			league_type,
